@@ -1,0 +1,3 @@
+
+
+Segun yo lo que estoy leyendo con struct en el codigo no es el resultado correcto, ya que no considera el punto del dato... Para recuperar el valor original habria que dividir por 2**punto_decimal(creo).

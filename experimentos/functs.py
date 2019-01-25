@@ -7,13 +7,13 @@ import ipdb
 import matplotlib.pyplot as plt
 from math import trunc
 import struct
-
+import ipdb
 
 class Animated():
     def __init__(self, _fpga, _channels):
         global data, fpga, channels, bw
         fpga = _fpga; channels = _channels
-        bw = trunc(fpga.est_brd_clk())
+        bw = trunc(fpga.est_brd_clk()/2.)
         
         self.root = tk.Tk()
         self.root.title('Measurings')
@@ -64,7 +64,9 @@ class Animated():
         self.ax3.grid()
  
         anim = animation.FuncAnimation(fig, self.animate, init_func=self.init, frames=200, blit=True)
+        self.root.wm_protocol('WM_DELETE_WINDOW', self.root.quit)
         self.root.mainloop()
+        self.root.destroy()
         
 
     def holder(self):
@@ -73,7 +75,7 @@ class Animated():
     def save(self):
         self.dialog = tk.Toplevel()
         self.dialog.title('Parameters')
-        self.dialog.geometry('300x100')
+        self.dialog.geometry('400x200')
         etiq2 = tk.Label(self.dialog, text='doc\'s name')
         etiq2.grid(column=0, row=0)
         doc = tk.StringVar()
@@ -85,8 +87,8 @@ class Animated():
         etiq4.grid(column=0, row=5) 
         self.freq_entry = tk.Entry(self.dialog, textvariable=freq_chann, width=10)
         self.freq_entry.grid(column=1, row=5, columnspan=2)
-        self.save_button = tk.Button(self.dialog, text='Accept', command=save_funct)
-        quit_button = tk.Button(self.dialog, text=cancel, command=self.dialog.destroy)
+        self.save_button = tk.Button(self.dialog, text='Accept', command=self.save_funct)
+        quit_button = tk.Button(self.dialog, text='Cancel', command=self.dialog.destroy)
         self.save_button.grid(column=0, row=7)
         quit_button.grid(column=1, row=7)
         self.root.wait_window(self.dialog) 
@@ -94,19 +96,22 @@ class Animated():
         
         
     def save_funct(self):
+        #ipdb.set_trace()
         data_filename = self.doc_entry.get()
-        df = trunc(bw/channels)
-        addr2save = trunc(self.freq_entry.get()/df)
+        df = bw*1.0/channels 
+        addr2save = trunc(int(self.freq_entry.get())*1.0/df)
+        print(addr2save)
         #print(type(line))
         #print(type(line[0]))
-        #print((line[0].get_data()[1][0]))
+        print(len(data[0].get_data()[1]))
+        print(data[0].get_data()[1][addr2save])
         open(data_filename, 'a').close()
         f = file(data_filename, 'a')
-        f.write(line[0].get_data()[1][0][addr2save]) #aqui estaria escribiendo el angulo...
+        f.write(str(data[0].get_data()[1][addr2save])) #aqui estaria escribiendo el angulo...
         f.write("\t")
-        f.write(line[1].get_data()[1][0][addr2save])
+        f.write(str(data[1].get_data()[1][addr2save]))
         f.write("\t")
-        f.write(line[2].get_data()[1][0][addr2save])
+        f.write(str(data[2].get_data()[1][addr2save]))
         f.write("\n")
         #f.write(line[0]+';'+line[1]+';'+line[2])
         #f.write('\n')

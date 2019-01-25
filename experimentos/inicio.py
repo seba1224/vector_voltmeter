@@ -2,7 +2,7 @@ from functs import Animated
 import corr, time
 
 IP = '192.168.1.12'
-bof = 'bonjour_2019_Jan_21_1300.bof'
+bof = 'bom_dia.bof'
 #channels = 16384 #esto esta asi para el codigo de pruebas
 channels = 8192
 

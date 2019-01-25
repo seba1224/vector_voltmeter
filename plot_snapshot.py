@@ -5,7 +5,7 @@ from matplotlib.animation import FuncAnimation
 
 
 IP = '192.168.1.12'
-bof = 'bom_dia_2019_Jan_21_1614.bof'
+bof = 'bom_dia.bof'#'bom_dia_2019_Jan_21_1614.bof'
 
 # Connect to ROACH and program it
 fpga = corr.katcp_wrapper.FpgaClient(IP, 7147) # Change the IP for the one your ROACH has
