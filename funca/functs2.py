@@ -70,7 +70,7 @@ class Get_data():
         self.amp_rel_entry.grid(column=1, row=5)
         
         #initialize the thread who actualize the windows
-        #self.t = threading.Thread(target=self.obtain_data, name='data_thread')
+        self.t = threading.Thread(target=self.obtain_data, name='data_thread')
         #self.t.start()  
         #initialize the window
         self.root.wm_protocol('WM_DELETE_WINDOW', self.terminate)      
@@ -88,7 +88,7 @@ class Get_data():
         self.index = trunc(float(self.freq2meas.get())/df)
         self.index_offset = trunc(int(self.chann_span.get()))
         self.enabler = 1
-        self.t = threading.Thread(target=self.obtain_data, name='data_thread')
+        #self.t = threading.Thread(target=self.obtain_data, name='data_thread')
         print(enabler)
         self.t.start()
         return 1    
@@ -120,7 +120,7 @@ class Get_data():
             AB_im = struct.unpack(helper, fpga.read('AB_im', (1+int(self.chann_span.get()))*8, ((self.index-self.index_offset)*8)))
             self.ab_im[0] = np.mean(AB_im)
             self.ab_im = np.roll(self.ab_im, -1) 
-            print('RE:' + str(self.ab_re)+ '\t IM:' +str(self.ab_im))
+           # print('RE:' + str(self.ab_re)+ '\t IM:' +str(self.ab_im))
             log_a = 10*np.log10(np.mean(self.amp_a2)+1.0)
             log_b = 10*np.log10(np.mean(self.amp_b2)+1.0)             
             ang = np.rad2deg(np.arctan2(np.mean(self.ab_im), np.mean(self.ab_re)))  #review the way of avg this... i dont know if its the most correct way to do it...
@@ -128,12 +128,12 @@ class Get_data():
             self.b2.set(log_b)
             self.ang.set(ang)
             self.amp_rel.set(log_a-log_b)
-            
+        return 1
                 
     def end_meassuring(self):
         """end the display of data"""
         self.enabler = 0
-        self.t.join()
+        #self.t.join()
         return 1
 
     def spect(self):
@@ -143,10 +143,11 @@ class Get_data():
 
     def terminate(self):
         """clean exit function"""
-        #enabler = 0
+        self.enabler = 0
         #self.t.join()
-        self.root.quit()
-
+        #self.root.quit()
+        self.root.destroy()
+        return 1
     
 
 

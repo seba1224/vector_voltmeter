@@ -7,7 +7,8 @@ channels = 8192
 
 fpga = corr.katcp_wrapper.FpgaClient(IP)
 time.sleep(3)
-fpga.upload_program_bof(bof, 3000)
+#fpga.upload_program_bof(bof, 3000)
+fpga.progdev(bof)
 time.sleep(1)
 fpga.write_int('acc_len', 2**5)
 fpga.write_int('adc0_delay', 1)
