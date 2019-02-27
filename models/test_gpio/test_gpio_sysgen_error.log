@@ -5,23 +5,21 @@ Matlab 8.2.0.701 (R2013b)               /usr/local/MATLAB/R2013b
 ISE                                     /opt/Xilinx/14.7/ISE_DS/ISE
 --------------------------------------------------------------------------------
 Summary of Errors:
-Error 0001: HDL simulation model compilation failed.
-ERROR:HDLCompile...
-     Block: 'test_gpio/Black Box'
+Error 0001: Type assertion failed
+     Block: 'test_gpio/bbox_out/assert_reg'
 --------------------------------------------------------------------------------
 
 Error 0001:
 
 Reported by:
-  'test_gpio/Black Box'
+  'test_gpio/bbox_out/assert_reg'
 
 Details:
-HDL simulation model compilation failed.
-ERROR:HDLCompiler:806 - "xlisim_test_init_block.v" Line 1135:
-Syntax error near ")".
-ERROR:HDLCompiler:849 - "xlisim_test_init_block.v" Line 1197:
-Unexpected EOF.
+The input type propagated to this block did not match the
+specified type.
+  Expected Type: UFix_32_0
+  Actual Type: UFix_4_0
 
-Error occurred during "Simulation Initialization".
+Error occurred during "Rate and Type Error Checking".
 
 --------------------------------------------------------------------------------
