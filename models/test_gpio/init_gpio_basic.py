@@ -8,3 +8,4 @@ fpga = corr.katcp_wrapper.FpgaClient(IP)
 time.sleep(3)
 fpga.upload_program_bof(bof, 3000)
 
+fpga.read_int('gpio_read')
