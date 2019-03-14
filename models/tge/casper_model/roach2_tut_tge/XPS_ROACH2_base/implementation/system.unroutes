@@ -1,0 +1,64 @@
+Release 14.7 - par P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Thu Mar 14 13:36:31 2019
+
+All signals are completely routed.
+
+WARNING:ParHelpers:361 - There are 52 loadless signals in this design. This design will cause Bitgen to issue DRC
+   warnings.
+
+   infrastructure_inst/clk_200
+   roach2_tut_tge_gbe0/roach2_tut_tge_gbe0/tge_rx_inst/rx_control_data<33>
+   roach2_tut_tge_gbe0/roach2_tut_tge_gbe0/tge_rx_inst/rx_control_data<35>
+   roach2_tut_tge_gbe0/roach2_tut_tge_gbe0/tge_rx_inst/rx_packet_ctrl_fifo_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM1_RAMD_D1_O
+   roach2_tut_tge_gbe0/roach2_tut_tge_gbe0/tge_rx_inst/rx_packet_ctrl_fifo_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM2_RAMD_D1_O
+   roach2_tut_tge_gbe0/roach2_tut_tge_gbe0/tge_rx_inst/rx_packet_ctrl_fifo_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM3_RAMD_D1_O
+   roach2_tut_tge_gbe0/roach2_tut_tge_gbe0/tge_rx_inst/rx_packet_ctrl_fifo_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM4_RAMD_D1_O
+   roach2_tut_tge_gbe0/roach2_tut_tge_gbe0/tge_rx_inst/rx_packet_ctrl_fifo_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM5_RAMD_D1_O
+   roach2_tut_tge_gbe0/roach2_tut_tge_gbe0/tge_rx_inst/rx_packet_ctrl_fifo_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM6_RAMB_D1_DPO
+   roach2_tut_tge_gbe0/roach2_tut_tge_gbe0/tge_rx_inst/rx_packet_ctrl_fifo_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM6_RAMC_D1_DPO
+   roach2_tut_tge_gbe0/roach2_tut_tge_gbe0/tge_rx_inst/rx_packet_ctrl_fifo_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM6_RAMD_D1_O
+   roach2_tut_tge_gbe0/roach2_tut_tge_gbe0/tge_rx_inst/usr_dram.rx_packet_fifo_dist_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM10_RAMD_D1_O
+   roach2_tut_tge_gbe0/roach2_tut_tge_gbe0/tge_rx_inst/usr_dram.rx_packet_fifo_dist_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM11_RAMD_D1_O
+   roach2_tut_tge_gbe0/roach2_tut_tge_gbe0/tge_rx_inst/usr_dram.rx_packet_fifo_dist_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM1_RAMD_D1_O
+   roach2_tut_tge_gbe0/roach2_tut_tge_gbe0/tge_rx_inst/usr_dram.rx_packet_fifo_dist_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM2_RAMD_D1_O
+   roach2_tut_tge_gbe0/roach2_tut_tge_gbe0/tge_rx_inst/usr_dram.rx_packet_fifo_dist_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM3_RAMD_D1_O
+   roach2_tut_tge_gbe0/roach2_tut_tge_gbe0/tge_rx_inst/usr_dram.rx_packet_fifo_dist_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM4_RAMD_D1_O
+   roach2_tut_tge_gbe0/roach2_tut_tge_gbe0/tge_rx_inst/usr_dram.rx_packet_fifo_dist_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM5_RAMD_D1_O
+   roach2_tut_tge_gbe0/roach2_tut_tge_gbe0/tge_rx_inst/usr_dram.rx_packet_fifo_dist_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM6_RAMD_D1_O
+   roach2_tut_tge_gbe0/roach2_tut_tge_gbe0/tge_rx_inst/usr_dram.rx_packet_fifo_dist_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM7_RAMD_D1_O
+   roach2_tut_tge_gbe0/roach2_tut_tge_gbe0/tge_rx_inst/usr_dram.rx_packet_fifo_dist_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM8_RAMD_D1_O
+   roach2_tut_tge_gbe0/roach2_tut_tge_gbe0/tge_rx_inst/usr_dram.rx_packet_fifo_dist_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM9_RAMD_D1_O
+   roach2_tut_tge_gbe0/roach2_tut_tge_gbe0/tge_tx_inst/tx_packet_ctrl_fifo_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM10_RAMD_D1_O
+   roach2_tut_tge_gbe0/roach2_tut_tge_gbe0/tge_tx_inst/tx_packet_ctrl_fifo_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM1_RAMD_D1_O
+   roach2_tut_tge_gbe0/roach2_tut_tge_gbe0/tge_tx_inst/tx_packet_ctrl_fifo_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM2_RAMD_D1_O
+   roach2_tut_tge_gbe0/roach2_tut_tge_gbe0/tge_tx_inst/tx_packet_ctrl_fifo_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM3_RAMD_D1_O
+   roach2_tut_tge_gbe0/roach2_tut_tge_gbe0/tge_tx_inst/tx_packet_ctrl_fifo_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM4_RAMD_D1_O
+   roach2_tut_tge_gbe0/roach2_tut_tge_gbe0/tge_tx_inst/tx_packet_ctrl_fifo_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM5_RAMD_D1_O
+   roach2_tut_tge_gbe0/roach2_tut_tge_gbe0/tge_tx_inst/tx_packet_ctrl_fifo_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM6_RAMD_D1_O
+   roach2_tut_tge_gbe0/roach2_tut_tge_gbe0/tge_tx_inst/tx_packet_ctrl_fifo_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM7_RAMD_D1_O
+   roach2_tut_tge_gbe0/roach2_tut_tge_gbe0/tge_tx_inst/tx_packet_ctrl_fifo_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM8_RAMD_D1_O
+   roach2_tut_tge_gbe0/roach2_tut_tge_gbe0/tge_tx_inst/tx_packet_ctrl_fifo_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM9_RAMD_D1_O
+   roach2_tut_tge_gbe1/roach2_tut_tge_gbe1/tge_rx_inst/rx_control_data<33>
+   roach2_tut_tge_gbe1/roach2_tut_tge_gbe1/tge_rx_inst/rx_control_data<35>
+   roach2_tut_tge_gbe1/roach2_tut_tge_gbe1/tge_rx_inst/rx_packet_ctrl_fifo_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM1_RAMD_D1_O
+   roach2_tut_tge_gbe1/roach2_tut_tge_gbe1/tge_rx_inst/rx_packet_ctrl_fifo_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM2_RAMD_D1_O
+   roach2_tut_tge_gbe1/roach2_tut_tge_gbe1/tge_rx_inst/rx_packet_ctrl_fifo_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM3_RAMD_D1_O
+   roach2_tut_tge_gbe1/roach2_tut_tge_gbe1/tge_rx_inst/rx_packet_ctrl_fifo_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM4_RAMD_D1_O
+   roach2_tut_tge_gbe1/roach2_tut_tge_gbe1/tge_rx_inst/rx_packet_ctrl_fifo_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM5_RAMD_D1_O
+   roach2_tut_tge_gbe1/roach2_tut_tge_gbe1/tge_rx_inst/rx_packet_ctrl_fifo_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM6_RAMB_D1_DPO
+   roach2_tut_tge_gbe1/roach2_tut_tge_gbe1/tge_rx_inst/rx_packet_ctrl_fifo_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM6_RAMC_D1_DPO
+   roach2_tut_tge_gbe1/roach2_tut_tge_gbe1/tge_rx_inst/rx_packet_ctrl_fifo_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM6_RAMD_D1_O
+   roach2_tut_tge_gbe1/roach2_tut_tge_gbe1/tge_tx_inst/tx_packet_ctrl_fifo_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM10_RAMD_D1_O
+   roach2_tut_tge_gbe1/roach2_tut_tge_gbe1/tge_tx_inst/tx_packet_ctrl_fifo_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM1_RAMD_D1_O
+   roach2_tut_tge_gbe1/roach2_tut_tge_gbe1/tge_tx_inst/tx_packet_ctrl_fifo_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM2_RAMD_D1_O
+   roach2_tut_tge_gbe1/roach2_tut_tge_gbe1/tge_tx_inst/tx_packet_ctrl_fifo_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM3_RAMD_D1_O
+   roach2_tut_tge_gbe1/roach2_tut_tge_gbe1/tge_tx_inst/tx_packet_ctrl_fifo_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM4_RAMD_D1_O
+   roach2_tut_tge_gbe1/roach2_tut_tge_gbe1/tge_tx_inst/tx_packet_ctrl_fifo_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM5_RAMD_D1_O
+   roach2_tut_tge_gbe1/roach2_tut_tge_gbe1/tge_tx_inst/tx_packet_ctrl_fifo_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM6_RAMD_D1_O
+   roach2_tut_tge_gbe1/roach2_tut_tge_gbe1/tge_tx_inst/tx_packet_ctrl_fifo_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM7_RAMD_D1_O
+   roach2_tut_tge_gbe1/roach2_tut_tge_gbe1/tge_tx_inst/tx_packet_ctrl_fifo_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM8_RAMD_D1_O
+   roach2_tut_tge_gbe1/roach2_tut_tge_gbe1/tge_tx_inst/tx_packet_ctrl_fifo_inst/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM9_RAMD_D1_O
+
+

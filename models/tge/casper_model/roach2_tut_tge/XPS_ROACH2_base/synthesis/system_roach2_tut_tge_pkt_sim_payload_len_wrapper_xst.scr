@@ -1,0 +1,14 @@
+set -tmpdir /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/synthesis/xst_temp_dir/
+run
+-opt_mode speed
+-netlist_hierarchy as_optimized
+-opt_level 1
+-p xc6vsx475tff1759-1
+-top system_roach2_tut_tge_pkt_sim_payload_len_wrapper
+-ifmt MIXED
+-ifn system_roach2_tut_tge_pkt_sim_payload_len_wrapper_xst.prj
+-ofn ../implementation/system_roach2_tut_tge_pkt_sim_payload_len_wrapper.ngc
+-hierarchy_separator /
+-iobuf NO
+-sd {../implementation}
+-vlgincdir {"/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/" "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxBFMinterface/pcores/" "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/" }

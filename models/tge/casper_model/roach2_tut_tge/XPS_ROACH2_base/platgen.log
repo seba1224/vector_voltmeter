@@ -1,0 +1,923 @@
+Release 14.7 - platgen Xilinx EDK 14.7 Build EDK_P.20131013
+ (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: platgen -p xc6vsx475tff1759-1 -lang vhdl -intstyle default -msg
+__xps/ise/xmsgprops.lst system.mhs 
+
+WARNING:EDK - INFO:Security:71 - If a license for part 'xc6vsx475t' is
+   available, it will be possible to use 'XPS_TDP' instead of 'XPS'.
+   WARNING:Security:42 - Your software subscription period has lapsed. Your
+   current version of Xilinx tools will continue to function, but you no longer
+   qualify for Xilinx software updates or new releases.
+
+
+Parse
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs ...
+
+Read MPD definitions ...
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   roach2_tut_tge_gbe0_rxs_ss_bram - Superseded core for architecture
+   'virtex6sx' -
+   /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_
+   ROACH2_base/system.mhs line 472 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   roach2_tut_tge_gbe0_txs_ss_bram - Superseded core for architecture
+   'virtex6sx' -
+   /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_
+   ROACH2_base/system.mhs line 574 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   roach2_tut_tge_gbe1_rxs_ss_bram - Superseded core for architecture
+   'virtex6sx' -
+   /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_
+   ROACH2_base/system.mhs line 775 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   roach2_tut_tge_gbe1_txs_ss_bram - Superseded core for architecture
+   'virtex6sx' -
+   /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_
+   ROACH2_base/system.mhs line 877 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   roach2_tut_tge_tx_snapshot_ss_bram - Superseded core for architecture
+   'virtex6sx' -
+   /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_
+   ROACH2_base/system.mhs line 1075 
+WARNING:EDK:4088 - IPNAME: opb_opb_lite, INSTANCE: opb2opb_bridge_opb1 -
+   Superseded core for architecture 'virtex6sx' -
+   /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_
+   ROACH2_base/system.mhs line 1119 
+WARNING:EDK:4088 - IPNAME: opb_opb_lite, INSTANCE: opb2opb_bridge_opb2 -
+   Superseded core for architecture 'virtex6sx' -
+   /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_
+   ROACH2_base/system.mhs line 1140 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   roach2_tut_tge_gbe0_rxs_ss_bram - Superseded core for architecture
+   'virtex6sx' -
+   /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_
+   ROACH2_base/system.mhs line 472 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   roach2_tut_tge_gbe0_txs_ss_bram - Superseded core for architecture
+   'virtex6sx' -
+   /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_
+   ROACH2_base/system.mhs line 574 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   roach2_tut_tge_gbe1_rxs_ss_bram - Superseded core for architecture
+   'virtex6sx' -
+   /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_
+   ROACH2_base/system.mhs line 775 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   roach2_tut_tge_gbe1_txs_ss_bram - Superseded core for architecture
+   'virtex6sx' -
+   /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_
+   ROACH2_base/system.mhs line 877 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE:
+   roach2_tut_tge_tx_snapshot_ss_bram - Superseded core for architecture
+   'virtex6sx' -
+   /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_
+   ROACH2_base/system.mhs line 1075 
+WARNING:EDK:4088 - IPNAME: opb_opb_lite, INSTANCE: opb2opb_bridge_opb1 -
+   Superseded core for architecture 'virtex6sx' -
+   /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_
+   ROACH2_base/system.mhs line 1119 
+WARNING:EDK:4088 - IPNAME: opb_opb_lite, INSTANCE: opb2opb_bridge_opb2 -
+   Superseded core for architecture 'virtex6sx' -
+   /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_
+   ROACH2_base/system.mhs line 1140 
+
+Overriding IP level properties ...
+
+Computing clock values...
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:sys_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:sys_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:1039 - Did not update the value for parameter:
+   roach2_tut_tge_gbe0_rxs_ss_bram:c_opb_clk_period_ps. Top-level frequency
+   could not be propagated to this IP. Please make sure that you have specified
+   the frequency of the top-level clock port, and that the clocks are properly
+   connected.
+INFO:EDK:1039 - Did not update the value for parameter:
+   roach2_tut_tge_gbe0_txs_ss_bram:c_opb_clk_period_ps. Top-level frequency
+   could not be propagated to this IP. Please make sure that you have specified
+   the frequency of the top-level clock port, and that the clocks are properly
+   connected.
+INFO:EDK:1039 - Did not update the value for parameter:
+   roach2_tut_tge_gbe1_rxs_ss_bram:c_opb_clk_period_ps. Top-level frequency
+   could not be propagated to this IP. Please make sure that you have specified
+   the frequency of the top-level clock port, and that the clocks are properly
+   connected.
+INFO:EDK:1039 - Did not update the value for parameter:
+   roach2_tut_tge_gbe1_txs_ss_bram:c_opb_clk_period_ps. Top-level frequency
+   could not be propagated to this IP. Please make sure that you have specified
+   the frequency of the top-level clock port, and that the clocks are properly
+   connected.
+INFO:EDK:1039 - Did not update the value for parameter:
+   roach2_tut_tge_tx_snapshot_ss_bram:c_opb_clk_period_ps. Top-level frequency
+   could not be propagated to this IP. Please make sure that you have specified
+   the frequency of the top-level clock port, and that the clocks are properly
+   connected.
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+INFO:EDK:4130 - IPNAME: opb_v20, INSTANCE:opb0 - tool is overriding PARAMETER
+   C_NUM_MASTERS value to 1 -
+   /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_
+   ROACH2_base/pcores/opb_v20_v1_10_c/data/opb_v20_v2_1_0.mpd line 74 
+INFO:EDK:4130 - IPNAME: opb_v20, INSTANCE:opb0 - tool is overriding PARAMETER
+   C_NUM_SLAVES value to 19 -
+   /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_
+   ROACH2_base/pcores/opb_v20_v1_10_c/data/opb_v20_v2_1_0.mpd line 75 
+INFO:EDK:4130 - IPNAME: opb_v20, INSTANCE:opb1 - tool is overriding PARAMETER
+   C_NUM_MASTERS value to 1 -
+   /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_
+   ROACH2_base/pcores/opb_v20_v1_10_c/data/opb_v20_v2_1_0.mpd line 74 
+INFO:EDK:4130 - IPNAME: opb_v20, INSTANCE:opb1 - tool is overriding PARAMETER
+   C_NUM_SLAVES value to 18 -
+   /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_
+   ROACH2_base/pcores/opb_v20_v1_10_c/data/opb_v20_v2_1_0.mpd line 75 
+INFO:EDK:4130 - IPNAME: opb_v20, INSTANCE:opb2 - tool is overriding PARAMETER
+   C_NUM_MASTERS value to 1 -
+   /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_
+   ROACH2_base/pcores/opb_v20_v1_10_c/data/opb_v20_v2_1_0.mpd line 74 
+INFO:EDK:4130 - IPNAME: opb_v20, INSTANCE:opb2 - tool is overriding PARAMETER
+   C_NUM_SLAVES value to 12 -
+   /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_
+   ROACH2_base/pcores/opb_v20_v1_10_c/data/opb_v20_v2_1_0.mpd line 75 
+
+Checking platform address map ...
+
+Checking platform configuration ...
+IPNAME: opb_v20, INSTANCE: opb0 - 1 master(s) : 19 slave(s) 
+IPNAME: opb_v20, INSTANCE: opb1 - 1 master(s) : 18 slave(s) 
+IPNAME: opb_v20, INSTANCE: opb2 - 1 master(s) : 12 slave(s) 
+
+Checking port drivers...
+WARNING:EDK:4181 - PORT: sys_clk180, CONNECTOR: sys_clk180 - floating connection
+   -
+   /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_
+   ROACH2_base/system.mhs line 95 
+WARNING:EDK:4181 - PORT: sys_clk270, CONNECTOR: sys_clk270 - floating connection
+   -
+   /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_
+   ROACH2_base/system.mhs line 96 
+WARNING:EDK:4181 - PORT: sys_clk_lock, CONNECTOR: sys_clk_lock - floating
+   connection -
+   /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_
+   ROACH2_base/system.mhs line 97 
+WARNING:EDK:4181 - PORT: sys_clk2x, CONNECTOR: sys_clk2x - floating connection -
+   /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_
+   ROACH2_base/system.mhs line 98 
+WARNING:EDK:4181 - PORT: sys_clk2x90, CONNECTOR: sys_clk2x90 - floating
+   connection -
+   /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_
+   ROACH2_base/system.mhs line 99 
+WARNING:EDK:4181 - PORT: sys_clk2x180, CONNECTOR: sys_clk2x180 - floating
+   connection -
+   /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_
+   ROACH2_base/system.mhs line 100 
+WARNING:EDK:4181 - PORT: sys_clk2x270, CONNECTOR: sys_clk2x270 - floating
+   connection -
+   /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_
+   ROACH2_base/system.mhs line 101 
+WARNING:EDK:4181 - PORT: aux_clk, CONNECTOR: aux_clk - floating connection -
+   /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_
+   ROACH2_base/system.mhs line 102 
+WARNING:EDK:4181 - PORT: aux_clk90, CONNECTOR: aux_clk90 - floating connection -
+   /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_
+   ROACH2_base/system.mhs line 103 
+WARNING:EDK:4181 - PORT: aux_clk180, CONNECTOR: aux_clk180 - floating connection
+   -
+   /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_
+   ROACH2_base/system.mhs line 104 
+WARNING:EDK:4181 - PORT: aux_clk270, CONNECTOR: aux_clk270 - floating connection
+   -
+   /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_
+   ROACH2_base/system.mhs line 105 
+WARNING:EDK:4181 - PORT: aux_clk2x, CONNECTOR: aux_clk2x - floating connection -
+   /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_
+   ROACH2_base/system.mhs line 106 
+WARNING:EDK:4181 - PORT: aux_clk2x90, CONNECTOR: aux_clk2x90 - floating
+   connection -
+   /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_
+   ROACH2_base/system.mhs line 107 
+WARNING:EDK:4181 - PORT: aux_clk2x180, CONNECTOR: aux_clk2x180 - floating
+   connection -
+   /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_
+   ROACH2_base/system.mhs line 108 
+WARNING:EDK:4181 - PORT: aux_clk2x270, CONNECTOR: aux_clk2x270 - floating
+   connection -
+   /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_
+   ROACH2_base/system.mhs line 109 
+WARNING:EDK:4181 - PORT: idelay_rdy, CONNECTOR: idelay_rdy - floating connection
+   -
+   /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_
+   ROACH2_base/system.mhs line 112 
+WARNING:EDK:4181 - PORT: clk_100, CONNECTOR: clk_100 - floating connection -
+   /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_
+   ROACH2_base/system.mhs line 114 
+WARNING:EDK:4181 - PORT: soft_reset, CONNECTOR: soft_reset - floating connection
+   -
+   /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_
+   ROACH2_base/system.mhs line 174 
+
+Performing Clock DRCs...
+INFO:EDK:4060 - INSTANCE: roach2_tut_tge_gbe0_rxs_ss_bram, PARAMETER:
+   c_opb_clk_period_ps - Did not implement clock DRCs for the parameter.
+   Top-level frequency could not be propagated to this IP. Please make sure that
+   you have specified the frequency of the top-level clock port, and that the
+   clocks are properly connected.
+INFO:EDK:4060 - INSTANCE: roach2_tut_tge_gbe0_txs_ss_bram, PARAMETER:
+   c_opb_clk_period_ps - Did not implement clock DRCs for the parameter.
+   Top-level frequency could not be propagated to this IP. Please make sure that
+   you have specified the frequency of the top-level clock port, and that the
+   clocks are properly connected.
+INFO:EDK:4060 - INSTANCE: roach2_tut_tge_gbe1_rxs_ss_bram, PARAMETER:
+   c_opb_clk_period_ps - Did not implement clock DRCs for the parameter.
+   Top-level frequency could not be propagated to this IP. Please make sure that
+   you have specified the frequency of the top-level clock port, and that the
+   clocks are properly connected.
+INFO:EDK:4060 - INSTANCE: roach2_tut_tge_gbe1_txs_ss_bram, PARAMETER:
+   c_opb_clk_period_ps - Did not implement clock DRCs for the parameter.
+   Top-level frequency could not be propagated to this IP. Please make sure that
+   you have specified the frequency of the top-level clock port, and that the
+   clocks are properly connected.
+INFO:EDK:4060 - INSTANCE: roach2_tut_tge_tx_snapshot_ss_bram, PARAMETER:
+   c_opb_clk_period_ps - Did not implement clock DRCs for the parameter.
+   Top-level frequency could not be propagated to this IP. Please make sure that
+   you have specified the frequency of the top-level clock port, and that the
+   clocks are properly connected.
+
+Performing Reset DRCs...
+
+Overriding system level properties...
+
+Running system level update procedures...
+
+Running UPDATE Tcl procedures for OPTION SYSLEVEL_UPDATE_PROC...
+
+Running system level DRCs...
+
+Performing System level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
+
+Running UPDATE Tcl procedures for OPTION PLATGEN_SYSLEVEL_UPDATE_PROC...
+NETLIST CACHE MISS - Running coregen...
+Release 14.7 - Xilinx CORE Generator P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+All runtime messages will be recorded in
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/implementation/roach2_tut_tge_gbe0_rxs_ss_bram_ramblk_wrapper/coregen.l
+og
+Wrote CGP file for project 'coregen'.
+Resolving generics for 'bram'...
+Applying external generics to 'bram'...
+Delivering associated files for 'bram'...
+Delivering EJava files for 'bram'...
+Generating implementation netlist for 'bram'...
+Running synthesis for 'bram'
+Running ngcbuild...
+Writing VEO instantiation template for 'bram'...
+Writing Verilog behavioral simulation model for 'bram'...
+Delivered 1 file into directory
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/implementation/roach2_tut_tge_gbe0_rxs_ss_bram_ramblk_wrapper/tmp/_cg/b
+ram
+Generating ASY schematic symbol...
+Generating metadata file...
+Generating ISE project file for 'bram'...
+Generating ISE project...
+XCO file found: bram.xco
+XMDF file found: bram_xmdf.tcl
+Adding
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/implementation/roach2_tut_tge_gbe0_rxs_ss_bram_ramblk_wrapper/tmp/_cg/b
+ram.asy -view all -origin_type imported
+Adding
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/implementation/roach2_tut_tge_gbe0_rxs_ss_bram_ramblk_wrapper/tmp/_cg/b
+ram.ngc -view all -origin_type created
+Checking file
+"/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_RO
+ACH2_base/implementation/roach2_tut_tge_gbe0_rxs_ss_bram_ramblk_wrapper/tmp/_cg/
+bram.ngc" for project device match ...
+File
+"/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_RO
+ACH2_base/implementation/roach2_tut_tge_gbe0_rxs_ss_bram_ramblk_wrapper/tmp/_cg/
+bram.ngc" device information matches project device.
+Adding
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/implementation/roach2_tut_tge_gbe0_rxs_ss_bram_ramblk_wrapper/tmp/_cg/b
+ram.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS
+   _ROACH2_base/implementation/roach2_tut_tge_gbe0_rxs_ss_bram_ramblk_wrapper/tm
+   p/_cg/bram.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/implementation/roach2_tut_tge_gbe0_rxs_ss_bram_ramblk_wrapper/tmp/_cg/b
+ram.veo -view all -origin_type imported
+INFO:TclTasksC:2116 - The automatic calculation of top has been turned-off.
+   Please set the new top explicitly by running the "project set top" command.
+   To re-calculate the new top automatically, set the "Auto Implementation Top"
+   property to true.
+Top level has been set to "/bram"
+Generating README file...
+Generating FLIST file...
+Moving files to output directory...
+Finished moving files to output directory
+Saved CGP file for project 'coregen'.
+NETLIST CACHE SAVE - Copying
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/implementation/roach2_tut_tge_gbe0_rxs_ss_bram_ramblk_wrapper/bram.ngc
+to
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/../cache_dir/fc83b4aa998fae878d0e23c04161e903c63c36c9.ngc
+NETLIST CACHE HIT - Copying
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/../cache_dir/fc83b4aa998fae878d0e23c04161e903c63c36c9.ngc to
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/implementation/roach2_tut_tge_gbe0_txs_ss_bram_ramblk_wrapper/bram.ngc
+NETLIST CACHE HIT - Copying
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/../cache_dir/fc83b4aa998fae878d0e23c04161e903c63c36c9.ngc to
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/implementation/roach2_tut_tge_gbe1_rxs_ss_bram_ramblk_wrapper/bram.ngc
+NETLIST CACHE HIT - Copying
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/../cache_dir/fc83b4aa998fae878d0e23c04161e903c63c36c9.ngc to
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/implementation/roach2_tut_tge_gbe1_txs_ss_bram_ramblk_wrapper/bram.ngc
+NETLIST CACHE MISS - Running coregen...
+Release 14.7 - Xilinx CORE Generator P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+All runtime messages will be recorded in
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/implementation/roach2_tut_tge_tx_snapshot_ss_bram_ramblk_wrapper/corege
+n.log
+Wrote CGP file for project 'coregen'.
+Resolving generics for 'bram'...
+Applying external generics to 'bram'...
+Delivering associated files for 'bram'...
+Delivering EJava files for 'bram'...
+Generating implementation netlist for 'bram'...
+Running synthesis for 'bram'
+Running ngcbuild...
+Writing VEO instantiation template for 'bram'...
+Writing Verilog behavioral simulation model for 'bram'...
+Delivered 1 file into directory
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/implementation/roach2_tut_tge_tx_snapshot_ss_bram_ramblk_wrapper/tmp/_c
+g/bram
+Generating ASY schematic symbol...
+Generating metadata file...
+Generating ISE project file for 'bram'...
+Generating ISE project...
+XCO file found: bram.xco
+XMDF file found: bram_xmdf.tcl
+Adding
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/implementation/roach2_tut_tge_tx_snapshot_ss_bram_ramblk_wrapper/tmp/_c
+g/bram.asy -view all -origin_type imported
+Adding
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/implementation/roach2_tut_tge_tx_snapshot_ss_bram_ramblk_wrapper/tmp/_c
+g/bram.ngc -view all -origin_type created
+Checking file
+"/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_RO
+ACH2_base/implementation/roach2_tut_tge_tx_snapshot_ss_bram_ramblk_wrapper/tmp/_
+cg/bram.ngc" for project device match ...
+File
+"/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_RO
+ACH2_base/implementation/roach2_tut_tge_tx_snapshot_ss_bram_ramblk_wrapper/tmp/_
+cg/bram.ngc" device information matches project device.
+Adding
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/implementation/roach2_tut_tge_tx_snapshot_ss_bram_ramblk_wrapper/tmp/_c
+g/bram.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS
+   _ROACH2_base/implementation/roach2_tut_tge_tx_snapshot_ss_bram_ramblk_wrapper
+   /tmp/_cg/bram.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/implementation/roach2_tut_tge_tx_snapshot_ss_bram_ramblk_wrapper/tmp/_c
+g/bram.veo -view all -origin_type imported
+INFO:TclTasksC:2116 - The automatic calculation of top has been turned-off.
+   Please set the new top explicitly by running the "project set top" command.
+   To re-calculate the new top automatically, set the "Auto Implementation Top"
+   property to true.
+Top level has been set to "/bram"
+Generating README file...
+Generating FLIST file...
+Moving files to output directory...
+Finished moving files to output directory
+Saved CGP file for project 'coregen'.
+NETLIST CACHE SAVE - Copying
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/implementation/roach2_tut_tge_tx_snapshot_ss_bram_ramblk_wrapper/bram.n
+gc to
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/../cache_dir/51bd2c6ed9411df9b47e3d6bd378573948125d5f.ngc
+
+Modify defaults ...
+
+Creating stub ...
+
+Processing licensed instances ...
+Completion time: 0.00 seconds
+
+Creating hardware output directories ...
+
+Managing hardware (BBD-specified) netlist files ...
+IPNAME:roach2_tut_tge INSTANCE:roach2_tut_tge_xsg_core_config -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 199 - Copying (BBD-specified) netlist files.
+IPNAME:kat_ten_gb_eth INSTANCE:roach2_tut_tge_gbe0 -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 343 - Copying (BBD-specified) netlist files.
+IPNAME:xaui_phy INSTANCE:xaui_phy_4 -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 395 - Copying (BBD-specified) netlist files.
+IPNAME:bram_block_custom INSTANCE:roach2_tut_tge_gbe0_rxs_ss_bram_ramblk -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 454 - Copying (BBD-specified) netlist files.
+IPNAME:bram_block_custom INSTANCE:roach2_tut_tge_gbe0_txs_ss_bram_ramblk -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 556 - Copying (BBD-specified) netlist files.
+IPNAME:kat_ten_gb_eth INSTANCE:roach2_tut_tge_gbe1 -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 646 - Copying (BBD-specified) netlist files.
+IPNAME:xaui_phy INSTANCE:xaui_phy_5 -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 698 - Copying (BBD-specified) netlist files.
+IPNAME:bram_block_custom INSTANCE:roach2_tut_tge_gbe1_rxs_ss_bram_ramblk -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 757 - Copying (BBD-specified) netlist files.
+IPNAME:bram_block_custom INSTANCE:roach2_tut_tge_gbe1_txs_ss_bram_ramblk -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 859 - Copying (BBD-specified) netlist files.
+IPNAME:bram_block_custom INSTANCE:roach2_tut_tge_tx_snapshot_ss_bram_ramblk -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 1057 - Copying (BBD-specified) netlist files.
+
+Managing cache ...
+
+Elaborating instances ...
+
+Writing HDL for elaborated instances ...
+
+Inserting wrapper level ...
+Completion time: 0.00 seconds
+
+Constructing platform-level connectivity ...
+Completion time: 0.00 seconds
+
+Writing (top-level) BMM ...
+
+Writing (top-level and wrappers) HDL ...
+
+Generating synthesis project file ...
+
+Running XST synthesis ...
+
+INFO:EDK:4211 - The following instances are synthesized with XST. The MPD option
+   IMP_NETLIST=TRUE indicates that a NGC file is to be produced using XST
+   synthesis. IMP_NETLIST=FALSE (default) instances are not synthesized. 
+INSTANCE:xaui_infrastructure_inst -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 44 - Running XST synthesis
+INSTANCE:infrastructure_inst -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 75 - Running XST synthesis
+INSTANCE:reset_block_inst -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 117 - Running XST synthesis
+INSTANCE:opb0 -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 127 - Running XST synthesis
+INSTANCE:epb_opb_bridge_inst -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 136 - Running XST synthesis
+INSTANCE:epb_infrastructure_inst -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 153 - Running XST synthesis
+INSTANCE:sys_block_inst -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 162 - Running XST synthesis
+INSTANCE:sfp_mdio_controller_inst -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 183 - Running XST synthesis
+INSTANCE:roach2_tut_tge_xsg_core_config -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 199 - Running XST synthesis
+INSTANCE:roach2_tut_tge_dest_ip -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 319 - Running XST synthesis
+INSTANCE:roach2_tut_tge_dest_port -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 331 - Running XST synthesis
+INSTANCE:roach2_tut_tge_gbe0 -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 343 - Running XST synthesis
+INSTANCE:xaui_phy_4 -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 395 - Running XST synthesis
+INSTANCE:roach2_tut_tge_gbe0_rxbadctr -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 406 - Running XST synthesis
+INSTANCE:roach2_tut_tge_gbe0_rxctr -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 418 - Running XST synthesis
+INSTANCE:roach2_tut_tge_gbe0_rxeofctr -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 430 - Running XST synthesis
+INSTANCE:roach2_tut_tge_gbe0_rxofctr -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 442 - Running XST synthesis
+INSTANCE:roach2_tut_tge_gbe0_rxs_ss_bram_ramblk -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 454 - Running XST synthesis
+INSTANCE:roach2_tut_tge_gbe0_rxs_ss_bram -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 472 - Running XST synthesis
+INSTANCE:roach2_tut_tge_gbe0_rxs_ss_ctrl -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 484 - Running XST synthesis
+INSTANCE:roach2_tut_tge_gbe0_rxs_ss_status -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 496 - Running XST synthesis
+INSTANCE:roach2_tut_tge_gbe0_rxvldctr -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 508 - Running XST synthesis
+INSTANCE:roach2_tut_tge_gbe0_txctr -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 520 - Running XST synthesis
+INSTANCE:roach2_tut_tge_gbe0_txfullctr -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 532 - Running XST synthesis
+INSTANCE:roach2_tut_tge_gbe0_txofctr -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 544 - Running XST synthesis
+INSTANCE:roach2_tut_tge_gbe0_txs_ss_bram_ramblk -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 556 - Running XST synthesis
+INSTANCE:roach2_tut_tge_gbe0_txs_ss_bram -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 574 - Running XST synthesis
+INSTANCE:roach2_tut_tge_gbe0_txs_ss_ctrl -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 586 - Running XST synthesis
+INSTANCE:roach2_tut_tge_gbe0_txs_ss_status -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 598 - Running XST synthesis
+INSTANCE:roach2_tut_tge_gbe0_txvldctr -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 610 - Running XST synthesis
+INSTANCE:roach2_tut_tge_gbe0_linkup -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 622 - Running XST synthesis
+INSTANCE:roach2_tut_tge_gbe0_tx_cnt -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 634 - Running XST synthesis
+INSTANCE:roach2_tut_tge_gbe1 -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 646 - Running XST synthesis
+INSTANCE:xaui_phy_5 -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 698 - Running XST synthesis
+INSTANCE:roach2_tut_tge_gbe1_rxbadctr -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 709 - Running XST synthesis
+INSTANCE:roach2_tut_tge_gbe1_rxctr -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 721 - Running XST synthesis
+INSTANCE:roach2_tut_tge_gbe1_rxeofctr -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 733 - Running XST synthesis
+INSTANCE:roach2_tut_tge_gbe1_rxofctr -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 745 - Running XST synthesis
+INSTANCE:roach2_tut_tge_gbe1_rxs_ss_bram_ramblk -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 757 - Running XST synthesis
+INSTANCE:roach2_tut_tge_gbe1_rxs_ss_bram -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 775 - Running XST synthesis
+INSTANCE:roach2_tut_tge_gbe1_rxs_ss_ctrl -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 787 - Running XST synthesis
+INSTANCE:roach2_tut_tge_gbe1_rxs_ss_status -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 799 - Running XST synthesis
+INSTANCE:roach2_tut_tge_gbe1_rxvldctr -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 811 - Running XST synthesis
+INSTANCE:roach2_tut_tge_gbe1_txctr -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 823 - Running XST synthesis
+INSTANCE:roach2_tut_tge_gbe1_txfullctr -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 835 - Running XST synthesis
+INSTANCE:roach2_tut_tge_gbe1_txofctr -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 847 - Running XST synthesis
+INSTANCE:roach2_tut_tge_gbe1_txs_ss_bram_ramblk -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 859 - Running XST synthesis
+INSTANCE:roach2_tut_tge_gbe1_txs_ss_bram -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 877 - Running XST synthesis
+INSTANCE:roach2_tut_tge_gbe1_txs_ss_ctrl -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 889 - Running XST synthesis
+INSTANCE:roach2_tut_tge_gbe1_txs_ss_status -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 901 - Running XST synthesis
+INSTANCE:roach2_tut_tge_gbe1_txvldctr -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 913 - Running XST synthesis
+INSTANCE:roach2_tut_tge_gbe1_linkup -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 925 - Running XST synthesis
+INSTANCE:roach2_tut_tge_gbe1_rx_frame_cnt -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 937 - Running XST synthesis
+INSTANCE:roach2_tut_tge_led0_gbe0_pulse_tx -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 949 - Running XST synthesis
+INSTANCE:roach2_tut_tge_led1_gbe0_up -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 964 - Running XST synthesis
+INSTANCE:roach2_tut_tge_led2_gbe1_pulse_rx -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 979 - Running XST synthesis
+INSTANCE:roach2_tut_tge_led3_gbe1_up -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 994 - Running XST synthesis
+INSTANCE:roach2_tut_tge_pkt_sim_enable -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 1009 - Running XST synthesis
+INSTANCE:roach2_tut_tge_pkt_sim_payload_len -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 1021 - Running XST synthesis
+INSTANCE:roach2_tut_tge_pkt_sim_period -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 1033 - Running XST synthesis
+INSTANCE:roach2_tut_tge_rst -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 1045 - Running XST synthesis
+INSTANCE:roach2_tut_tge_tx_snapshot_ss_bram_ramblk -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 1057 - Running XST synthesis
+INSTANCE:roach2_tut_tge_tx_snapshot_ss_bram -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 1075 - Running XST synthesis
+INSTANCE:roach2_tut_tge_tx_snapshot_ss_ctrl -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 1087 - Running XST synthesis
+INSTANCE:roach2_tut_tge_tx_snapshot_ss_status -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 1099 - Running XST synthesis
+INSTANCE:opb1 -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 1111 - Running XST synthesis
+INSTANCE:opb2opb_bridge_opb1 -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 1119 - Running XST synthesis
+INSTANCE:opb2 -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 1132 - Running XST synthesis
+INSTANCE:opb2opb_bridge_opb2 -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 1140 - Running XST synthesis
+
+Running NGCBUILD ...
+IPNAME:system_roach2_tut_tge_xsg_core_config_wrapper
+INSTANCE:roach2_tut_tge_xsg_core_config -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 199 - Running NGCBUILD
+IPNAME:system_roach2_tut_tge_gbe0_wrapper INSTANCE:roach2_tut_tge_gbe0 -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 343 - Running NGCBUILD
+IPNAME:system_xaui_phy_4_wrapper INSTANCE:xaui_phy_4 -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 395 - Running NGCBUILD
+IPNAME:system_roach2_tut_tge_gbe0_rxs_ss_bram_ramblk_wrapper
+INSTANCE:roach2_tut_tge_gbe0_rxs_ss_bram_ramblk -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 454 - Running NGCBUILD
+IPNAME:system_roach2_tut_tge_gbe0_txs_ss_bram_ramblk_wrapper
+INSTANCE:roach2_tut_tge_gbe0_txs_ss_bram_ramblk -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 556 - Running NGCBUILD
+IPNAME:system_roach2_tut_tge_gbe1_wrapper INSTANCE:roach2_tut_tge_gbe1 -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 646 - Running NGCBUILD
+IPNAME:system_xaui_phy_5_wrapper INSTANCE:xaui_phy_5 -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 698 - Running NGCBUILD
+IPNAME:system_roach2_tut_tge_gbe1_rxs_ss_bram_ramblk_wrapper
+INSTANCE:roach2_tut_tge_gbe1_rxs_ss_bram_ramblk -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 757 - Running NGCBUILD
+IPNAME:system_roach2_tut_tge_gbe1_txs_ss_bram_ramblk_wrapper
+INSTANCE:roach2_tut_tge_gbe1_txs_ss_bram_ramblk -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 859 - Running NGCBUILD
+IPNAME:system_roach2_tut_tge_tx_snapshot_ss_bram_ramblk_wrapper
+INSTANCE:roach2_tut_tge_tx_snapshot_ss_bram_ramblk -
+/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROA
+CH2_base/system.mhs line 1057 - Running NGCBUILD
+INFO:EDK:3509 - NCF files should not be modified as they will be regenerated.
+   If any constraint needs to be overridden, this should be done by modifying
+   the data/system.ucf file.
+
+Rebuilding cache ...
+
+Total run time: 761.00 seconds

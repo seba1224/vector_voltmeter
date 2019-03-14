@@ -1,0 +1,14 @@
+
+
+# Global period constraint
+NET "clk" TNM_NET = "clk_9761a01c";
+TIMESPEC "TS_clk_9761a01c" = PERIOD "clk_9761a01c" 10.0 ns HIGH 50 %;
+
+# Offset in constraints
+
+# Offset out constraints
+
+# Offset inout constraints
+
+# LOC constraints
+NET "clk" LOC = "d7hack";

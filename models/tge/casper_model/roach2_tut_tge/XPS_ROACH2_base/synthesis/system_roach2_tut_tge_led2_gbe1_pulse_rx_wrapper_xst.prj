@@ -1,0 +1,2 @@
+VHDL gpio_simulink2ext_v1_00_a /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/gpio_simulink2ext_v1_00_a/hdl/vhdl/gpio_simulink2ext.vhd
+vhdl work ../hdl/system_roach2_tut_tge_led2_gbe1_pulse_rx_wrapper.vhd

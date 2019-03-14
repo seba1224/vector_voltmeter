@@ -1,0 +1,233 @@
+#############################################################################
+##
+## IP Name  : roach2_tut_tge
+## Desc     : Automatically generated IP core wrapping a
+##            Simulink Xilinx System Generator netlist.
+##            Please do not modify by hand, this file will be erased
+##
+#############################################################################
+
+BEGIN roach2_tut_tge
+
+###################
+# Generic Options #
+###################
+OPTION IPTYPE = IP
+OPTION STYLE  = BLACKBOX
+
+###################
+# Clock port      #
+###################
+PORT clk = "", DIR = I, SIGIS = CLK, CLK_FREQ = 100000000
+
+###################
+# Interfaces      #
+###################
+
+# roach2_tut_tge/XSG_core_config
+
+# roach2_tut_tge/dest_ip
+PORT roach2_tut_tge_dest_ip_user_data_out = "", DIR = in, VEC = [31:0]
+
+# roach2_tut_tge/dest_port
+PORT roach2_tut_tge_dest_port_user_data_out = "", DIR = in, VEC = [31:0]
+
+# roach2_tut_tge/gbe0
+PORT roach2_tut_tge_gbe0_led_rx = "", DIR = in
+PORT roach2_tut_tge_gbe0_led_tx = "", DIR = in
+PORT roach2_tut_tge_gbe0_led_up = "", DIR = in
+PORT roach2_tut_tge_gbe0_rx_bad_frame = "", DIR = in
+PORT roach2_tut_tge_gbe0_rx_data = "", DIR = in, VEC = [63:0]
+PORT roach2_tut_tge_gbe0_rx_dest_ip = "", DIR = in, VEC = [31:0]
+PORT roach2_tut_tge_gbe0_rx_dest_port = "", DIR = in, VEC = [15:0]
+PORT roach2_tut_tge_gbe0_rx_end_of_frame = "", DIR = in
+PORT roach2_tut_tge_gbe0_rx_overrun = "", DIR = in
+PORT roach2_tut_tge_gbe0_rx_source_ip = "", DIR = in, VEC = [31:0]
+PORT roach2_tut_tge_gbe0_rx_source_port = "", DIR = in, VEC = [15:0]
+PORT roach2_tut_tge_gbe0_rx_valid = "", DIR = in
+PORT roach2_tut_tge_gbe0_tx_afull = "", DIR = in
+PORT roach2_tut_tge_gbe0_tx_overflow = "", DIR = in
+PORT roach2_tut_tge_gbe0_rst = "", DIR = out
+PORT roach2_tut_tge_gbe0_rx_ack = "", DIR = out
+PORT roach2_tut_tge_gbe0_rx_overrun_ack = "", DIR = out
+PORT roach2_tut_tge_gbe0_tx_data = "", DIR = out, VEC = [63:0]
+PORT roach2_tut_tge_gbe0_tx_dest_ip = "", DIR = out, VEC = [31:0]
+PORT roach2_tut_tge_gbe0_tx_dest_port = "", DIR = out, VEC = [15:0]
+PORT roach2_tut_tge_gbe0_tx_end_of_frame = "", DIR = out
+PORT roach2_tut_tge_gbe0_tx_valid = "", DIR = out
+
+# roach2_tut_tge/gbe0/rxbadctr
+PORT roach2_tut_tge_gbe0_rxbadctr_user_data_in = "", DIR = out, VEC = [31:0]
+
+# roach2_tut_tge/gbe0/rxctr
+PORT roach2_tut_tge_gbe0_rxctr_user_data_in = "", DIR = out, VEC = [31:0]
+
+# roach2_tut_tge/gbe0/rxeofctr
+PORT roach2_tut_tge_gbe0_rxeofctr_user_data_in = "", DIR = out, VEC = [31:0]
+
+# roach2_tut_tge/gbe0/rxofctr
+PORT roach2_tut_tge_gbe0_rxofctr_user_data_in = "", DIR = out, VEC = [31:0]
+
+# roach2_tut_tge/gbe0/rxs/ss/bram
+PORT roach2_tut_tge_gbe0_rxs_ss_bram_data_out = "", DIR = in, VEC = [127:0]
+PORT roach2_tut_tge_gbe0_rxs_ss_bram_addr = "", DIR = out, VEC = [12:0]
+PORT roach2_tut_tge_gbe0_rxs_ss_bram_data_in = "", DIR = out, VEC = [127:0]
+PORT roach2_tut_tge_gbe0_rxs_ss_bram_we = "", DIR = out
+
+# roach2_tut_tge/gbe0/rxs/ss/ctrl
+PORT roach2_tut_tge_gbe0_rxs_ss_ctrl_user_data_out = "", DIR = in, VEC = [31:0]
+
+# roach2_tut_tge/gbe0/rxs/ss/status
+PORT roach2_tut_tge_gbe0_rxs_ss_status_user_data_in = "", DIR = out, VEC = [31:0]
+
+# roach2_tut_tge/gbe0/rxvldctr
+PORT roach2_tut_tge_gbe0_rxvldctr_user_data_in = "", DIR = out, VEC = [31:0]
+
+# roach2_tut_tge/gbe0/txctr
+PORT roach2_tut_tge_gbe0_txctr_user_data_in = "", DIR = out, VEC = [31:0]
+
+# roach2_tut_tge/gbe0/txfullctr
+PORT roach2_tut_tge_gbe0_txfullctr_user_data_in = "", DIR = out, VEC = [31:0]
+
+# roach2_tut_tge/gbe0/txofctr
+PORT roach2_tut_tge_gbe0_txofctr_user_data_in = "", DIR = out, VEC = [31:0]
+
+# roach2_tut_tge/gbe0/txs/ss/bram
+PORT roach2_tut_tge_gbe0_txs_ss_bram_data_out = "", DIR = in, VEC = [127:0]
+PORT roach2_tut_tge_gbe0_txs_ss_bram_addr = "", DIR = out, VEC = [12:0]
+PORT roach2_tut_tge_gbe0_txs_ss_bram_data_in = "", DIR = out, VEC = [127:0]
+PORT roach2_tut_tge_gbe0_txs_ss_bram_we = "", DIR = out
+
+# roach2_tut_tge/gbe0/txs/ss/ctrl
+PORT roach2_tut_tge_gbe0_txs_ss_ctrl_user_data_out = "", DIR = in, VEC = [31:0]
+
+# roach2_tut_tge/gbe0/txs/ss/status
+PORT roach2_tut_tge_gbe0_txs_ss_status_user_data_in = "", DIR = out, VEC = [31:0]
+
+# roach2_tut_tge/gbe0/txvldctr
+PORT roach2_tut_tge_gbe0_txvldctr_user_data_in = "", DIR = out, VEC = [31:0]
+
+# roach2_tut_tge/gbe0_linkup
+PORT roach2_tut_tge_gbe0_linkup_user_data_in = "", DIR = out, VEC = [31:0]
+
+# roach2_tut_tge/gbe0_tx_cnt
+PORT roach2_tut_tge_gbe0_tx_cnt_user_data_in = "", DIR = out, VEC = [31:0]
+
+# roach2_tut_tge/gbe1
+PORT roach2_tut_tge_gbe1_led_rx = "", DIR = in
+PORT roach2_tut_tge_gbe1_led_tx = "", DIR = in
+PORT roach2_tut_tge_gbe1_led_up = "", DIR = in
+PORT roach2_tut_tge_gbe1_rx_bad_frame = "", DIR = in
+PORT roach2_tut_tge_gbe1_rx_data = "", DIR = in, VEC = [63:0]
+PORT roach2_tut_tge_gbe1_rx_dest_ip = "", DIR = in, VEC = [31:0]
+PORT roach2_tut_tge_gbe1_rx_dest_port = "", DIR = in, VEC = [15:0]
+PORT roach2_tut_tge_gbe1_rx_end_of_frame = "", DIR = in
+PORT roach2_tut_tge_gbe1_rx_overrun = "", DIR = in
+PORT roach2_tut_tge_gbe1_rx_source_ip = "", DIR = in, VEC = [31:0]
+PORT roach2_tut_tge_gbe1_rx_source_port = "", DIR = in, VEC = [15:0]
+PORT roach2_tut_tge_gbe1_rx_valid = "", DIR = in
+PORT roach2_tut_tge_gbe1_tx_afull = "", DIR = in
+PORT roach2_tut_tge_gbe1_tx_overflow = "", DIR = in
+PORT roach2_tut_tge_gbe1_rst = "", DIR = out
+PORT roach2_tut_tge_gbe1_rx_ack = "", DIR = out
+PORT roach2_tut_tge_gbe1_rx_overrun_ack = "", DIR = out
+PORT roach2_tut_tge_gbe1_tx_data = "", DIR = out, VEC = [63:0]
+PORT roach2_tut_tge_gbe1_tx_dest_ip = "", DIR = out, VEC = [31:0]
+PORT roach2_tut_tge_gbe1_tx_dest_port = "", DIR = out, VEC = [15:0]
+PORT roach2_tut_tge_gbe1_tx_end_of_frame = "", DIR = out
+PORT roach2_tut_tge_gbe1_tx_valid = "", DIR = out
+
+# roach2_tut_tge/gbe1/rxbadctr
+PORT roach2_tut_tge_gbe1_rxbadctr_user_data_in = "", DIR = out, VEC = [31:0]
+
+# roach2_tut_tge/gbe1/rxctr
+PORT roach2_tut_tge_gbe1_rxctr_user_data_in = "", DIR = out, VEC = [31:0]
+
+# roach2_tut_tge/gbe1/rxeofctr
+PORT roach2_tut_tge_gbe1_rxeofctr_user_data_in = "", DIR = out, VEC = [31:0]
+
+# roach2_tut_tge/gbe1/rxofctr
+PORT roach2_tut_tge_gbe1_rxofctr_user_data_in = "", DIR = out, VEC = [31:0]
+
+# roach2_tut_tge/gbe1/rxs/ss/bram
+PORT roach2_tut_tge_gbe1_rxs_ss_bram_data_out = "", DIR = in, VEC = [127:0]
+PORT roach2_tut_tge_gbe1_rxs_ss_bram_addr = "", DIR = out, VEC = [12:0]
+PORT roach2_tut_tge_gbe1_rxs_ss_bram_data_in = "", DIR = out, VEC = [127:0]
+PORT roach2_tut_tge_gbe1_rxs_ss_bram_we = "", DIR = out
+
+# roach2_tut_tge/gbe1/rxs/ss/ctrl
+PORT roach2_tut_tge_gbe1_rxs_ss_ctrl_user_data_out = "", DIR = in, VEC = [31:0]
+
+# roach2_tut_tge/gbe1/rxs/ss/status
+PORT roach2_tut_tge_gbe1_rxs_ss_status_user_data_in = "", DIR = out, VEC = [31:0]
+
+# roach2_tut_tge/gbe1/rxvldctr
+PORT roach2_tut_tge_gbe1_rxvldctr_user_data_in = "", DIR = out, VEC = [31:0]
+
+# roach2_tut_tge/gbe1/txctr
+PORT roach2_tut_tge_gbe1_txctr_user_data_in = "", DIR = out, VEC = [31:0]
+
+# roach2_tut_tge/gbe1/txfullctr
+PORT roach2_tut_tge_gbe1_txfullctr_user_data_in = "", DIR = out, VEC = [31:0]
+
+# roach2_tut_tge/gbe1/txofctr
+PORT roach2_tut_tge_gbe1_txofctr_user_data_in = "", DIR = out, VEC = [31:0]
+
+# roach2_tut_tge/gbe1/txs/ss/bram
+PORT roach2_tut_tge_gbe1_txs_ss_bram_data_out = "", DIR = in, VEC = [127:0]
+PORT roach2_tut_tge_gbe1_txs_ss_bram_addr = "", DIR = out, VEC = [12:0]
+PORT roach2_tut_tge_gbe1_txs_ss_bram_data_in = "", DIR = out, VEC = [127:0]
+PORT roach2_tut_tge_gbe1_txs_ss_bram_we = "", DIR = out
+
+# roach2_tut_tge/gbe1/txs/ss/ctrl
+PORT roach2_tut_tge_gbe1_txs_ss_ctrl_user_data_out = "", DIR = in, VEC = [31:0]
+
+# roach2_tut_tge/gbe1/txs/ss/status
+PORT roach2_tut_tge_gbe1_txs_ss_status_user_data_in = "", DIR = out, VEC = [31:0]
+
+# roach2_tut_tge/gbe1/txvldctr
+PORT roach2_tut_tge_gbe1_txvldctr_user_data_in = "", DIR = out, VEC = [31:0]
+
+# roach2_tut_tge/gbe1_linkup
+PORT roach2_tut_tge_gbe1_linkup_user_data_in = "", DIR = out, VEC = [31:0]
+
+# roach2_tut_tge/gbe1_rx_frame_cnt
+PORT roach2_tut_tge_gbe1_rx_frame_cnt_user_data_in = "", DIR = out, VEC = [31:0]
+
+# roach2_tut_tge/led0_gbe0_pulse_tx
+PORT roach2_tut_tge_led0_gbe0_pulse_tx_gateway = "", DIR = out
+
+# roach2_tut_tge/led1_gbe0_up
+PORT roach2_tut_tge_led1_gbe0_up_gateway = "", DIR = out
+
+# roach2_tut_tge/led2_gbe1_pulse_rx
+PORT roach2_tut_tge_led2_gbe1_pulse_rx_gateway = "", DIR = out
+
+# roach2_tut_tge/led3_gbe1_up
+PORT roach2_tut_tge_led3_gbe1_up_gateway = "", DIR = out
+
+# roach2_tut_tge/pkt_sim/enable
+PORT roach2_tut_tge_pkt_sim_enable_user_data_out = "", DIR = in, VEC = [31:0]
+
+# roach2_tut_tge/pkt_sim/payload_len
+PORT roach2_tut_tge_pkt_sim_payload_len_user_data_out = "", DIR = in, VEC = [31:0]
+
+# roach2_tut_tge/pkt_sim/period
+PORT roach2_tut_tge_pkt_sim_period_user_data_out = "", DIR = in, VEC = [31:0]
+
+# roach2_tut_tge/rst
+PORT roach2_tut_tge_rst_user_data_out = "", DIR = in, VEC = [31:0]
+
+# roach2_tut_tge/tx_snapshot/ss/bram
+PORT roach2_tut_tge_tx_snapshot_ss_bram_data_out = "", DIR = in, VEC = [127:0]
+PORT roach2_tut_tge_tx_snapshot_ss_bram_addr = "", DIR = out, VEC = [11:0]
+PORT roach2_tut_tge_tx_snapshot_ss_bram_data_in = "", DIR = out, VEC = [127:0]
+PORT roach2_tut_tge_tx_snapshot_ss_bram_we = "", DIR = out
+
+# roach2_tut_tge/tx_snapshot/ss/ctrl
+PORT roach2_tut_tge_tx_snapshot_ss_ctrl_user_data_out = "", DIR = in, VEC = [31:0]
+
+# roach2_tut_tge/tx_snapshot/ss/status
+PORT roach2_tut_tge_tx_snapshot_ss_status_user_data_in = "", DIR = out, VEC = [31:0]
+
+END

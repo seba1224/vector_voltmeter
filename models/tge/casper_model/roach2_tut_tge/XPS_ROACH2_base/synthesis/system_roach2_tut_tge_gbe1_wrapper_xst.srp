@@ -1,0 +1,1430 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/synthesis/xst_temp_dir/
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input Format                       : MIXED
+Input File Name                    : "system_roach2_tut_tge_gbe1_wrapper_xst.prj"
+Verilog Include Directory          : {"/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/" "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxBFMinterface/pcores/" "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/" }
+
+---- Target Parameters
+Target Device                      : xc6vsx475tff1759-1
+Output File Name                   : "../implementation/system_roach2_tut_tge_gbe1_wrapper.ngc"
+
+---- Source Options
+Top Module Name                    : system_roach2_tut_tge_gbe1_wrapper
+
+---- Target Options
+Add IO Buffers                     : NO
+
+---- General Options
+Optimization Goal                  : speed
+Netlist Hierarchy                  : as_optimized
+Optimization Effort                : 1
+Hierarchy Separator                : /
+
+---- Other Options
+Cores Search Directories           : {../implementation}
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/arp_cache.v" into library kat_ten_gb_eth_v1_00_a
+Parsing module <arp_cache>.
+Analyzing Verilog file "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/cpu_buffer.v" into library kat_ten_gb_eth_v1_00_a
+Parsing module <cpu_buffer>.
+Analyzing Verilog file "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/kat_ten_gb_eth.v" into library kat_ten_gb_eth_v1_00_a
+Parsing module <kat_ten_gb_eth>.
+Analyzing Verilog file "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/opb_attach.v" into library kat_ten_gb_eth_v1_00_a
+Parsing module <opb_attach>.
+WARNING:HDLCompiler:751 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/opb_attach.v" Line 124: Redeclaration of ansi port local_mc_recv_ip is not allowed
+WARNING:HDLCompiler:751 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/opb_attach.v" Line 125: Redeclaration of ansi port local_mc_recv_ip_mask is not allowed
+Analyzing Verilog file "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/rx_packet_ctrl_fifo.v" into library kat_ten_gb_eth_v1_00_a
+Parsing module <rx_packet_ctrl_fifo>.
+Analyzing Verilog file "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/rx_packet_fifo_bram.v" into library kat_ten_gb_eth_v1_00_a
+Parsing module <rx_packet_fifo_bram>.
+Analyzing Verilog file "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/rx_packet_fifo_dist.v" into library kat_ten_gb_eth_v1_00_a
+Parsing module <rx_packet_fifo_dist>.
+Analyzing Verilog file "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/tge_rx.v" into library kat_ten_gb_eth_v1_00_a
+Parsing module <tge_rx>.
+Analyzing Verilog file "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/tge_tx.v" into library kat_ten_gb_eth_v1_00_a
+Parsing module <tge_tx>.
+Analyzing Verilog file "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/tx_packet_ctrl_fifo.v" into library kat_ten_gb_eth_v1_00_a
+Parsing module <tx_packet_ctrl_fifo>.
+Analyzing Verilog file "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/tx_packet_fifo.v" into library kat_ten_gb_eth_v1_00_a
+Parsing module <tx_packet_fifo>.
+Analyzing Verilog file "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/tx_fifo_ext.v" into library kat_ten_gb_eth_v1_00_a
+Parsing module <tx_fifo_ext>.
+Analyzing Verilog file "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/hdl/system_roach2_tut_tge_gbe1_wrapper.v" into library work
+Parsing module <system_roach2_tut_tge_gbe1_wrapper>.
+Parsing VHDL file "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/vhdl/ten_gig_eth_mac_UCB.vhd" into library kat_ten_gb_eth_v1_00_a
+Parsing entity <ten_gig_eth_mac_UCB>.
+Parsing architecture <ten_gig_eth_mac_UCB_arch> of entity <ten_gig_eth_mac_ucb>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <system_roach2_tut_tge_gbe1_wrapper>.
+WARNING:HDLCompiler:1016 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/kat_ten_gb_eth.v" Line 176: Port mgt_status is not connected to this instance
+
+Elaborating module <kat_ten_gb_eth(POSTEMPHASIS=0,DIFFCTRL=10,RXEQMIX=7,PREEMPHASIS=4,FABRIC_MAC=48'b0100100011010001010110011110000000000000000000,FABRIC_IP=32'b11000000101010000000010100010000,FABRIC_GATEWAY=8'b01,FABRIC_PORT=16'b010011100010000,FABRIC_ENABLE=0,FABRIC_MC_RECV_IP=32'b11111111111111111111111111111111,FABRIC_MC_RECV_IP_MASK=32'b11111111111111111111111111111111,RX_DIST_RAM=0,CPU_RX_ENABLE=1,CPU_TX_ENABLE=1,LARGE_PACKETS=0,TTL=8'b11111111,PROMISC_MODE=0,C_BASEADDR=32'b01000010000100000000000000,C_HIGHADDR=32'b01000010000111111111111111,C_OPB_AWIDTH=32,C_OPB_DWIDTH=32)>.
+Going to vhdl side to elaborate module ten_gig_eth_mac_UCB
+
+Elaborating entity <ten_gig_eth_mac_UCB> (architecture <ten_gig_eth_mac_UCB_arch>) from library <kat_ten_gb_eth_v1_00_a>.
+INFO:HDLCompiler:679 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/vhdl/ten_gig_eth_mac_UCB.vhd" Line 534. Case statement is complete. others clause is never selected
+Back to verilog to continue elaboration
+
+Elaborating module <opb_attach(C_BASEADDR=32'b01000010000100000000000000,C_HIGHADDR=32'b01000010000111111111111111,C_OPB_AWIDTH=32,C_OPB_DWIDTH=32,FABRIC_MAC=48'b0100100011010001010110011110000000000000000000,FABRIC_IP=32'b11000000101010000000010100010000,FABRIC_PORT=16'b010011100010000,FABRIC_GATEWAY=8'b01,FABRIC_NETMASK=32'b11111111111111111111111100000000,FABRIC_ENABLE=0,MC_RECV_IP=32'b11111111111111111111111111111111,MC_RECV_IP_MASK=32'b11111111111111111111111111111111,PREEMPHASIS=4,POSTEMPHASIS=0,DIFFCTRL=10,RXEQMIX=7)>.
+WARNING:HDLCompiler:1127 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/opb_attach.v" Line 161: Assignment to xaui_test_select_reg ignored, since the identifier is never used
+
+Elaborating module <tge_tx(CPU_ENABLE=1,LARGE_PACKETS=0,TTL=8'b11111111)>.
+
+Elaborating module <tx_packet_fifo>.
+WARNING:HDLCompiler:1499 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/tx_packet_fifo.v" Line 39: Empty module <tx_packet_fifo> remains a black box.
+
+Elaborating module <tx_packet_ctrl_fifo>.
+WARNING:HDLCompiler:1499 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/tx_packet_ctrl_fifo.v" Line 39: Empty module <tx_packet_ctrl_fifo> remains a black box.
+
+Elaborating module <arp_cache>.
+WARNING:HDLCompiler:1499 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/arp_cache.v" Line 39: Empty module <arp_cache> remains a black box.
+
+Elaborating module <cpu_buffer>.
+WARNING:HDLCompiler:1499 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/cpu_buffer.v" Line 41: Empty module <cpu_buffer> remains a black box.
+
+Elaborating module <tge_rx(CPU_ENABLE=1,USE_DISTRIBUTED_RAM=0)>.
+"/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/tge_rx.v" Line 341. $display tge_rx_cpu: got good frame, waiting for buffer to become available
+"/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/tge_rx.v" Line 350. $display tge_rx_cpu: buffer free, swapping now
+
+Elaborating module <rx_packet_fifo_bram>.
+WARNING:HDLCompiler:1499 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/rx_packet_fifo_bram.v" Line 41: Empty module <rx_packet_fifo_bram> remains a black box.
+
+Elaborating module <rx_packet_ctrl_fifo>.
+WARNING:HDLCompiler:1499 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/rx_packet_ctrl_fifo.v" Line 41: Empty module <rx_packet_ctrl_fifo> remains a black box.
+
+Elaborating module <rx_packet_ctrl_fifo>.
+WARNING:HDLCompiler:1499 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/rx_packet_ctrl_fifo.v" Line 41: Empty module <rx_packet_ctrl_fifo> remains a black box.
+WARNING:HDLCompiler:552 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/kat_ten_gb_eth.v" Line 193: Input port mgt_status[15] is not connected on this instance
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <system_roach2_tut_tge_gbe1_wrapper>.
+    Related source file is "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/hdl/system_roach2_tut_tge_gbe1_wrapper.v".
+    Summary:
+	no macro.
+Unit <system_roach2_tut_tge_gbe1_wrapper> synthesized.
+
+Synthesizing Unit <kat_ten_gb_eth>.
+    Related source file is "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/kat_ten_gb_eth.v".
+        C_BASEADDR = 32'b00000001000010000100000000000000
+        C_HIGHADDR = 32'b00000001000010000111111111111111
+        C_OPB_AWIDTH = 32
+        C_OPB_DWIDTH = 32
+        FABRIC_MAC = 48'b000100100011010001010110011110000000000000000000
+        FABRIC_IP = 32'b11000000101010000000010100010000
+        FABRIC_PORT = 16'b0010011100010000
+        FABRIC_GATEWAY = 8'b00000001
+        FABRIC_NETMASK = 32'b11111111111111111111111100000000
+        FABRIC_ENABLE = 0
+        FABRIC_MC_RECV_IP = 32'b11111111111111111111111111111111
+        FABRIC_MC_RECV_IP_MASK = 32'b11111111111111111111111111111111
+        PREEMPHASIS = 4
+        POSTEMPHASIS = 0
+        DIFFCTRL = 10
+        RXEQMIX = 7
+        CPU_TX_ENABLE = 1
+        CPU_RX_ENABLE = 1
+        RX_DIST_RAM = 0
+        LARGE_PACKETS = 0
+        TTL = 8'b11111111
+        PROMISC_MODE = 0
+WARNING:Xst:2898 - Port 'mgt_status', unconnected in block instance 'opb_attach_inst', is tied to GND.
+INFO:Xst:3210 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/kat_ten_gb_eth.v" line 100: Output port <tx_statistics_vector> of the instance <ten_gig_eth_mac_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/kat_ten_gb_eth.v" line 100: Output port <rx_statistics_vector> of the instance <ten_gig_eth_mac_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/kat_ten_gb_eth.v" line 100: Output port <tx_statistics_valid> of the instance <ten_gig_eth_mac_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/kat_ten_gb_eth.v" line 100: Output port <rx_statistics_valid> of the instance <ten_gig_eth_mac_inst> is unconnected or connected to loadless signal.
+    Found 1-bit register for signal <mac_reset_ackR>.
+    Found 1-bit register for signal <mac_reset_ackRR>.
+    Found 2-bit register for signal <swr_state>.
+    Found 1-bit register for signal <mac_resetR>.
+    Found 1-bit register for signal <mac_resetRR>.
+    Found 1-bit register for signal <mac_reset_ack>.
+    Found 1-bit register for signal <down_trig>.
+    Found 1-bit register for signal <rx_trig>.
+    Found 1-bit register for signal <tx_trig>.
+    Found 26-bit register for signal <down_stretch>.
+    Found 26-bit register for signal <rx_stretch>.
+    Found 26-bit register for signal <tx_stretch>.
+    Found 1-bit register for signal <led_up_reg>.
+    Found 1-bit register for signal <led_rx_reg>.
+    Found 1-bit register for signal <led_tx_reg>.
+    Found 1-bit register for signal <app_rst>.
+    Found finite state machine <FSM_0> for signal <swr_state>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 6                                              |
+    | Inputs             | 2                                              |
+    | Outputs            | 1                                              |
+    | Clock              | OPB_Clk (rising_edge)                          |
+    | Reset              | OPB_Rst (positive)                             |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 00                                             |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 26-bit subtractor for signal <down_stretch[25]_GND_2_o_sub_16_OUT> created at line 434.
+    Found 26-bit subtractor for signal <rx_stretch[25]_GND_2_o_sub_18_OUT> created at line 438.
+    Found 26-bit subtractor for signal <tx_stretch[25]_GND_2_o_sub_20_OUT> created at line 442.
+    Summary:
+	inferred   3 Adder/Subtractor(s).
+	inferred  90 D-type flip-flop(s).
+	inferred   1 Finite State Machine(s).
+Unit <kat_ten_gb_eth> synthesized.
+
+Synthesizing Unit <ten_gig_eth_mac_UCB>.
+    Related source file is "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/vhdl/ten_gig_eth_mac_UCB.vhd".
+WARNING:Xst:647 - Input <tx_ifg_delay> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <pause_val> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <configuration_vector> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <tx_underrun> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <pause_req> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <tx_dcm_lock> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <rx_dcm_lock> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 32-bit register for signal <tx_crc>.
+    Found 3-bit register for signal <tx_state>.
+    Found 1-bit register for signal <tx_ack>.
+    Found 1-bit register for signal <tx_start_latched>.
+    Found 2-bit register for signal <rx_state>.
+    Found 8-bit register for signal <rx_data_valid>.
+    Found 8-bit register for signal <rx_enable>.
+    Found 1-bit register for signal <rx_data_is_aligned>.
+    Found 1-bit register for signal <rx_good_frame>.
+    Found 1-bit register for signal <rx_good_frame0>.
+    Found 64-bit register for signal <xgmii_rxd0>.
+    Found 8-bit register for signal <xgmii_rxc0>.
+    Found 64-bit register for signal <xgmii_rxd_aligned0>.
+    Found 64-bit register for signal <rx_data>.
+    Found 64-bit register for signal <xgmii_tx0>.
+    Found finite state machine <FSM_1> for signal <tx_state>.
+    -----------------------------------------------------------------------
+    | States             | 7                                              |
+    | Transitions        | 11                                             |
+    | Inputs             | 5                                              |
+    | Outputs            | 11                                             |
+    | Clock              | tx_clk0 (rising_edge)                          |
+    | Reset              | reset (positive)                               |
+    | Reset type         | synchronous                                    |
+    | Reset State        | idle                                           |
+    | Power Up State     | idle                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+INFO:Xst:1799 - State wait_one is never reached in FSM <rx_state>.
+    Found finite state machine <FSM_2> for signal <rx_state>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 10                                             |
+    | Inputs             | 6                                              |
+    | Outputs            | 1                                              |
+    | Clock              | rx_clk0 (rising_edge)                          |
+    | Reset              | reset (positive)                               |
+    | Reset type         | synchronous                                    |
+    | Reset State        | idle                                           |
+    | Power Up State     | idle                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 64-bit 6-to-1 multiplexer for signal <xgmii_txd> created at line 662.
+    WARNING:Xst:2404 -  FFs/Latches <rx_bad_frame<0:0>> (without init value) have a constant value of 0 in block <ten_gig_eth_mac_UCB>.
+    Summary:
+	inferred 317 D-type flip-flop(s).
+	inferred  13 Multiplexer(s).
+	inferred   2 Finite State Machine(s).
+Unit <ten_gig_eth_mac_UCB> synthesized.
+
+Synthesizing Unit <opb_attach>.
+    Related source file is "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/opb_attach.v".
+        C_BASEADDR = 32'b00000001000010000100000000000000
+        C_HIGHADDR = 32'b00000001000010000111111111111111
+        C_OPB_AWIDTH = 32
+        C_OPB_DWIDTH = 32
+        FABRIC_MAC = 48'b000100100011010001010110011110000000000000000000
+        FABRIC_IP = 32'b11000000101010000000010100010000
+        FABRIC_PORT = 16'b0010011100010000
+        FABRIC_GATEWAY = 8'b00000001
+        FABRIC_NETMASK = 32'b11111111111111111111111100000000
+        FABRIC_ENABLE = 0
+        MC_RECV_IP = 32'b11111111111111111111111111111111
+        MC_RECV_IP_MASK = 32'b11111111111111111111111111111111
+        PREEMPHASIS = 4
+        POSTEMPHASIS = 0
+        DIFFCTRL = 10
+        RXEQMIX = 7
+WARNING:Xst:647 - Input <mgt_status> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <OPB_seqAddr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <use_arp_data>.
+    Found 1-bit register for signal <use_tx_data>.
+    Found 1-bit register for signal <use_rx_data>.
+    Found 8-bit register for signal <cpu_tx_size_reg>.
+    Found 1-bit register for signal <cpu_tx_ready_reg>.
+    Found 1-bit register for signal <cpu_rx_ack_reg>.
+    Found 4-bit register for signal <opb_data_src>.
+    Found 48-bit register for signal <local_mac_reg>.
+    Found 32-bit register for signal <local_ip_reg>.
+    Found 8-bit register for signal <local_gateway_reg>.
+    Found 32-bit register for signal <local_netmask_reg>.
+    Found 16-bit register for signal <local_port_reg>.
+    Found 1-bit register for signal <local_enable_reg>.
+    Found 32-bit register for signal <local_mc_recv_ip>.
+    Found 32-bit register for signal <local_mc_recv_ip_mask>.
+    Found 3-bit register for signal <mgt_rxeqmix_reg>.
+    Found 4-bit register for signal <mgt_txpreemphasis_reg>.
+    Found 5-bit register for signal <mgt_txpostemphasis_reg>.
+    Found 4-bit register for signal <mgt_txdiffctrl_reg>.
+    Found 1-bit register for signal <opb_wait>.
+    Found 1-bit register for signal <soft_reset_reg>.
+    Found 1-bit register for signal <arp_cache_we>.
+    Found 1-bit register for signal <tx_buffer_we>.
+    Found 1-bit register for signal <write_data<63>>.
+    Found 1-bit register for signal <write_data<62>>.
+    Found 1-bit register for signal <write_data<61>>.
+    Found 1-bit register for signal <write_data<60>>.
+    Found 1-bit register for signal <write_data<59>>.
+    Found 1-bit register for signal <write_data<58>>.
+    Found 1-bit register for signal <write_data<57>>.
+    Found 1-bit register for signal <write_data<56>>.
+    Found 1-bit register for signal <write_data<55>>.
+    Found 1-bit register for signal <write_data<54>>.
+    Found 1-bit register for signal <write_data<53>>.
+    Found 1-bit register for signal <write_data<52>>.
+    Found 1-bit register for signal <write_data<51>>.
+    Found 1-bit register for signal <write_data<50>>.
+    Found 1-bit register for signal <write_data<49>>.
+    Found 1-bit register for signal <write_data<48>>.
+    Found 1-bit register for signal <write_data<47>>.
+    Found 1-bit register for signal <write_data<46>>.
+    Found 1-bit register for signal <write_data<45>>.
+    Found 1-bit register for signal <write_data<44>>.
+    Found 1-bit register for signal <write_data<43>>.
+    Found 1-bit register for signal <write_data<42>>.
+    Found 1-bit register for signal <write_data<41>>.
+    Found 1-bit register for signal <write_data<40>>.
+    Found 1-bit register for signal <write_data<39>>.
+    Found 1-bit register for signal <write_data<38>>.
+    Found 1-bit register for signal <write_data<37>>.
+    Found 1-bit register for signal <write_data<36>>.
+    Found 1-bit register for signal <write_data<35>>.
+    Found 1-bit register for signal <write_data<34>>.
+    Found 1-bit register for signal <write_data<33>>.
+    Found 1-bit register for signal <write_data<32>>.
+    Found 1-bit register for signal <write_data<31>>.
+    Found 1-bit register for signal <write_data<30>>.
+    Found 1-bit register for signal <write_data<29>>.
+    Found 1-bit register for signal <write_data<28>>.
+    Found 1-bit register for signal <write_data<27>>.
+    Found 1-bit register for signal <write_data<26>>.
+    Found 1-bit register for signal <write_data<25>>.
+    Found 1-bit register for signal <write_data<24>>.
+    Found 1-bit register for signal <write_data<23>>.
+    Found 1-bit register for signal <write_data<22>>.
+    Found 1-bit register for signal <write_data<21>>.
+    Found 1-bit register for signal <write_data<20>>.
+    Found 1-bit register for signal <write_data<19>>.
+    Found 1-bit register for signal <write_data<18>>.
+    Found 1-bit register for signal <write_data<17>>.
+    Found 1-bit register for signal <write_data<16>>.
+    Found 1-bit register for signal <write_data<15>>.
+    Found 1-bit register for signal <write_data<14>>.
+    Found 1-bit register for signal <write_data<13>>.
+    Found 1-bit register for signal <write_data<12>>.
+    Found 1-bit register for signal <write_data<11>>.
+    Found 1-bit register for signal <write_data<10>>.
+    Found 1-bit register for signal <write_data<9>>.
+    Found 1-bit register for signal <write_data<8>>.
+    Found 1-bit register for signal <write_data<7>>.
+    Found 1-bit register for signal <write_data<6>>.
+    Found 1-bit register for signal <write_data<5>>.
+    Found 1-bit register for signal <write_data<4>>.
+    Found 1-bit register for signal <write_data<3>>.
+    Found 1-bit register for signal <write_data<2>>.
+    Found 1-bit register for signal <write_data<1>>.
+    Found 1-bit register for signal <write_data<0>>.
+    Found 1-bit register for signal <opb_ack>.
+    Found 32-bit subtractor for signal <reg_addr> created at line 79.
+    Found 32-bit subtractor for signal <rxbuf_addr> created at line 99.
+    Found 32-bit subtractor for signal <txbuf_addr> created at line 100.
+    Found 32-bit subtractor for signal <arp_addr> created at line 101.
+    Found 32-bit 16-to-1 multiplexer for signal <opb_data_int> created at line 409.
+    Found 32-bit comparator lessequal for signal <n0000> created at line 77
+    Found 32-bit comparator lessequal for signal <n0002> created at line 77
+    Found 32-bit comparator lessequal for signal <n0009> created at line 93
+    Found 32-bit comparator lessequal for signal <n0012> created at line 94
+    Found 32-bit comparator lessequal for signal <n0015> created at line 94
+    Found 32-bit comparator lessequal for signal <n0018> created at line 95
+    Found 32-bit comparator lessequal for signal <n0021> created at line 95
+    Found 32-bit comparator lessequal for signal <n0024> created at line 96
+    Found 32-bit comparator lessequal for signal <n0027> created at line 96
+    Summary:
+	inferred   4 Adder/Subtractor(s).
+	inferred 303 D-type flip-flop(s).
+	inferred   9 Comparator(s).
+	inferred 352 Multiplexer(s).
+Unit <opb_attach> synthesized.
+
+Synthesizing Unit <tge_tx>.
+    Related source file is "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/tge_tx.v".
+        CPU_ENABLE = 1
+        LARGE_PACKETS = 0
+        TTL = 8'b11111111
+    Set property "box_type = user_black_box" for instance <tx_packet_fifo_inst>.
+    Set property "box_type = user_black_box" for instance <tx_packet_ctrl_fifo_inst>.
+    Set property "box_type = user_black_box" for instance <arp_cache_inst>.
+    Set property "box_type = user_black_box" for instance <tx_cpu_enabled.cpu_tx_buffer>.
+INFO:Xst:3210 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/tge_tx.v" line 118: Output port <empty> of the instance <tx_packet_fifo_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/tge_tx.v" line 118: Output port <full> of the instance <tx_packet_fifo_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/tge_tx.v" line 139: Output port <full> of the instance <tx_packet_ctrl_fifo_inst> is unconnected or connected to loadless signal.
+    Found 64-bit register for signal <app_tx_dataR>.
+    Found 32-bit register for signal <app_tx_dest_ipR>.
+    Found 16-bit register for signal <app_tx_dest_portR>.
+    Found 1-bit register for signal <app_tx_ctrl_fifo_en>.
+    Found 16-bit register for signal <data_count>.
+    Found 1-bit register for signal <tx_overflow_latch>.
+    Found 1-bit register for signal <mac_cpu_ackR>.
+    Found 1-bit register for signal <mac_cpu_ackRR>.
+    Found 1-bit register for signal <cpu_buffer_sel>.
+    Found 1-bit register for signal <mac_pending>.
+    Found 1-bit register for signal <ack_low_wait>.
+    Found 8-bit register for signal <cpu_tx_size_reg>.
+    Found 1-bit register for signal <mac_pendingR>.
+    Found 1-bit register for signal <mac_pendingRR>.
+    Found 1-bit register for signal <local_enable_R>.
+    Found 1-bit register for signal <local_enable_retimed>.
+    Found 1-bit register for signal <app_overflowR>.
+    Found 1-bit register for signal <packet_rd_reg>.
+    Found 16-bit register for signal <data_leftovers>.
+    Found 4-bit register for signal <tx_state>.
+    Found 8-bit register for signal <mac_data_valid>.
+    Found 16-bit register for signal <ip_length>.
+    Found 18-bit register for signal <ip_checksum_0>.
+    Found 17-bit register for signal <ip_checksum_1>.
+    Found 16-bit register for signal <ip_checksum>.
+    Found 1-bit register for signal <mac_cpu_ack_reg>.
+    Found 8-bit register for signal <mac_cpu_addr_reg>.
+    Found 16-bit register for signal <tx_size>.
+    Found 16-bit register for signal <udp_length>.
+    Found 1-bit register for signal <app_tx_validR>.
+    Found finite state machine <FSM_3> for signal <tx_state>.
+    -----------------------------------------------------------------------
+    | States             | 12                                             |
+    | Transitions        | 34                                             |
+    | Inputs             | 10                                             |
+    | Outputs            | 15                                             |
+    | Clock              | mac_clk (rising_edge)                          |
+    | Reset              | mac_rst (positive)                             |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 0000                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 16-bit subtractor for signal <packet_ctrl_size[15]_GND_11_o_sub_27_OUT> created at line 393.
+    Found 16-bit subtractor for signal <tx_size[15]_GND_11_o_sub_65_OUT> created at line 486.
+    Found 16-bit adder for signal <data_count[15]_GND_11_o_add_5_OUT> created at line 105.
+    Found 8-bit adder for signal <mac_cpu_addr_reg[7]_GND_11_o_add_65_OUT> created at line 487.
+    Found 16-bit adder for signal <packet_ctrl_size[12]_GND_11_o_add_77_OUT> created at line 492.
+    Found 16-bit adder for signal <packet_ctrl_size[12]_GND_11_o_add_78_OUT> created at line 494.
+    Found 17-bit adder for signal <n0315[16:0]> created at line 496.
+    Found 17-bit adder for signal <n0293> created at line 505.
+    Found 16-bit adder for signal <ip_checksum_1[15]_GND_11_o_add_87_OUT> created at line 507.
+    Found 18-bit adder for signal <_n0351> created at line 496.
+    Found 18-bit adder for signal <_n0352> created at line 496.
+    Found 18-bit adder for signal <_n0353> created at line 496.
+    Found 18-bit adder for signal <_n0354> created at line 496.
+    Found 18-bit adder for signal <BUS_0007_GND_11_o_add_85_OUT> created at line 496.
+    Found 64-bit 12-to-1 multiplexer for signal <mac_data> created at line 526.
+    Found 32-bit comparator equal for signal <local_ip[31]_packet_ctrl_ip[31]_equal_121_o> created at line 581
+    Summary:
+	inferred  14 Adder/Subtractor(s).
+	inferred 282 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred  24 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <tge_tx> synthesized.
+
+Synthesizing Unit <tge_rx>.
+    Related source file is "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/tge_rx.v".
+        CPU_ENABLE = 1
+        USE_DISTRIBUTED_RAM = 0
+        PROMISC_MODE = 0
+    Set property "box_type = user_black_box" for instance <rx_cpu_enabled.cpu_rx_buffer>.
+    Set property "box_type = user_black_box" for instance <use_bram.rx_packet_fifo_bram_inst>.
+    Set property "box_type = user_black_box" for instance <rx_packet_ctrl_fifo_inst>.
+    Set property "shreg_extract = NO" for signal <cpu_sizeR>.
+    Set property "shreg_extract = NO" for signal <cpu_sizeRR>.
+    Set property "shreg_extract = NO" for signal <cpu_ackR>.
+    Set property "shreg_extract = NO" for signal <cpu_ackRR>.
+    Set property "shreg_extract = NO" for signal <overrun_ackR>.
+    Set property "shreg_extract = NO" for signal <overrun_ackRR>.
+    Set property "shreg_extract = NO" for signal <overrunR>.
+    Set property "shreg_extract = NO" for signal <overrunRR>.
+    Set property "shreg_extract = NO" for signal <local_enableR>.
+    Set property "shreg_extract = NO" for signal <local_enableRR>.
+WARNING:Xst:647 - Input <cpu_rst> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+INFO:Xst:3210 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/tge_rx.v" line 281: Output port <doutb> of the instance <rx_cpu_enabled.cpu_rx_buffer> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/tge_rx.v" line 409: Output port <full> of the instance <use_bram.rx_packet_fifo_bram_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/tge_rx.v" line 451: Output port <empty> of the instance <rx_packet_ctrl_fifo_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/tge_rx.v" line 451: Output port <full> of the instance <rx_packet_ctrl_fifo_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/tge_rx.v" line 465: Output port <empty> of the instance <tx_packet_ctrl_fifo_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/tge_rx.v" line 465: Output port <full> of the instance <tx_packet_ctrl_fifo_inst> is unconnected or connected to loadless signal.
+    Found 8-bit register for signal <mac_rx_data_valid_z>.
+    Found 1-bit register for signal <mac_rx_good_frame_z>.
+    Found 1-bit register for signal <mac_rx_bad_frame_z>.
+    Found 64-bit register for signal <mac_rx_dataR>.
+    Found 1-bit register for signal <mac_rx_good_frameR>.
+    Found 1-bit register for signal <mac_rx_bad_frameR>.
+    Found 1-bit register for signal <rx_control_data<95>>.
+    Found 1-bit register for signal <rx_control_data<94>>.
+    Found 1-bit register for signal <rx_control_data<93>>.
+    Found 1-bit register for signal <rx_control_data<92>>.
+    Found 1-bit register for signal <rx_control_data<91>>.
+    Found 1-bit register for signal <rx_control_data<90>>.
+    Found 1-bit register for signal <rx_control_data<89>>.
+    Found 1-bit register for signal <rx_control_data<88>>.
+    Found 1-bit register for signal <rx_control_data<87>>.
+    Found 1-bit register for signal <rx_control_data<86>>.
+    Found 1-bit register for signal <rx_control_data<85>>.
+    Found 1-bit register for signal <rx_control_data<84>>.
+    Found 1-bit register for signal <rx_control_data<83>>.
+    Found 1-bit register for signal <rx_control_data<82>>.
+    Found 1-bit register for signal <rx_control_data<81>>.
+    Found 1-bit register for signal <rx_control_data<80>>.
+    Found 1-bit register for signal <rx_control_data<79>>.
+    Found 1-bit register for signal <rx_control_data<78>>.
+    Found 1-bit register for signal <rx_control_data<77>>.
+    Found 1-bit register for signal <rx_control_data<76>>.
+    Found 1-bit register for signal <rx_control_data<75>>.
+    Found 1-bit register for signal <rx_control_data<74>>.
+    Found 1-bit register for signal <rx_control_data<73>>.
+    Found 1-bit register for signal <rx_control_data<72>>.
+    Found 1-bit register for signal <rx_control_data<71>>.
+    Found 1-bit register for signal <rx_control_data<70>>.
+    Found 1-bit register for signal <rx_control_data<69>>.
+    Found 1-bit register for signal <rx_control_data<68>>.
+    Found 1-bit register for signal <rx_control_data<67>>.
+    Found 1-bit register for signal <rx_control_data<66>>.
+    Found 1-bit register for signal <rx_control_data<65>>.
+    Found 1-bit register for signal <rx_control_data<64>>.
+    Found 1-bit register for signal <rx_control_data<63>>.
+    Found 1-bit register for signal <rx_control_data<62>>.
+    Found 1-bit register for signal <rx_control_data<61>>.
+    Found 1-bit register for signal <rx_control_data<60>>.
+    Found 1-bit register for signal <rx_control_data<59>>.
+    Found 1-bit register for signal <rx_control_data<58>>.
+    Found 1-bit register for signal <rx_control_data<57>>.
+    Found 1-bit register for signal <rx_control_data<56>>.
+    Found 1-bit register for signal <rx_control_data<55>>.
+    Found 1-bit register for signal <rx_control_data<54>>.
+    Found 1-bit register for signal <rx_control_data<53>>.
+    Found 1-bit register for signal <rx_control_data<52>>.
+    Found 1-bit register for signal <rx_control_data<51>>.
+    Found 1-bit register for signal <rx_control_data<50>>.
+    Found 1-bit register for signal <rx_control_data<49>>.
+    Found 1-bit register for signal <rx_control_data<48>>.
+    Found 1-bit register for signal <rx_control_data<47>>.
+    Found 1-bit register for signal <rx_control_data<46>>.
+    Found 1-bit register for signal <rx_control_data<45>>.
+    Found 1-bit register for signal <rx_control_data<44>>.
+    Found 1-bit register for signal <rx_control_data<43>>.
+    Found 1-bit register for signal <rx_control_data<42>>.
+    Found 1-bit register for signal <rx_control_data<41>>.
+    Found 1-bit register for signal <rx_control_data<40>>.
+    Found 1-bit register for signal <rx_control_data<39>>.
+    Found 1-bit register for signal <rx_control_data<38>>.
+    Found 1-bit register for signal <rx_control_data<37>>.
+    Found 1-bit register for signal <rx_control_data<36>>.
+    Found 1-bit register for signal <rx_control_data<35>>.
+    Found 1-bit register for signal <rx_control_data<34>>.
+    Found 1-bit register for signal <rx_control_data<33>>.
+    Found 1-bit register for signal <rx_control_data<32>>.
+    Found 1-bit register for signal <rx_control_data<31>>.
+    Found 1-bit register for signal <rx_control_data<30>>.
+    Found 1-bit register for signal <rx_control_data<29>>.
+    Found 1-bit register for signal <rx_control_data<28>>.
+    Found 1-bit register for signal <rx_control_data<27>>.
+    Found 1-bit register for signal <rx_control_data<26>>.
+    Found 1-bit register for signal <rx_control_data<25>>.
+    Found 1-bit register for signal <rx_control_data<24>>.
+    Found 1-bit register for signal <rx_control_data<23>>.
+    Found 1-bit register for signal <rx_control_data<22>>.
+    Found 1-bit register for signal <rx_control_data<21>>.
+    Found 1-bit register for signal <rx_control_data<20>>.
+    Found 1-bit register for signal <rx_control_data<19>>.
+    Found 1-bit register for signal <rx_control_data<18>>.
+    Found 1-bit register for signal <rx_control_data<17>>.
+    Found 1-bit register for signal <rx_control_data<16>>.
+    Found 1-bit register for signal <rx_control_data<15>>.
+    Found 1-bit register for signal <rx_control_data<14>>.
+    Found 1-bit register for signal <rx_control_data<13>>.
+    Found 1-bit register for signal <rx_control_data<12>>.
+    Found 1-bit register for signal <rx_control_data<11>>.
+    Found 1-bit register for signal <rx_control_data<10>>.
+    Found 1-bit register for signal <rx_control_data<9>>.
+    Found 1-bit register for signal <rx_control_data<8>>.
+    Found 1-bit register for signal <rx_control_data<7>>.
+    Found 1-bit register for signal <rx_control_data<6>>.
+    Found 1-bit register for signal <rx_control_data<5>>.
+    Found 1-bit register for signal <rx_control_data<4>>.
+    Found 1-bit register for signal <rx_control_data<3>>.
+    Found 1-bit register for signal <rx_control_data<2>>.
+    Found 1-bit register for signal <rx_control_data<1>>.
+    Found 1-bit register for signal <rx_control_data<0>>.
+    Found 3-bit register for signal <rx_state>.
+    Found 1-bit register for signal <application_frame>.
+    Found 1-bit register for signal <cpu_frame>.
+    Found 8-bit register for signal <cpu_addr>.
+    Found 1-bit register for signal <cpu_buffer_sel_reg>.
+    Found 1-bit register for signal <frame_bypass>.
+    Found 1-bit register for signal <cpu_state>.
+    Found 1-bit register for signal <cpu_ackR>.
+    Found 1-bit register for signal <cpu_ackRR>.
+    Found 8-bit register for signal <cpu_size>.
+    Found 8-bit register for signal <cpu_sizeR>.
+    Found 8-bit register for signal <cpu_sizeRR>.
+    Found 1-bit register for signal <overrun_ackR>.
+    Found 1-bit register for signal <overrun_ackRR>.
+    Found 2-bit register for signal <app_state>.
+    Found 1-bit register for signal <first_word>.
+    Found 1-bit register for signal <overrunR>.
+    Found 1-bit register for signal <overrunRR>.
+    Found 1-bit register for signal <app_overrun_ack>.
+    Found 1-bit register for signal <local_enableR>.
+    Found 1-bit register for signal <local_enableRR>.
+    Found 64-bit register for signal <mac_rx_data_z>.
+    Found finite state machine <FSM_4> for signal <rx_state>.
+    -----------------------------------------------------------------------
+    | States             | 7                                              |
+    | Transitions        | 19                                             |
+    | Inputs             | 12                                             |
+    | Outputs            | 5                                              |
+    | Clock              | mac_clk (rising_edge)                          |
+    | Reset              | mac_rst (positive)                             |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 000                                            |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_5> for signal <app_state>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 9                                              |
+    | Inputs             | 5                                              |
+    | Outputs            | 4                                              |
+    | Clock              | mac_clk (rising_edge)                          |
+    | Reset              | mac_rst (positive)                             |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 00                                             |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 8-bit adder for signal <cpu_addr[7]_GND_16_o_add_47_OUT> created at line 331.
+    Found 32-bit comparator equal for signal <n0012> created at line 119
+    Found 32-bit comparator equal for signal <n0014> created at line 119
+    Found 32-bit comparator equal for signal <n0019> created at line 119
+    Found 48-bit comparator equal for signal <n0024> created at line 143
+    Found 16-bit comparator equal for signal <n0042> created at line 199
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred 283 D-type flip-flop(s).
+	inferred   5 Comparator(s).
+	inferred   7 Multiplexer(s).
+	inferred   2 Finite State Machine(s).
+Unit <tge_rx> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 22
+ 16-bit adder                                          : 4
+ 16-bit subtractor                                     : 2
+ 17-bit adder                                          : 2
+ 18-bit adder                                          : 5
+ 26-bit subtractor                                     : 3
+ 32-bit subtractor                                     : 4
+ 8-bit adder                                           : 2
+# Registers                                            : 220
+ 1-bit register                                        : 174
+ 16-bit register                                       : 8
+ 17-bit register                                       : 1
+ 18-bit register                                       : 1
+ 26-bit register                                       : 3
+ 3-bit register                                        : 1
+ 32-bit register                                       : 6
+ 4-bit register                                        : 3
+ 48-bit register                                       : 2
+ 5-bit register                                        : 1
+ 64-bit register                                       : 7
+ 8-bit register                                        : 13
+# Comparators                                          : 15
+ 16-bit comparator equal                               : 1
+ 32-bit comparator equal                               : 4
+ 32-bit comparator lessequal                           : 9
+ 48-bit comparator equal                               : 1
+# Multiplexers                                         : 396
+ 1-bit 2-to-1 multiplexer                              : 352
+ 16-bit 2-to-1 multiplexer                             : 7
+ 32-bit 16-to-1 multiplexer                            : 1
+ 32-bit 2-to-1 multiplexer                             : 11
+ 4-bit 2-to-1 multiplexer                              : 2
+ 48-bit 2-to-1 multiplexer                             : 2
+ 64-bit 12-to-1 multiplexer                            : 1
+ 64-bit 2-to-1 multiplexer                             : 1
+ 64-bit 6-to-1 multiplexer                             : 1
+ 8-bit 2-to-1 multiplexer                              : 18
+# FSMs                                                 : 6
+# Xors                                                 : 259
+ 1-bit xor10                                           : 2
+ 1-bit xor11                                           : 4
+ 1-bit xor12                                           : 6
+ 1-bit xor13                                           : 9
+ 1-bit xor14                                           : 5
+ 1-bit xor15                                           : 2
+ 1-bit xor16                                           : 3
+ 1-bit xor17                                           : 1
+ 1-bit xor2                                            : 193
+ 1-bit xor3                                            : 2
+ 1-bit xor4                                            : 8
+ 1-bit xor5                                            : 17
+ 1-bit xor6                                            : 6
+ 32-bit xor2                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <kat_ten_gb_eth>.
+The following registers are absorbed into counter <rx_stretch>: 1 register on signal <rx_stretch>.
+The following registers are absorbed into counter <down_stretch>: 1 register on signal <down_stretch>.
+The following registers are absorbed into counter <tx_stretch>: 1 register on signal <tx_stretch>.
+Unit <kat_ten_gb_eth> synthesized (advanced).
+
+Synthesizing (advanced) Unit <tge_tx>.
+The following registers are absorbed into counter <mac_cpu_addr_reg>: 1 register on signal <mac_cpu_addr_reg>.
+	The following adders/subtractors are grouped into adder tree <Madd_BUS_0007_GND_11_o_add_85_OUT1> :
+ 	<Madd_n0315[16:0]> in block <tge_tx>, 	<Madd__n0351> in block <tge_tx>, 	<Madd__n0353> in block <tge_tx>.
+Unit <tge_tx> synthesized (advanced).
+WARNING:Xst:2677 - Node <xgmii_rxd0_0> of sequential type is unconnected in block <ten_gig_eth_mac_UCB>.
+WARNING:Xst:2677 - Node <xgmii_rxd0_1> of sequential type is unconnected in block <ten_gig_eth_mac_UCB>.
+WARNING:Xst:2677 - Node <xgmii_rxd0_2> of sequential type is unconnected in block <ten_gig_eth_mac_UCB>.
+WARNING:Xst:2677 - Node <xgmii_rxd0_3> of sequential type is unconnected in block <ten_gig_eth_mac_UCB>.
+WARNING:Xst:2677 - Node <xgmii_rxd0_4> of sequential type is unconnected in block <ten_gig_eth_mac_UCB>.
+WARNING:Xst:2677 - Node <xgmii_rxd0_5> of sequential type is unconnected in block <ten_gig_eth_mac_UCB>.
+WARNING:Xst:2677 - Node <xgmii_rxd0_6> of sequential type is unconnected in block <ten_gig_eth_mac_UCB>.
+WARNING:Xst:2677 - Node <xgmii_rxd0_7> of sequential type is unconnected in block <ten_gig_eth_mac_UCB>.
+WARNING:Xst:2677 - Node <xgmii_rxd0_8> of sequential type is unconnected in block <ten_gig_eth_mac_UCB>.
+WARNING:Xst:2677 - Node <xgmii_rxd0_9> of sequential type is unconnected in block <ten_gig_eth_mac_UCB>.
+WARNING:Xst:2677 - Node <xgmii_rxd0_10> of sequential type is unconnected in block <ten_gig_eth_mac_UCB>.
+WARNING:Xst:2677 - Node <xgmii_rxd0_11> of sequential type is unconnected in block <ten_gig_eth_mac_UCB>.
+WARNING:Xst:2677 - Node <xgmii_rxd0_12> of sequential type is unconnected in block <ten_gig_eth_mac_UCB>.
+WARNING:Xst:2677 - Node <xgmii_rxd0_13> of sequential type is unconnected in block <ten_gig_eth_mac_UCB>.
+WARNING:Xst:2677 - Node <xgmii_rxd0_14> of sequential type is unconnected in block <ten_gig_eth_mac_UCB>.
+WARNING:Xst:2677 - Node <xgmii_rxd0_15> of sequential type is unconnected in block <ten_gig_eth_mac_UCB>.
+WARNING:Xst:2677 - Node <xgmii_rxd0_16> of sequential type is unconnected in block <ten_gig_eth_mac_UCB>.
+WARNING:Xst:2677 - Node <xgmii_rxd0_17> of sequential type is unconnected in block <ten_gig_eth_mac_UCB>.
+WARNING:Xst:2677 - Node <xgmii_rxd0_18> of sequential type is unconnected in block <ten_gig_eth_mac_UCB>.
+WARNING:Xst:2677 - Node <xgmii_rxd0_19> of sequential type is unconnected in block <ten_gig_eth_mac_UCB>.
+WARNING:Xst:2677 - Node <xgmii_rxd0_20> of sequential type is unconnected in block <ten_gig_eth_mac_UCB>.
+WARNING:Xst:2677 - Node <xgmii_rxd0_21> of sequential type is unconnected in block <ten_gig_eth_mac_UCB>.
+WARNING:Xst:2677 - Node <xgmii_rxd0_22> of sequential type is unconnected in block <ten_gig_eth_mac_UCB>.
+WARNING:Xst:2677 - Node <xgmii_rxd0_23> of sequential type is unconnected in block <ten_gig_eth_mac_UCB>.
+WARNING:Xst:2677 - Node <xgmii_rxd0_24> of sequential type is unconnected in block <ten_gig_eth_mac_UCB>.
+WARNING:Xst:2677 - Node <xgmii_rxd0_25> of sequential type is unconnected in block <ten_gig_eth_mac_UCB>.
+WARNING:Xst:2677 - Node <xgmii_rxd0_26> of sequential type is unconnected in block <ten_gig_eth_mac_UCB>.
+WARNING:Xst:2677 - Node <xgmii_rxd0_27> of sequential type is unconnected in block <ten_gig_eth_mac_UCB>.
+WARNING:Xst:2677 - Node <xgmii_rxd0_28> of sequential type is unconnected in block <ten_gig_eth_mac_UCB>.
+WARNING:Xst:2677 - Node <xgmii_rxd0_29> of sequential type is unconnected in block <ten_gig_eth_mac_UCB>.
+WARNING:Xst:2677 - Node <xgmii_rxd0_30> of sequential type is unconnected in block <ten_gig_eth_mac_UCB>.
+WARNING:Xst:2677 - Node <xgmii_rxd0_31> of sequential type is unconnected in block <ten_gig_eth_mac_UCB>.
+WARNING:Xst:2677 - Node <xgmii_rxc0_0> of sequential type is unconnected in block <ten_gig_eth_mac_UCB>.
+WARNING:Xst:2677 - Node <xgmii_rxc0_1> of sequential type is unconnected in block <ten_gig_eth_mac_UCB>.
+WARNING:Xst:2677 - Node <xgmii_rxc0_2> of sequential type is unconnected in block <ten_gig_eth_mac_UCB>.
+WARNING:Xst:2677 - Node <xgmii_rxc0_3> of sequential type is unconnected in block <ten_gig_eth_mac_UCB>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 13
+ 11-bit subtractor                                     : 3
+ 16-bit adder                                          : 4
+ 16-bit subtractor                                     : 2
+ 17-bit adder                                          : 1
+ 18-bit adder                                          : 1
+ 32-bit subtractor                                     : 1
+ 8-bit adder                                           : 1
+# Adder Trees                                          : 1
+ 18-bit / 5-inputs adder tree                          : 1
+# Counters                                             : 4
+ 26-bit down counter                                   : 3
+ 8-bit up counter                                      : 1
+# Registers                                            : 1153
+ Flip-Flops                                            : 1153
+# Comparators                                          : 15
+ 16-bit comparator equal                               : 1
+ 32-bit comparator equal                               : 4
+ 32-bit comparator lessequal                           : 9
+ 48-bit comparator equal                               : 1
+# Multiplexers                                         : 401
+ 1-bit 2-to-1 multiplexer                              : 359
+ 16-bit 2-to-1 multiplexer                             : 7
+ 32-bit 16-to-1 multiplexer                            : 1
+ 32-bit 2-to-1 multiplexer                             : 11
+ 4-bit 2-to-1 multiplexer                              : 2
+ 48-bit 2-to-1 multiplexer                             : 2
+ 64-bit 12-to-1 multiplexer                            : 1
+ 64-bit 2-to-1 multiplexer                             : 1
+ 64-bit 6-to-1 multiplexer                             : 1
+ 8-bit 2-to-1 multiplexer                              : 16
+# FSMs                                                 : 6
+# Xors                                                 : 259
+ 1-bit xor10                                           : 2
+ 1-bit xor11                                           : 4
+ 1-bit xor12                                           : 6
+ 1-bit xor13                                           : 9
+ 1-bit xor14                                           : 5
+ 1-bit xor15                                           : 2
+ 1-bit xor16                                           : 3
+ 1-bit xor17                                           : 1
+ 1-bit xor2                                            : 193
+ 1-bit xor3                                            : 2
+ 1-bit xor4                                            : 8
+ 1-bit xor5                                            : 17
+ 1-bit xor6                                            : 6
+ 32-bit xor2                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <roach2_tut_tge_gbe1/FSM_0> on signal <swr_state[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 10
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <roach2_tut_tge_gbe1/tge_tx_inst/FSM_3> on signal <tx_state[1:4]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 0000  | 0000
+ 0001  | 0001
+ 0010  | 0010
+ 1010  | 1010
+ 0011  | 0011
+ 0100  | 0100
+ 0101  | 0101
+ 0110  | 0110
+ 0111  | 0111
+ 1000  | 1000
+ 1001  | 1001
+ 1011  | 1011
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <roach2_tut_tge_gbe1/ten_gig_eth_mac_inst/FSM_1> on signal <tx_state[1:3]> with user encoding.
+----------------------------------
+ State                | Encoding
+----------------------------------
+ idle                 | 000
+ interframe           | 001
+ send_preamble        | 010
+ send_data            | 011
+ send_end_aligned     | 100
+ send_end_non_aligned | 101
+ send_corrupted_crc   | 110
+----------------------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <roach2_tut_tge_gbe1/ten_gig_eth_mac_inst/FSM_2> on signal <rx_state[1:1]> with sequential encoding.
+--------------------------
+ State        | Encoding
+--------------------------
+ idle         | 0
+ wait_one     | unreached
+ receive_data | 1
+--------------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <roach2_tut_tge_gbe1/tge_rx_inst/FSM_4> on signal <rx_state[1:3]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 000   | 000
+ 001   | 001
+ 110   | 110
+ 010   | 010
+ 011   | 011
+ 100   | 100
+ 101   | 101
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <roach2_tut_tge_gbe1/tge_rx_inst/FSM_5> on signal <app_state[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 10    | 10
+ 11    | 11
+-------------------
+WARNING:Xst:1710 - FF/Latch <ip_length_0> (without init value) has a constant value of 0 in block <tge_tx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ip_length_1> (without init value) has a constant value of 0 in block <tge_tx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <udp_length_0> (without init value) has a constant value of 0 in block <tge_tx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <udp_length_1> (without init value) has a constant value of 0 in block <tge_tx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <udp_length_2> (without init value) has a constant value of 0 in block <tge_tx>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <mac_data_valid_2> in Unit <tge_tx> is equivalent to the following 5 FFs/Latches, which will be removed : <mac_data_valid_3> <mac_data_valid_4> <mac_data_valid_5> <mac_data_valid_6> <mac_data_valid_7> 
+INFO:Xst:2261 - The FF/Latch <mac_data_valid_0> in Unit <tge_tx> is equivalent to the following FF/Latch, which will be removed : <mac_data_valid_1> 
+INFO:Xst:2261 - The FF/Latch <rx_enable_4> in Unit <ten_gig_eth_mac_UCB> is equivalent to the following 3 FFs/Latches, which will be removed : <rx_enable_5> <rx_enable_6> <rx_enable_7> 
+
+Optimizing unit <system_roach2_tut_tge_gbe1_wrapper> ...
+
+Optimizing unit <kat_ten_gb_eth> ...
+
+Optimizing unit <tge_tx> ...
+
+Optimizing unit <opb_attach> ...
+
+Optimizing unit <ten_gig_eth_mac_UCB> ...
+
+Optimizing unit <tge_rx> ...
+WARNING:Xst:1710 - FF/Latch <roach2_tut_tge_gbe1/tge_rx_inst/mac_rx_bad_frame_z> (without init value) has a constant value of 0 in block <system_roach2_tut_tge_gbe1_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <roach2_tut_tge_gbe1/tge_rx_inst/mac_rx_bad_frameR> (without init value) has a constant value of 0 in block <system_roach2_tut_tge_gbe1_wrapper>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <roach2_tut_tge_gbe1/rx_trig> in Unit <system_roach2_tut_tge_gbe1_wrapper> is equivalent to the following FF/Latch, which will be removed : <roach2_tut_tge_gbe1/tge_rx_inst/mac_rx_good_frame_z> 
+INFO:Xst:2261 - The FF/Latch <roach2_tut_tge_gbe1/tge_tx_inst/local_enable_R> in Unit <system_roach2_tut_tge_gbe1_wrapper> is equivalent to the following FF/Latch, which will be removed : <roach2_tut_tge_gbe1/tge_rx_inst/local_enableR> 
+INFO:Xst:2261 - The FF/Latch <roach2_tut_tge_gbe1/tge_tx_inst/local_enable_retimed> in Unit <system_roach2_tut_tge_gbe1_wrapper> is equivalent to the following FF/Latch, which will be removed : <roach2_tut_tge_gbe1/tge_rx_inst/local_enableRR> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 0) on block system_roach2_tut_tge_gbe1_wrapper, actual ratio is 0.
+
+Final Macro Processing ...
+
+Processing Unit <system_roach2_tut_tge_gbe1_wrapper> :
+	Found 2-bit shift register for signal <roach2_tut_tge_gbe1/mac_resetRR>.
+	Found 2-bit shift register for signal <roach2_tut_tge_gbe1/mac_reset_ackRR>.
+	Found 2-bit shift register for signal <roach2_tut_tge_gbe1/tge_tx_inst/mac_cpu_ackRR>.
+	Found 2-bit shift register for signal <roach2_tut_tge_gbe1/tge_tx_inst/mac_pendingRR>.
+Unit <system_roach2_tut_tge_gbe1_wrapper> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 1227
+ Flip-Flops                                            : 1227
+# Shift Registers                                      : 4
+ 2-bit shift register                                  : 4
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : system_roach2_tut_tge_gbe1_wrapper.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 2578
+#      GND                         : 1
+#      INV                         : 150
+#      LUT1                        : 79
+#      LUT2                        : 173
+#      LUT3                        : 287
+#      LUT4                        : 266
+#      LUT5                        : 350
+#      LUT6                        : 617
+#      MUXCY                       : 364
+#      MUXF7                       : 11
+#      VCC                         : 1
+#      XORCY                       : 279
+# FlipFlops/Latches                : 1231
+#      FD                          : 403
+#      FDE                         : 421
+#      FDR                         : 189
+#      FDRE                        : 148
+#      FDS                         : 3
+#      FDSE                        : 67
+# Shift Registers                  : 4
+#      SRLC16E                     : 4
+# Others                           : 8
+#      arp_cache                   : 1
+#      cpu_buffer                  : 2
+#      rx_packet_ctrl_fifo         : 2
+#      rx_packet_fifo_bram         : 1
+#      tx_packet_ctrl_fifo         : 1
+#      tx_packet_fifo              : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6vsx475tff1759-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:            1231  out of  595200     0%  
+ Number of Slice LUTs:                 1926  out of  297600     0%  
+    Number used as Logic:              1922  out of  297600     0%  
+    Number used as Memory:                4  out of  122240     0%  
+       Number used as SRL:                4
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   2267
+   Number with an unused Flip Flop:    1036  out of   2267    45%  
+   Number with an unused LUT:           341  out of   2267    15%  
+   Number of fully used LUT-FF pairs:   890  out of   2267    39%  
+   Number of unique control sets:        33
+
+IO Utilization: 
+ Number of IOs:                         566
+ Number of bonded IOBs:                   0  out of    840     0%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+---------------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                       | Load  |
+-----------------------------------+---------------------------------------------+-------+
+OPB_Clk                            | NONE(roach2_tut_tge_gbe1/swr_state_FSM_FFd2)| 336   |
+clk                                | NONE(roach2_tut_tge_gbe1/led_tx_reg)        | 138   |
+xaui_clk                           | NONE(roach2_tut_tge_gbe1/tx_trig)           | 761   |
+-----------------------------------+---------------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 4.214ns (Maximum Frequency: 237.332MHz)
+   Minimum input arrival time before clock: 4.776ns
+   Maximum output required time after clock: 4.313ns
+   Maximum combinational path delay: 2.819ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'OPB_Clk'
+  Clock period: 3.368ns (frequency: 296.934MHz)
+  Total number of paths / destination ports: 1028 / 551
+-------------------------------------------------------------------------
+Delay:               3.368ns (Levels of Logic = 4)
+  Source:            roach2_tut_tge_gbe1/opb_attach_inst/opb_ack (FF)
+  Destination:       roach2_tut_tge_gbe1/opb_attach_inst/cpu_tx_size_reg_7 (FF)
+  Source Clock:      OPB_Clk rising
+  Destination Clock: OPB_Clk rising
+
+  Data Path: roach2_tut_tge_gbe1/opb_attach_inst/opb_ack to roach2_tut_tge_gbe1/opb_attach_inst/cpu_tx_size_reg_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             33   0.375   0.570  roach2_tut_tge_gbe1/opb_attach_inst/opb_ack (roach2_tut_tge_gbe1/opb_attach_inst/opb_ack)
+     LUT5:I4->O            9   0.068   0.470  roach2_tut_tge_gbe1/opb_attach_inst/opb_trans4 (roach2_tut_tge_gbe1/opb_attach_inst/opb_trans)
+     LUT4:I3->O           13   0.068   0.497  roach2_tut_tge_gbe1/opb_attach_inst/_n1041<0>12 (roach2_tut_tge_gbe1/opb_attach_inst/_n1041<0>1)
+     LUT6:I5->O           10   0.068   0.476  roach2_tut_tge_gbe1/opb_attach_inst/Mmux_cpu_tx_size_reg[7]_cpu_tx_size_reg[7]_mux_92_OUT111 (roach2_tut_tge_gbe1/opb_attach_inst/Mmux_cpu_tx_size_reg[7]_cpu_tx_size_reg[7]_mux_92_OUT11)
+     LUT4:I3->O            8   0.068   0.445  roach2_tut_tge_gbe1/opb_attach_inst/_n1642_inv1 (roach2_tut_tge_gbe1/opb_attach_inst/_n1642_inv)
+     FDRE:CE                   0.263          roach2_tut_tge_gbe1/opb_attach_inst/cpu_tx_size_reg_0
+    ----------------------------------------
+    Total                      3.368ns (0.910ns logic, 2.458ns route)
+                                       (27.0% logic, 73.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'xaui_clk'
+  Clock period: 4.214ns (frequency: 237.332MHz)
+  Total number of paths / destination ports: 37034 / 811
+-------------------------------------------------------------------------
+Delay:               4.214ns (Levels of Logic = 21)
+  Source:            roach2_tut_tge_gbe1/tge_tx_inst/ip_length_2 (FF)
+  Destination:       roach2_tut_tge_gbe1/tge_tx_inst/ip_checksum_0_17 (FF)
+  Source Clock:      xaui_clk rising
+  Destination Clock: xaui_clk rising
+
+  Data Path: roach2_tut_tge_gbe1/tge_tx_inst/ip_length_2 to roach2_tut_tge_gbe1/tge_tx_inst/ip_checksum_0_17
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.375   0.423  roach2_tut_tge_gbe1/tge_tx_inst/ip_length_2 (roach2_tut_tge_gbe1/tge_tx_inst/ip_length_2)
+     LUT2:I1->O            1   0.068   0.000  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd_lut<2> (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd_lut<2>)
+     MUXCY:S->O            1   0.290   0.000  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd_cy<2> (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd_cy<2>)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd_cy<3> (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd_cy<3>)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd_cy<4> (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd_cy<4>)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd_cy<5> (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd_cy<5>)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd_cy<6> (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd_cy<6>)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd_cy<7> (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd_cy<7>)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd_cy<8> (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd_cy<8>)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd_cy<9> (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd_cy<9>)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd_cy<10> (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd_cy<10>)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd_cy<11> (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd_cy<11>)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd_cy<12> (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd_cy<12>)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd_cy<13> (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd_cy<13>)
+     XORCY:CI->O           1   0.239   0.417  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd_xor<14> (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd_14)
+     LUT2:I1->O            1   0.068   0.000  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd1_lut<14> (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd1_lut<14>)
+     MUXCY:S->O            1   0.290   0.000  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd1_cy<14> (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd1_cy<14>)
+     XORCY:CI->O           2   0.239   0.497  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd1_xor<15> (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd_151)
+     LUT2:I0->O            1   0.068   0.417  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd415 (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd415)
+     LUT3:I2->O            1   0.068   0.000  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd4_lut<0>16 (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd4_lut<0>16)
+     MUXCY:S->O            0   0.290   0.000  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd4_cy<0>_15 (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd4_cy<0>16)
+     XORCY:CI->O           1   0.239   0.000  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd4_xor<0>_16 (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd_174)
+     FDR:D                     0.011          roach2_tut_tge_gbe1/tge_tx_inst/ip_checksum_0_17
+    ----------------------------------------
+    Total                      4.214ns (2.460ns logic, 1.754ns route)
+                                       (58.4% logic, 41.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 2.158ns (frequency: 463.392MHz)
+  Total number of paths / destination ports: 223 / 37
+-------------------------------------------------------------------------
+Delay:               2.158ns (Levels of Logic = 18)
+  Source:            roach2_tut_tge_gbe1/tge_tx_inst/data_count_0 (FF)
+  Destination:       roach2_tut_tge_gbe1/tge_tx_inst/data_count_15 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: roach2_tut_tge_gbe1/tge_tx_inst/data_count_0 to roach2_tut_tge_gbe1/tge_tx_inst/data_count_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              1   0.375   0.399  roach2_tut_tge_gbe1/tge_tx_inst/data_count_0 (roach2_tut_tge_gbe1/tge_tx_inst/data_count_0)
+     INV:I->O              1   0.086   0.000  roach2_tut_tge_gbe1/tge_tx_inst/Madd_data_count[15]_GND_11_o_add_5_OUT_lut<0>_INV_0 (roach2_tut_tge_gbe1/tge_tx_inst/Madd_data_count[15]_GND_11_o_add_5_OUT_lut<0>)
+     MUXCY:S->O            1   0.290   0.000  roach2_tut_tge_gbe1/tge_tx_inst/Madd_data_count[15]_GND_11_o_add_5_OUT_cy<0> (roach2_tut_tge_gbe1/tge_tx_inst/Madd_data_count[15]_GND_11_o_add_5_OUT_cy<0>)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/Madd_data_count[15]_GND_11_o_add_5_OUT_cy<1> (roach2_tut_tge_gbe1/tge_tx_inst/Madd_data_count[15]_GND_11_o_add_5_OUT_cy<1>)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/Madd_data_count[15]_GND_11_o_add_5_OUT_cy<2> (roach2_tut_tge_gbe1/tge_tx_inst/Madd_data_count[15]_GND_11_o_add_5_OUT_cy<2>)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/Madd_data_count[15]_GND_11_o_add_5_OUT_cy<3> (roach2_tut_tge_gbe1/tge_tx_inst/Madd_data_count[15]_GND_11_o_add_5_OUT_cy<3>)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/Madd_data_count[15]_GND_11_o_add_5_OUT_cy<4> (roach2_tut_tge_gbe1/tge_tx_inst/Madd_data_count[15]_GND_11_o_add_5_OUT_cy<4>)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/Madd_data_count[15]_GND_11_o_add_5_OUT_cy<5> (roach2_tut_tge_gbe1/tge_tx_inst/Madd_data_count[15]_GND_11_o_add_5_OUT_cy<5>)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/Madd_data_count[15]_GND_11_o_add_5_OUT_cy<6> (roach2_tut_tge_gbe1/tge_tx_inst/Madd_data_count[15]_GND_11_o_add_5_OUT_cy<6>)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/Madd_data_count[15]_GND_11_o_add_5_OUT_cy<7> (roach2_tut_tge_gbe1/tge_tx_inst/Madd_data_count[15]_GND_11_o_add_5_OUT_cy<7>)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/Madd_data_count[15]_GND_11_o_add_5_OUT_cy<8> (roach2_tut_tge_gbe1/tge_tx_inst/Madd_data_count[15]_GND_11_o_add_5_OUT_cy<8>)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/Madd_data_count[15]_GND_11_o_add_5_OUT_cy<9> (roach2_tut_tge_gbe1/tge_tx_inst/Madd_data_count[15]_GND_11_o_add_5_OUT_cy<9>)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/Madd_data_count[15]_GND_11_o_add_5_OUT_cy<10> (roach2_tut_tge_gbe1/tge_tx_inst/Madd_data_count[15]_GND_11_o_add_5_OUT_cy<10>)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/Madd_data_count[15]_GND_11_o_add_5_OUT_cy<11> (roach2_tut_tge_gbe1/tge_tx_inst/Madd_data_count[15]_GND_11_o_add_5_OUT_cy<11>)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/Madd_data_count[15]_GND_11_o_add_5_OUT_cy<12> (roach2_tut_tge_gbe1/tge_tx_inst/Madd_data_count[15]_GND_11_o_add_5_OUT_cy<12>)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/Madd_data_count[15]_GND_11_o_add_5_OUT_cy<13> (roach2_tut_tge_gbe1/tge_tx_inst/Madd_data_count[15]_GND_11_o_add_5_OUT_cy<13>)
+     MUXCY:CI->O           0   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/Madd_data_count[15]_GND_11_o_add_5_OUT_cy<14> (roach2_tut_tge_gbe1/tge_tx_inst/Madd_data_count[15]_GND_11_o_add_5_OUT_cy<14>)
+     XORCY:CI->O           1   0.239   0.417  roach2_tut_tge_gbe1/tge_tx_inst/Madd_data_count[15]_GND_11_o_add_5_OUT_xor<15> (roach2_tut_tge_gbe1/tge_tx_inst/data_count[15]_GND_11_o_add_5_OUT<15>)
+     LUT3:I2->O            1   0.068   0.000  roach2_tut_tge_gbe1/tge_tx_inst/Mmux_data_count[15]_GND_11_o_mux_8_OUT71 (roach2_tut_tge_gbe1/tge_tx_inst/data_count[15]_GND_11_o_mux_8_OUT<15>)
+     FDE:D                     0.011          roach2_tut_tge_gbe1/tge_tx_inst/data_count_15
+    ----------------------------------------
+    Total                      2.158ns (1.342ns logic, 0.816ns route)
+                                       (62.2% logic, 37.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'OPB_Clk'
+  Total number of paths / destination ports: 111459 / 700
+-------------------------------------------------------------------------
+Offset:              4.776ns (Levels of Logic = 13)
+  Source:            OPB_ABus<17> (PAD)
+  Destination:       roach2_tut_tge_gbe1/opb_attach_inst/write_data_0 (FF)
+  Destination Clock: OPB_Clk rising
+
+  Data Path: OPB_ABus<17> to roach2_tut_tge_gbe1/opb_attach_inst/write_data_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LUT1:I0->O            1   0.068   0.000  roach2_tut_tge_gbe1/opb_attach_inst/Msub_reg_addr_cy<14>_rt (roach2_tut_tge_gbe1/opb_attach_inst/Msub_reg_addr_cy<14>_rt)
+     MUXCY:S->O            1   0.290   0.000  roach2_tut_tge_gbe1/opb_attach_inst/Msub_reg_addr_cy<14> (roach2_tut_tge_gbe1/opb_attach_inst/Msub_reg_addr_cy<14>)
+     MUXCY:CI->O           1   0.019   0.000  roach2_tut_tge_gbe1/opb_attach_inst/Msub_reg_addr_cy<15> (roach2_tut_tge_gbe1/opb_attach_inst/Msub_reg_addr_cy<15>)
+     MUXCY:CI->O           1   0.019   0.000  roach2_tut_tge_gbe1/opb_attach_inst/Msub_reg_addr_cy<16> (roach2_tut_tge_gbe1/opb_attach_inst/Msub_reg_addr_cy<16>)
+     MUXCY:CI->O           1   0.019   0.000  roach2_tut_tge_gbe1/opb_attach_inst/Msub_reg_addr_cy<17> (roach2_tut_tge_gbe1/opb_attach_inst/Msub_reg_addr_cy<17>)
+     MUXCY:CI->O           1   0.019   0.000  roach2_tut_tge_gbe1/opb_attach_inst/Msub_reg_addr_cy<18> (roach2_tut_tge_gbe1/opb_attach_inst/Msub_reg_addr_cy<18>)
+     MUXCY:CI->O           1   0.019   0.000  roach2_tut_tge_gbe1/opb_attach_inst/Msub_reg_addr_cy<19> (roach2_tut_tge_gbe1/opb_attach_inst/Msub_reg_addr_cy<19>)
+     XORCY:CI->O           5   0.239   0.665  roach2_tut_tge_gbe1/opb_attach_inst/Msub_reg_addr_xor<20> (roach2_tut_tge_gbe1/opb_attach_inst/reg_addr<20>)
+     LUT4:I0->O            1   0.068   0.417  roach2_tut_tge_gbe1/opb_attach_inst/arp_sel211 (roach2_tut_tge_gbe1/opb_attach_inst/arp_sel211)
+     LUT5:I4->O            1   0.068   0.778  roach2_tut_tge_gbe1/opb_attach_inst/arp_sel212 (roach2_tut_tge_gbe1/opb_attach_inst/arp_sel212)
+     LUT6:I0->O            4   0.068   0.601  roach2_tut_tge_gbe1/opb_attach_inst/arp_sel214 (roach2_tut_tge_gbe1/opb_attach_inst/arp_sel21)
+     LUT5:I2->O            5   0.068   0.444  roach2_tut_tge_gbe1/opb_attach_inst/txbuf_sel2 (roach2_tut_tge_gbe1/opb_attach_inst/txbuf_sel)
+     LUT4:I3->O           48   0.068   0.555  roach2_tut_tge_gbe1/opb_attach_inst/_n1240_inv1 (roach2_tut_tge_gbe1/opb_attach_inst/_n1240_inv)
+     FDE:CE                    0.263          roach2_tut_tge_gbe1/opb_attach_inst/write_data_47
+    ----------------------------------------
+    Total                      4.776ns (1.316ns logic, 3.460ns route)
+                                       (27.5% logic, 72.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'xaui_clk'
+  Total number of paths / destination ports: 11816 / 799
+-------------------------------------------------------------------------
+Offset:              3.296ns (Levels of Logic = 21)
+  Source:            roach2_tut_tge_gbe1/tge_tx_inst/tx_packet_ctrl_fifo_inst:dout<16> (PAD)
+  Destination:       roach2_tut_tge_gbe1/tge_tx_inst/ip_checksum_0_17 (FF)
+  Destination Clock: xaui_clk rising
+
+  Data Path: roach2_tut_tge_gbe1/tge_tx_inst/tx_packet_ctrl_fifo_inst:dout<16> to roach2_tut_tge_gbe1/tge_tx_inst/ip_checksum_0_17
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    tx_packet_ctrl_fifo:dout<16>    5   0.000   0.444  roach2_tut_tge_gbe1/tge_tx_inst/tx_packet_ctrl_fifo_inst (roach2_tut_tge_gbe1/tge_tx_inst/ctrl_fifo_data<16>)
+     LUT2:I1->O            1   0.068   0.417  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd2 (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd2)
+     LUT3:I2->O            1   0.068   0.000  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd2_lut<0>1 (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd2_lut<0>1)
+     MUXCY:S->O            1   0.290   0.000  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd2_cy<0>_0 (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd2_cy<0>1)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd2_cy<0>_1 (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd2_cy<0>2)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd2_cy<0>_2 (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd2_cy<0>3)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd2_cy<0>_3 (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd2_cy<0>4)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd2_cy<0>_4 (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd2_cy<0>5)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd2_cy<0>_5 (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd2_cy<0>6)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd2_cy<0>_6 (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd2_cy<0>7)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd2_cy<0>_7 (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd2_cy<0>8)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd2_cy<0>_8 (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd2_cy<0>9)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd2_cy<0>_9 (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd2_cy<0>10)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd2_cy<0>_10 (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd2_cy<0>11)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd2_cy<0>_11 (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd2_cy<0>12)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd2_cy<0>_12 (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd2_cy<0>13)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd2_cy<0>_13 (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd2_cy<0>14)
+     XORCY:CI->O           2   0.239   0.423  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd2_xor<0>_14 (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd_152)
+     LUT2:I1->O            1   0.068   0.417  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd415 (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd415)
+     LUT3:I2->O            1   0.068   0.000  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd4_lut<0>16 (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd4_lut<0>16)
+     MUXCY:S->O            0   0.290   0.000  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd4_cy<0>_15 (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd4_cy<0>16)
+     XORCY:CI->O           1   0.239   0.000  roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd4_xor<0>_16 (roach2_tut_tge_gbe1/tge_tx_inst/ADDERTREE_INTERNAL_Madd_174)
+     FDR:D                     0.011          roach2_tut_tge_gbe1/tge_tx_inst/ip_checksum_0_17
+    ----------------------------------------
+    Total                      3.296ns (1.595ns logic, 1.701ns route)
+                                       (48.4% logic, 51.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 119 / 117
+-------------------------------------------------------------------------
+Offset:              0.570ns (Levels of Logic = 1)
+  Source:            roach2_tut_tge_gbe1/tge_tx_inst/tx_packet_fifo_inst:overflow (PAD)
+  Destination:       roach2_tut_tge_gbe1/tge_tx_inst/tx_overflow_latch (FF)
+  Destination Clock: clk rising
+
+  Data Path: roach2_tut_tge_gbe1/tge_tx_inst/tx_packet_fifo_inst:overflow to roach2_tut_tge_gbe1/tge_tx_inst/tx_overflow_latch
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    tx_packet_fifo:overflow    1   0.000   0.491  roach2_tut_tge_gbe1/tge_tx_inst/tx_packet_fifo_inst (roach2_tut_tge_gbe1/tge_tx_inst/packet_data_overflow)
+     LUT3:I1->O            1   0.068   0.000  roach2_tut_tge_gbe1/tge_tx_inst/tx_overflow_latch_glue_set (roach2_tut_tge_gbe1/tge_tx_inst/tx_overflow_latch_glue_set)
+     FDR:D                     0.011          roach2_tut_tge_gbe1/tge_tx_inst/tx_overflow_latch
+    ----------------------------------------
+    Total                      0.570ns (0.079ns logic, 0.491ns route)
+                                       (13.9% logic, 86.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'xaui_clk'
+  Total number of paths / destination ports: 1109 / 321
+-------------------------------------------------------------------------
+Offset:              2.941ns (Levels of Logic = 4)
+  Source:            roach2_tut_tge_gbe1/ten_gig_eth_mac_inst/tx_crc_27 (FF)
+  Destination:       xgmii_txd<25> (PAD)
+  Source Clock:      xaui_clk rising
+
+  Data Path: roach2_tut_tge_gbe1/ten_gig_eth_mac_inst/tx_crc_27 to xgmii_txd<25>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              17   0.375   0.597  roach2_tut_tge_gbe1/ten_gig_eth_mac_inst/tx_crc_27 (roach2_tut_tge_gbe1/ten_gig_eth_mac_inst/tx_crc_27)
+     LUT2:I0->O            3   0.068   0.505  roach2_tut_tge_gbe1/ten_gig_eth_mac_inst/Mxor__n1968_xo<0>1 (roach2_tut_tge_gbe1/ten_gig_eth_mac_inst/_n1968)
+     LUT6:I4->O            1   0.068   0.775  roach2_tut_tge_gbe1/ten_gig_eth_mac_inst/Mmux_xgmii_txd181 (roach2_tut_tge_gbe1/ten_gig_eth_mac_inst/Mmux_xgmii_txd18)
+     LUT6:I1->O            1   0.068   0.417  roach2_tut_tge_gbe1/ten_gig_eth_mac_inst/Mmux_xgmii_txd182 (roach2_tut_tge_gbe1/ten_gig_eth_mac_inst/Mmux_xgmii_txd181)
+     LUT5:I4->O            0   0.068   0.000  roach2_tut_tge_gbe1/ten_gig_eth_mac_inst/Mmux_xgmii_txd183 (xgmii_txd<25>)
+    ----------------------------------------
+    Total                      2.941ns (0.647ns logic, 2.294ns route)
+                                       (22.0% logic, 78.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'OPB_Clk'
+  Total number of paths / destination ports: 1348 / 173
+-------------------------------------------------------------------------
+Offset:              4.313ns (Levels of Logic = 6)
+  Source:            roach2_tut_tge_gbe1/opb_attach_inst/opb_data_src_0 (FF)
+  Destination:       Sl_DBus<12> (PAD)
+  Source Clock:      OPB_Clk rising
+
+  Data Path: roach2_tut_tge_gbe1/opb_attach_inst/opb_data_src_0 to Sl_DBus<12>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q            70   0.375   0.742  roach2_tut_tge_gbe1/opb_attach_inst/opb_data_src_0 (roach2_tut_tge_gbe1/opb_attach_inst/opb_data_src_0)
+     LUT3:I0->O            3   0.068   0.595  roach2_tut_tge_gbe1/opb_attach_inst/Mmux_Sl_DBus1812111 (roach2_tut_tge_gbe1/opb_attach_inst/Mmux_Sl_DBus181211)
+     LUT5:I2->O            1   0.068   0.778  roach2_tut_tge_gbe1/opb_attach_inst/Mmux_Sl_DBus221 (roach2_tut_tge_gbe1/opb_attach_inst/Mmux_Sl_DBus22)
+     LUT6:I0->O            1   0.068   0.417  roach2_tut_tge_gbe1/opb_attach_inst/Mmux_Sl_DBus223 (roach2_tut_tge_gbe1/opb_attach_inst/Mmux_Sl_DBus222)
+     LUT5:I4->O            1   0.068   0.417  roach2_tut_tge_gbe1/opb_attach_inst/Mmux_Sl_DBus224 (roach2_tut_tge_gbe1/opb_attach_inst/Mmux_Sl_DBus223)
+     LUT5:I4->O            1   0.068   0.581  roach2_tut_tge_gbe1/opb_attach_inst/Mmux_Sl_DBus225 (roach2_tut_tge_gbe1/opb_attach_inst/Mmux_Sl_DBus224)
+     LUT5:I2->O            0   0.068   0.000  roach2_tut_tge_gbe1/opb_attach_inst/Mmux_Sl_DBus226 (Sl_DBus<12>)
+    ----------------------------------------
+    Total                      4.313ns (0.783ns logic, 3.530ns route)
+                                       (18.2% logic, 81.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 139 / 139
+-------------------------------------------------------------------------
+Offset:              0.899ns (Levels of Logic = 0)
+  Source:            roach2_tut_tge_gbe1/app_rst (FF)
+  Destination:       roach2_tut_tge_gbe1/tge_tx_inst/tx_packet_ctrl_fifo_inst:rst (PAD)
+  Source Clock:      clk rising
+
+  Data Path: roach2_tut_tge_gbe1/app_rst to roach2_tut_tge_gbe1/tge_tx_inst/tx_packet_ctrl_fifo_inst:rst
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              20   0.375   0.524  roach2_tut_tge_gbe1/app_rst (roach2_tut_tge_gbe1/app_rst)
+    tx_packet_fifo:rst         0.000          roach2_tut_tge_gbe1/tge_tx_inst/tx_packet_fifo_inst
+    ----------------------------------------
+    Total                      0.899ns (0.375ns logic, 0.524ns route)
+                                       (41.7% logic, 58.3% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 763 / 250
+-------------------------------------------------------------------------
+Delay:               2.819ns (Levels of Logic = 14)
+  Source:            roach2_tut_tge_gbe1/tge_tx_inst/tx_packet_ctrl_fifo_inst:dout<1> (PAD)
+  Destination:       roach2_tut_tge_gbe1/tge_tx_inst/arp_cache_inst:addrb<7> (PAD)
+
+  Data Path: roach2_tut_tge_gbe1/tge_tx_inst/tx_packet_ctrl_fifo_inst:dout<1> to roach2_tut_tge_gbe1/tge_tx_inst/arp_cache_inst:addrb<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    tx_packet_ctrl_fifo:dout<1>    5   0.000   0.665  roach2_tut_tge_gbe1/tge_tx_inst/tx_packet_ctrl_fifo_inst (roach2_tut_tge_gbe1/tge_tx_inst/ctrl_fifo_data<1>)
+     LUT6:I2->O            1   0.068   0.638  roach2_tut_tge_gbe1/tge_tx_inst/Mcompar_local_ip[31]_packet_ctrl_ip[31]_equal_121_o_lut<0>_SW0 (N103)
+     LUT4:I0->O            1   0.068   0.000  roach2_tut_tge_gbe1/tge_tx_inst/Mcompar_local_ip[31]_packet_ctrl_ip[31]_equal_121_o_lut<0> (roach2_tut_tge_gbe1/tge_tx_inst/Mcompar_local_ip[31]_packet_ctrl_ip[31]_equal_121_o_lut<0>)
+     MUXCY:S->O            1   0.290   0.000  roach2_tut_tge_gbe1/tge_tx_inst/Mcompar_local_ip[31]_packet_ctrl_ip[31]_equal_121_o_cy<0> (roach2_tut_tge_gbe1/tge_tx_inst/Mcompar_local_ip[31]_packet_ctrl_ip[31]_equal_121_o_cy<0>)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/Mcompar_local_ip[31]_packet_ctrl_ip[31]_equal_121_o_cy<1> (roach2_tut_tge_gbe1/tge_tx_inst/Mcompar_local_ip[31]_packet_ctrl_ip[31]_equal_121_o_cy<1>)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/Mcompar_local_ip[31]_packet_ctrl_ip[31]_equal_121_o_cy<2> (roach2_tut_tge_gbe1/tge_tx_inst/Mcompar_local_ip[31]_packet_ctrl_ip[31]_equal_121_o_cy<2>)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/Mcompar_local_ip[31]_packet_ctrl_ip[31]_equal_121_o_cy<3> (roach2_tut_tge_gbe1/tge_tx_inst/Mcompar_local_ip[31]_packet_ctrl_ip[31]_equal_121_o_cy<3>)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/Mcompar_local_ip[31]_packet_ctrl_ip[31]_equal_121_o_cy<4> (roach2_tut_tge_gbe1/tge_tx_inst/Mcompar_local_ip[31]_packet_ctrl_ip[31]_equal_121_o_cy<4>)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/Mcompar_local_ip[31]_packet_ctrl_ip[31]_equal_121_o_cy<5> (roach2_tut_tge_gbe1/tge_tx_inst/Mcompar_local_ip[31]_packet_ctrl_ip[31]_equal_121_o_cy<5>)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/Mcompar_local_ip[31]_packet_ctrl_ip[31]_equal_121_o_cy<6> (roach2_tut_tge_gbe1/tge_tx_inst/Mcompar_local_ip[31]_packet_ctrl_ip[31]_equal_121_o_cy<6>)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/Mcompar_local_ip[31]_packet_ctrl_ip[31]_equal_121_o_cy<7> (roach2_tut_tge_gbe1/tge_tx_inst/Mcompar_local_ip[31]_packet_ctrl_ip[31]_equal_121_o_cy<7>)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/Mcompar_local_ip[31]_packet_ctrl_ip[31]_equal_121_o_cy<8> (roach2_tut_tge_gbe1/tge_tx_inst/Mcompar_local_ip[31]_packet_ctrl_ip[31]_equal_121_o_cy<8>)
+     MUXCY:CI->O           1   0.020   0.000  roach2_tut_tge_gbe1/tge_tx_inst/Mcompar_local_ip[31]_packet_ctrl_ip[31]_equal_121_o_cy<9> (roach2_tut_tge_gbe1/tge_tx_inst/Mcompar_local_ip[31]_packet_ctrl_ip[31]_equal_121_o_cy<9>)
+     MUXCY:CI->O           8   0.220   0.627  roach2_tut_tge_gbe1/tge_tx_inst/Mcompar_local_ip[31]_packet_ctrl_ip[31]_equal_121_o_cy<10> (roach2_tut_tge_gbe1/tge_tx_inst/local_ip[31]_packet_ctrl_ip[31]_equal_121_o)
+     LUT3:I0->O            0   0.068   0.000  roach2_tut_tge_gbe1/tge_tx_inst/Mmux_packet_arp_cache_addr11 (roach2_tut_tge_gbe1/tge_tx_inst/packet_arp_cache_addr<0>)
+    arp_cache:addrb<0>         0.000          roach2_tut_tge_gbe1/tge_tx_inst/arp_cache_inst
+    ----------------------------------------
+    Total                      2.819ns (0.889ns logic, 1.930ns route)
+                                       (31.5% logic, 68.5% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock OPB_Clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+OPB_Clk        |    3.368|         |         |         |
+xaui_clk       |    1.104|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    2.158|         |         |         |
+xaui_clk       |    1.422|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock xaui_clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+OPB_Clk        |    4.462|         |         |         |
+clk            |    0.791|         |         |         |
+xaui_clk       |    4.214|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 15.00 secs
+Total CPU time to Xst completion: 15.38 secs
+ 
+--> 
+
+
+Total memory usage is 435364 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   67 (   0 filtered)
+Number of infos    :   21 (   0 filtered)
+

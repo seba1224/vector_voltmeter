@@ -1,0 +1,739 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/synthesis/xst_temp_dir/
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input Format                       : MIXED
+Input File Name                    : "system_sfp_mdio_controller_inst_wrapper_xst.prj"
+Verilog Include Directory          : {"/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/" "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxBFMinterface/pcores/" "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/" }
+
+---- Target Parameters
+Target Device                      : xc6vsx475tff1759-1
+Output File Name                   : "../implementation/system_sfp_mdio_controller_inst_wrapper.ngc"
+
+---- Source Options
+Top Module Name                    : system_sfp_mdio_controller_inst_wrapper
+
+---- Target Options
+Add IO Buffers                     : NO
+
+---- General Options
+Optimization Goal                  : speed
+Netlist Hierarchy                  : as_optimized
+Optimization Effort                : 1
+Hierarchy Separator                : /
+
+---- Other Options
+Cores Search Directories           : {../implementation}
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/gpio_controller.v" into library sfp_mdio_controller_v1_00_a
+Parsing module <gpio_controller>.
+Analyzing Verilog file "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/temac.v" into library sfp_mdio_controller_v1_00_a
+Parsing module <temac>.
+Analyzing Verilog file "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/sgmii_gtx.v" into library sfp_mdio_controller_v1_00_a
+Parsing module <sgmii_gtx>.
+Analyzing Verilog file "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/sgmii_phy.v" into library sfp_mdio_controller_v1_00_a
+Parsing module <sgmii_phy>.
+Analyzing Verilog file "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio_wb.v" into library sfp_mdio_controller_v1_00_a
+Parsing module <emac_mdio_wb>.
+Analyzing Verilog file "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" into library sfp_mdio_controller_v1_00_a
+Parsing module <emac_mdio>.
+Analyzing Verilog file "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_wrapper.v" into library sfp_mdio_controller_v1_00_a
+Parsing module <emac_wrapper>.
+Analyzing Verilog file "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/sfp_mdio_controller.v" into library sfp_mdio_controller_v1_00_a
+Parsing module <sfp_mdio_controller>.
+Analyzing Verilog file "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/hdl/system_sfp_mdio_controller_inst_wrapper.v" into library work
+Parsing module <system_sfp_mdio_controller_inst_wrapper>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <system_sfp_mdio_controller_inst_wrapper>.
+
+Elaborating module <sfp_mdio_controller(C_BASEADDR=32'b01100000000000000000,C_HIGHADDR=32'b01101111111111111111,C_OPB_AWIDTH=32,C_OPB_DWIDTH=32)>.
+
+Elaborating module <gpio_controller(COUNT=12)>.
+WARNING:HDLCompiler:1127 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/sfp_mdio_controller.v" Line 132: Assignment to wb_ack_i_gpio ignored, since the identifier is never used
+
+Elaborating module <IOBUF(IOSTANDARD="LVCMOS15")>.
+
+Elaborating module <emac_mdio>.
+
+Elaborating module <emac_mdio_wb>.
+WARNING:HDLCompiler:1127 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 139: Assignment to EMACCLIENTRXD ignored, since the identifier is never used
+
+Elaborating module
+<TEMAC_SINGLE(EMAC_PHYRESET="FALSE",EMAC_PHYINITAUTONEG_ENABLE="TRUE",EMAC_PHYISOLATE="FALSE",EMAC_PHYPOWERDOWN="TRUE",EMAC_PHYLOOPBACKMSB="FALSE",EMAC_GTLOOPBACK="FALSE",EMAC_UNIDIRECTION_ENABLE="FALSE",EMAC_LINKTIMERVAL=9'b0110010,EMAC_MDIO_IGNORE_PHYADZERO="TRUE",EMAC_MDIO_ENABLE="TRUE",EMAC_SPEED_LSB="FALSE",EMAC_SPEED_MSB="TRUE",EMAC_USECLKEN="FALSE",EMAC_BYTEPHY="FALSE",EMAC_RGMII_ENABLE="FALSE",EMAC_SGMII_ENABLE="TRUE",EMAC_1000BASEX_ENABLE="FALSE",EMAC_HOST_ENABLE="TRUE",EMAC_TX16BITCLIENT_ENABLE="FALSE",EMAC_RX16BITCLIENT_ENABLE="FALSE",EMAC_ADDRFILTER_ENABLE="FALSE",EMAC_LTCHECK_DISABLE="FALSE",EMAC_CTRLLENCHECK_DISABLE="FALSE",EMAC_RXFLOWCTRL_ENABLE="TRUE",EMAC_TXFLOWCTRL_ENABLE="TRUE",EMAC_TXRESET="FALSE",EMAC_TXJUMBOFRAME_ENABLE="TRUE",EMAC_TXINBANDFCS_ENABLE="FALSE",EMAC_TX_ENABLE="TRUE",EMAC_TXVLAN_ENABLE="FALSE",EMAC_TXHALFDUPLEX="FALSE",EMAC_TXIFGADJUST_ENABLE="FALSE",EMAC_RXRESET="FALSE",EMAC_RXJUMBOFRAME_ENABLE="TRUE",EMAC_RXINBANDFCS_ENABLE="FALSE",EMAC_RX_ENABLE="TRUE",EMAC_RXVLAN_ENABLE=
+"FALSE",EMAC_RXHALFDUPLEX="FALSE",EMAC_PAUSEADDR=48'b111111111110111011011101110011001011101110101010,EMAC_UNICASTADDR=48'b0,EMAC_DCRBASEADDR=8'b0)>.
+WARNING:HDLCompiler:1127 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 234: Assignment to EMACCLIENTRXCLIENTCLKOUT ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 237: Assignment to EMACCLIENTRXDVLD ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 238: Assignment to EMACCLIENTRXDVLDMSW ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 239: Assignment to EMACCLIENTRXGOODFRAME ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 240: Assignment to EMACCLIENTRXBADFRAME ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 241: Assignment to EMACCLIENTRXFRAMEDROP ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 242: Assignment to EMACCLIENTRXSTATS ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 243: Assignment to EMACCLIENTRXSTATSVLD ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 244: Assignment to EMACCLIENTRXSTATSBYTEVLD ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 246: Assignment to EMACCLIENTTXCLIENTCLKOUT ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 251: Assignment to EMACCLIENTTXACK ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 254: Assignment to EMACCLIENTTXCOLLISION ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 255: Assignment to EMACCLIENTTXRETRANSMIT ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 257: Assignment to EMACCLIENTTXSTATS ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 258: Assignment to EMACCLIENTTXSTATSVLD ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 259: Assignment to EMACCLIENTTXSTATSBYTEVLD ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 265: Assignment to EMACPHYTXGMIIMIICLKOUT ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 274: Assignment to TXDATA ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 280: Assignment to AN_INTERRUPT ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 283: Assignment to ENCOMMAALIGN ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 284: Assignment to LOOPBACKMSB ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 285: Assignment to MGTRXRESET ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 286: Assignment to MGTTXRESET ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 287: Assignment to POWERDOWN ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 288: Assignment to SYNCACQSTATUS ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 297: Assignment to TXCHARDISPMODE ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 298: Assignment to TXCHARDISPVAL ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 299: Assignment to TXCHARISK ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 305: Assignment to mdt ignored, since the identifier is never used
+WARNING:HDLCompiler:634 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 65: Net <CLIENTEMACRXCLIENTCLKIN> does not have a driver.
+WARNING:HDLCompiler:634 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 78: Net <CLIENTEMACTXCLIENTCLKIN> does not have a driver.
+WARNING:HDLCompiler:634 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 79: Net <CLIENTEMACTXD[7]> does not have a driver.
+WARNING:HDLCompiler:634 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 80: Net <CLIENTEMACTXDVLD> does not have a driver.
+WARNING:HDLCompiler:634 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 81: Net <CLIENTEMACTXDVLDMSW> does not have a driver.
+WARNING:HDLCompiler:634 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 83: Net <CLIENTEMACTXFIRSTBYTE> does not have a driver.
+WARNING:HDLCompiler:634 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 84: Net <CLIENTEMACTXUNDERRUN> does not have a driver.
+WARNING:HDLCompiler:634 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 87: Net <CLIENTEMACTXIFGDELAY[7]> does not have a driver.
+WARNING:HDLCompiler:634 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 93: Net <CLIENTEMACPAUSEREQ> does not have a driver.
+WARNING:HDLCompiler:634 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 94: Net <CLIENTEMACPAUSEVAL[15]> does not have a driver.
+WARNING:HDLCompiler:634 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 98: Net <PHYEMACTXGMIIMIICLKIN> does not have a driver.
+WARNING:HDLCompiler:634 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 101: Net <RXDATA[7]> does not have a driver.
+WARNING:HDLCompiler:634 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 103: Net <MMCM_LOCKED> does not have a driver.
+WARNING:HDLCompiler:634 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 105: Net <SIGNAL_DETECT> does not have a driver.
+WARNING:HDLCompiler:634 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 113: Net <RXCLKCORCNT[2]> does not have a driver.
+WARNING:HDLCompiler:634 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 114: Net <RXBUFSTATUS> does not have a driver.
+WARNING:HDLCompiler:634 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 115: Net <RXCHARISCOMMA> does not have a driver.
+WARNING:HDLCompiler:634 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 116: Net <RXCHARISK> does not have a driver.
+WARNING:HDLCompiler:634 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 117: Net <RXDISPERR> does not have a driver.
+WARNING:HDLCompiler:634 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 118: Net <RXNOTINTABLE> does not have a driver.
+WARNING:HDLCompiler:634 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 119: Net <RXREALIGN> does not have a driver.
+WARNING:HDLCompiler:634 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 120: Net <RXRUNDISP> does not have a driver.
+WARNING:HDLCompiler:634 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v" Line 121: Net <TXBUFERR> does not have a driver.
+WARNING:HDLCompiler:1127 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/sfp_mdio_controller.v" Line 234: Assignment to wb_ack_i ignored, since the identifier is never used
+WARNING:HDLCompiler:552 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/sfp_mdio_controller.v" Line 224: Input port emac_clk is not connected on this instance
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <system_sfp_mdio_controller_inst_wrapper>.
+    Related source file is "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/hdl/system_sfp_mdio_controller_inst_wrapper.v".
+WARNING:Xst:647 - Input <OPB_seqAddr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <system_sfp_mdio_controller_inst_wrapper> synthesized.
+
+Synthesizing Unit <sfp_mdio_controller>.
+    Related source file is "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/sfp_mdio_controller.v".
+        C_BASEADDR = 32'b00000000000001100000000000000000
+        C_HIGHADDR = 32'b00000000000001101111111111111111
+        C_OPB_AWIDTH = 32
+        C_OPB_DWIDTH = 32
+WARNING:Xst:2898 - Port 'emac_clk', unconnected in block instance 'emac_mdio', is tied to GND.
+INFO:Xst:3210 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/sfp_mdio_controller.v" line 122: Output port <wb_ack_o> of the instance <gpio_mgt> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/sfp_mdio_controller.v" line 224: Output port <wb_ack_o> of the instance <emac_mdio> is unconnected or connected to loadless signal.
+WARNING:Xst:2563 - Inout <OPB_seqAddr> is never assigned. Tied to value Z.
+    Found 1-bit register for signal <cpu_ack_reg>.
+    Found 1-bit register for signal <cpu_ack_reg_gpio>.
+    Found 32-bit register for signal <mdio_do_iR>.
+    Found 1-bit register for signal <start_detectR>.
+    Found 1-bit register for signal <start_detect>.
+    Found 1-bit register for signal <OPB_select_z>.
+    Found 32-bit subtractor for signal <wb_adr_o> created at line 61.
+    Found 32-bit subtractor for signal <wb_adr_o_gpio> created at line 92.
+    Found 1-bit tristate buffer for signal <OPB_seqAddr> created at line 21
+    Found 32-bit comparator greater for signal <n0003> created at line 45
+    Found 32-bit comparator lessequal for signal <n0006> created at line 45
+    Found 32-bit comparator lessequal for signal <n0016> created at line 78
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  37 D-type flip-flop(s).
+	inferred   3 Comparator(s).
+	inferred  32 Multiplexer(s).
+	inferred   1 Tristate(s).
+Unit <sfp_mdio_controller> synthesized.
+
+Synthesizing Unit <gpio_controller>.
+    Related source file is "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/gpio_controller.v".
+        COUNT = 12
+WARNING:Xst:647 - Input <wb_sel_i> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <wb_adr_i<1:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <wb_adr_i<31:10>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:653 - Signal <wb_err_o> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 12-bit register for signal <gpio_in_reg>.
+    Found 32-bit register for signal <gpio_ded_arr<0>>.
+    Found 32-bit register for signal <gpio_oe_arr<0>>.
+    Found 32-bit register for signal <gpio_out_arr<0>>.
+    Found 1-bit register for signal <wb_ack_reg>.
+    Found 12-bit shifter logical right for signal <gpio_in_val> created at line 48
+    Found 32-bit 4-to-1 multiplexer for signal <wb_dat_o_reg> created at line 55.
+    Found 6-bit comparator lessequal for signal <n0016> created at line 72
+    Summary:
+	inferred 109 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   2 Multiplexer(s).
+	inferred   1 Combinational logic shifter(s).
+Unit <gpio_controller> synthesized.
+
+Synthesizing Unit <emac_mdio>.
+    Related source file is "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v".
+WARNING:Xst:653 - Signal <CLIENTEMACTXD> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <CLIENTEMACTXIFGDELAY> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <CLIENTEMACPAUSEVAL> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <RXDATA> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <RXCLKCORCNT> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mdot> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <CLIENTEMACRXCLIENTCLKIN> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <CLIENTEMACTXCLIENTCLKIN> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <CLIENTEMACTXDVLD> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <CLIENTEMACTXDVLDMSW> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <CLIENTEMACTXFIRSTBYTE> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <CLIENTEMACTXUNDERRUN> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <CLIENTEMACPAUSEREQ> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <PHYEMACTXGMIIMIICLKIN> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <MMCM_LOCKED> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <SIGNAL_DETECT> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <RXBUFSTATUS> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <RXCHARISCOMMA> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <RXCHARISK> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <RXDISPERR> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <RXNOTINTABLE> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <RXREALIGN> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <RXRUNDISP> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <TXBUFERR> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Summary:
+	no macro.
+Unit <emac_mdio> synthesized.
+
+Synthesizing Unit <emac_mdio_wb>.
+    Related source file is "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio_wb.v".
+WARNING:Xst:647 - Input <wb_sel_i> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <wb_adr_i<1:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <wb_adr_i<31:5>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:653 - Signal <wb_err_o> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 1-bit register for signal <op_issue>.
+    Found 1-bit register for signal <mdio_sel_reg>.
+    Found 32-bit register for signal <sDbgVal>.
+    Found 32-bit register for signal <op_data>.
+    Found 16-bit register for signal <op_addr>.
+    Found 3-bit register for signal <op_type>.
+    Found 1-bit register for signal <hostreq_reg>.
+    Found 24-bit register for signal <timeout>.
+    Found 3-bit register for signal <state>.
+    Found 1-bit register for signal <debug<18>>.
+    Found 1-bit register for signal <debug<17>>.
+    Found 1-bit register for signal <debug<16>>.
+    Found 1-bit register for signal <debug<15>>.
+    Found 1-bit register for signal <debug<14>>.
+    Found 1-bit register for signal <debug<13>>.
+    Found 1-bit register for signal <debug<12>>.
+    Found 1-bit register for signal <debug<11>>.
+    Found 1-bit register for signal <debug<10>>.
+    Found 1-bit register for signal <debug<9>>.
+    Found 1-bit register for signal <debug<8>>.
+    Found 1-bit register for signal <debug<7>>.
+    Found 1-bit register for signal <debug<6>>.
+    Found 1-bit register for signal <debug<5>>.
+    Found 1-bit register for signal <debug<4>>.
+    Found 1-bit register for signal <debug<3>>.
+    Found 1-bit register for signal <debug<2>>.
+    Found 1-bit register for signal <debug<1>>.
+    Found 1-bit register for signal <debug<0>>.
+    Found 32-bit register for signal <op_result>.
+    Found 1-bit register for signal <wb_ack_o_reg>.
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 5                                              |
+    | Transitions        | 11                                             |
+    | Inputs             | 6                                              |
+    | Outputs            | 8                                              |
+    | Clock              | wb_clk_i (rising_edge)                         |
+    | Reset              | wb_rst_i (positive)                            |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 000                                            |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 24-bit adder for signal <timeout[23]_GND_7_o_add_24_OUT> created at line 141.
+    Found 16-bit adder for signal <debug[15]_GND_7_o_add_28_OUT> created at line 148.
+    Found 32-bit 8-to-1 multiplexer for signal <wb_dat_o_reg> created at line 88.
+    WARNING:Xst:2404 -  FFs/Latches <debug<31><0:0>> (without init value) have a constant value of 0 in block <emac_mdio_wb>.
+    WARNING:Xst:2404 -  FFs/Latches <debug<30><31:31>> (without init value) have a constant value of 0 in block <emac_mdio_wb>.
+    WARNING:Xst:2404 -  FFs/Latches <debug<29><30:30>> (without init value) have a constant value of 0 in block <emac_mdio_wb>.
+    WARNING:Xst:2404 -  FFs/Latches <debug<28><29:29>> (without init value) have a constant value of 0 in block <emac_mdio_wb>.
+    WARNING:Xst:2404 -  FFs/Latches <debug<27><28:28>> (without init value) have a constant value of 0 in block <emac_mdio_wb>.
+    WARNING:Xst:2404 -  FFs/Latches <debug<26><27:27>> (without init value) have a constant value of 0 in block <emac_mdio_wb>.
+    WARNING:Xst:2404 -  FFs/Latches <debug<25><26:26>> (without init value) have a constant value of 0 in block <emac_mdio_wb>.
+    WARNING:Xst:2404 -  FFs/Latches <debug<24><25:25>> (without init value) have a constant value of 0 in block <emac_mdio_wb>.
+    WARNING:Xst:2404 -  FFs/Latches <debug<23><24:24>> (without init value) have a constant value of 0 in block <emac_mdio_wb>.
+    WARNING:Xst:2404 -  FFs/Latches <debug<22><23:23>> (without init value) have a constant value of 0 in block <emac_mdio_wb>.
+    WARNING:Xst:2404 -  FFs/Latches <debug<21><22:22>> (without init value) have a constant value of 0 in block <emac_mdio_wb>.
+    WARNING:Xst:2404 -  FFs/Latches <debug<20><21:21>> (without init value) have a constant value of 0 in block <emac_mdio_wb>.
+    WARNING:Xst:2404 -  FFs/Latches <debug<19><20:20>> (without init value) have a constant value of 0 in block <emac_mdio_wb>.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred 162 D-type flip-flop(s).
+	inferred   8 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <emac_mdio_wb> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 4
+ 16-bit adder                                          : 1
+ 24-bit adder                                          : 1
+ 32-bit subtractor                                     : 2
+# Registers                                            : 25
+ 1-bit register                                        : 13
+ 12-bit register                                       : 1
+ 16-bit register                                       : 2
+ 24-bit register                                       : 1
+ 3-bit register                                        : 1
+ 32-bit register                                       : 7
+# Comparators                                          : 4
+ 32-bit comparator greater                             : 1
+ 32-bit comparator lessequal                           : 2
+ 6-bit comparator lessequal                            : 1
+# Multiplexers                                         : 42
+ 1-bit 2-to-1 multiplexer                              : 37
+ 12-bit 2-to-1 multiplexer                             : 1
+ 32-bit 2-to-1 multiplexer                             : 2
+ 32-bit 4-to-1 multiplexer                             : 1
+ 32-bit 8-to-1 multiplexer                             : 1
+# Logic shifters                                       : 1
+ 12-bit shifter logical right                          : 1
+# Tristates                                            : 1
+ 1-bit tristate buffer                                 : 1
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <emac_mdio_wb>.
+The following registers are absorbed into counter <timeout>: 1 register on signal <timeout>.
+The following registers are absorbed into counter <debug<15:0>>: 1 register on signal <debug<15:0>>.
+Unit <emac_mdio_wb> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 32-bit subtractor                                     : 2
+# Counters                                             : 2
+ 16-bit up counter                                     : 1
+ 24-bit up counter                                     : 1
+# Registers                                            : 268
+ Flip-Flops                                            : 268
+# Comparators                                          : 4
+ 32-bit comparator greater                             : 1
+ 32-bit comparator lessequal                           : 2
+ 6-bit comparator lessequal                            : 1
+# Multiplexers                                         : 73
+ 1-bit 2-to-1 multiplexer                              : 37
+ 1-bit 4-to-1 multiplexer                              : 32
+ 12-bit 2-to-1 multiplexer                             : 1
+ 32-bit 2-to-1 multiplexer                             : 2
+ 32-bit 8-to-1 multiplexer                             : 1
+# Logic shifters                                       : 1
+ 12-bit shifter logical right                          : 1
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <sfp_mdio_controller_inst/emac_mdio/emac_mdio_wb_inst/FSM_0> on signal <state[1:3]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 000   | 000
+ 001   | 001
+ 010   | 010
+ 100   | 100
+ 011   | 011
+-------------------
+WARNING:Xst:2183 - Unit sfp_mdio_controller: the following tristate(s) are NOT replaced by logic (Please refer to Answer Record 20048 for more information): OPB_seqAddr.
+
+Optimizing unit <system_sfp_mdio_controller_inst_wrapper> ...
+
+Optimizing unit <sfp_mdio_controller> ...
+
+Optimizing unit <gpio_controller> ...
+
+Optimizing unit <emac_mdio_wb> ...
+WARNING:Xst:2677 - Node <sfp_mdio_controller_inst/gpio_mgt/wb_ack_reg> of sequential type is unconnected in block <system_sfp_mdio_controller_inst_wrapper>.
+INFO:Xst:2261 - The FF/Latch <sfp_mdio_controller_inst/cpu_ack_reg> in Unit <system_sfp_mdio_controller_inst_wrapper> is equivalent to the following FF/Latch, which will be removed : <sfp_mdio_controller_inst/emac_mdio/emac_mdio_wb_inst/wb_ack_o_reg> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 0) on block system_sfp_mdio_controller_inst_wrapper, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 309
+ Flip-Flops                                            : 309
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : system_sfp_mdio_controller_inst_wrapper.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 484
+#      GND                         : 1
+#      INV                         : 2
+#      LUT1                        : 39
+#      LUT2                        : 25
+#      LUT3                        : 108
+#      LUT4                        : 22
+#      LUT5                        : 122
+#      LUT6                        : 77
+#      MUXCY                       : 43
+#      MUXF7                       : 3
+#      VCC                         : 1
+#      XORCY                       : 41
+# FlipFlops/Latches                : 309
+#      FD                          : 15
+#      FDE                         : 179
+#      FDR                         : 11
+#      FDR_1                       : 1
+#      FDRE                        : 58
+#      FDS                         : 32
+#      FDSE                        : 13
+# IO Buffers                       : 12
+#      IOBUF                       : 12
+# Others                           : 1
+#      TEMAC_SINGLE                : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6vsx475tff1759-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             299  out of  595200     0%  
+ Number of Slice LUTs:                  395  out of  297600     0%  
+    Number used as Logic:               395  out of  297600     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    422
+   Number with an unused Flip Flop:     123  out of    422    29%  
+   Number with an unused LUT:            27  out of    422     6%  
+   Number of fully used LUT-FF pairs:   272  out of    422    64%  
+   Number of unique control sets:        12
+
+IO Utilization: 
+ Number of IOs:                         121
+ Number of bonded IOBs:                  12  out of    840     1%  
+    IOB Flip Flops/Latches:              10
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                          | Load  |
+-----------------------------------+------------------------------------------------+-------+
+sfp_mdio_controller_inst/mdio_clk  | NONE(sfp_mdio_controller_inst/start_detect)    | 34    |
+OPB_Clk                            | NONE(sfp_mdio_controller_inst/cpu_ack_reg_gpio)| 275   |
+-----------------------------------+------------------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 2.535ns (Maximum Frequency: 394.477MHz)
+   Minimum input arrival time before clock: 3.948ns
+   Maximum output required time after clock: 2.065ns
+   Maximum combinational path delay: 2.220ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'sfp_mdio_controller_inst/mdio_clk'
+  Clock period: 2.081ns (frequency: 480.538MHz)
+  Total number of paths / destination ports: 64 / 33
+-------------------------------------------------------------------------
+Delay:               2.081ns (Levels of Logic = 2)
+  Source:            sfp_mdio_controller_inst/mdio_do_iR_3 (FF)
+  Destination:       sfp_mdio_controller_inst/start_detectR (FF)
+  Source Clock:      sfp_mdio_controller_inst/mdio_clk rising
+  Destination Clock: sfp_mdio_controller_inst/mdio_clk rising
+
+  Data Path: sfp_mdio_controller_inst/mdio_do_iR_3 to sfp_mdio_controller_inst/start_detectR
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDS:C->Q              2   0.375   0.784  sfp_mdio_controller_inst/mdio_do_iR_3 (sfp_mdio_controller_inst/mdio_do_iR_3)
+     LUT6:I0->O            1   0.068   0.775  sfp_mdio_controller_inst/mdio_do_iR[31]_PWR_2_o_equal_30_o<31>6 (sfp_mdio_controller_inst/mdio_do_iR[31]_PWR_2_o_equal_30_o<31>5)
+     LUT6:I1->O            1   0.068   0.000  sfp_mdio_controller_inst/mdio_do_iR[31]_PWR_2_o_equal_30_o<31>7 (sfp_mdio_controller_inst/mdio_do_iR[31]_PWR_2_o_equal_30_o)
+     FDR:D                     0.011          sfp_mdio_controller_inst/start_detectR
+    ----------------------------------------
+    Total                      2.081ns (0.522ns logic, 1.559ns route)
+                                       (25.1% logic, 74.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'OPB_Clk'
+  Clock period: 2.535ns (frequency: 394.477MHz)
+  Total number of paths / destination ports: 1494 / 474
+-------------------------------------------------------------------------
+Delay:               2.535ns (Levels of Logic = 3)
+  Source:            sfp_mdio_controller_inst/emac_mdio/emac_mdio_wb_inst/timeout_13 (FF)
+  Destination:       sfp_mdio_controller_inst/emac_mdio/emac_mdio_wb_inst/state_FSM_FFd1 (FF)
+  Source Clock:      OPB_Clk rising
+  Destination Clock: OPB_Clk rising
+
+  Data Path: sfp_mdio_controller_inst/emac_mdio/emac_mdio_wb_inst/timeout_13 to sfp_mdio_controller_inst/emac_mdio/emac_mdio_wb_inst/state_FSM_FFd1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             2   0.375   0.784  sfp_mdio_controller_inst/emac_mdio/emac_mdio_wb_inst/timeout_13 (sfp_mdio_controller_inst/emac_mdio/emac_mdio_wb_inst/timeout_13)
+     LUT6:I0->O           17   0.068   0.744  sfp_mdio_controller_inst/emac_mdio/emac_mdio_wb_inst/timeout[23]_PWR_8_o_equal_28_o<23>4 (sfp_mdio_controller_inst/emac_mdio/emac_mdio_wb_inst/timeout[23]_PWR_8_o_equal_28_o<23>3)
+     LUT4:I0->O            1   0.068   0.417  sfp_mdio_controller_inst/emac_mdio/emac_mdio_wb_inst/timeout[23]_PWR_8_o_equal_28_o<23>5 (sfp_mdio_controller_inst/emac_mdio/emac_mdio_wb_inst/timeout[23]_PWR_8_o_equal_28_o)
+     LUT6:I5->O            1   0.068   0.000  sfp_mdio_controller_inst/emac_mdio/emac_mdio_wb_inst/state_FSM_FFd1-In (sfp_mdio_controller_inst/emac_mdio/emac_mdio_wb_inst/state_FSM_FFd1-In)
+     FDR:D                     0.011          sfp_mdio_controller_inst/emac_mdio/emac_mdio_wb_inst/state_FSM_FFd1
+    ----------------------------------------
+    Total                      2.535ns (0.590ns logic, 1.945ns route)
+                                       (23.3% logic, 76.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'sfp_mdio_controller_inst/mdio_clk'
+  Total number of paths / destination ports: 36 / 35
+-------------------------------------------------------------------------
+Offset:              1.412ns (Levels of Logic = 1)
+  Source:            sfp_mdio_controller_inst/emac_mdio/v6_emac:EMACPHYMDOUT (PAD)
+  Destination:       sfp_mdio_controller_inst/start_detectR (FF)
+  Destination Clock: sfp_mdio_controller_inst/mdio_clk rising
+
+  Data Path: sfp_mdio_controller_inst/emac_mdio/v6_emac:EMACPHYMDOUT to sfp_mdio_controller_inst/start_detectR
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    TEMAC_SINGLE:EMACPHYMDOUT    4   0.000   0.511  sfp_mdio_controller_inst/emac_mdio/v6_emac (sfp_mdio_controller_inst/mdio_do_i)
+     LUT2:I0->O            1   0.068   0.399  sfp_mdio_controller_inst/mdio_do_i1 (sfp_mdio_controller_inst/mdio_do_i_0)
+     FDR:R                     0.434          sfp_mdio_controller_inst/start_detectR
+    ----------------------------------------
+    Total                      1.412ns (0.502ns logic, 0.910ns route)
+                                       (35.6% logic, 64.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'OPB_Clk'
+  Total number of paths / destination ports: 14223 / 522
+-------------------------------------------------------------------------
+Offset:              3.948ns (Levels of Logic = 6)
+  Source:            OPB_ABus<8> (PAD)
+  Destination:       sfp_mdio_controller_inst/gpio_mgt/gpio_ded_arr_0_31 (FF)
+  Destination Clock: OPB_Clk rising
+
+  Data Path: OPB_ABus<8> to sfp_mdio_controller_inst/gpio_mgt/gpio_ded_arr_0_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LUT5:I0->O            1   0.068   0.399  sfp_mdio_controller_inst/Mcompar_n0003_lutdi3 (sfp_mdio_controller_inst/Mcompar_n0003_lutdi3)
+     MUXCY:DI->O           1   0.223   0.000  sfp_mdio_controller_inst/Mcompar_n0003_cy<3> (sfp_mdio_controller_inst/Mcompar_n0003_cy<3>)
+     MUXCY:CI->O           2   0.220   0.423  sfp_mdio_controller_inst/Mcompar_n0003_cy<4> (sfp_mdio_controller_inst/Mcompar_n0003_cy<4>)
+     LUT4:I3->O            2   0.068   0.644  sfp_mdio_controller_inst/Mcompar_n0003_cy<5> (sfp_mdio_controller_inst/Mcompar_n0003_cy<5>)
+     LUT4:I0->O           66   0.068   0.577  sfp_mdio_controller_inst/cpu_trans_gpio4 (sfp_mdio_controller_inst/cpu_trans_gpio)
+     LUT6:I5->O           32   0.068   0.552  sfp_mdio_controller_inst/gpio_mgt/_n0093_inv1 (sfp_mdio_controller_inst/gpio_mgt/_n0093_inv)
+     FDE:CE                    0.263          sfp_mdio_controller_inst/gpio_mgt/gpio_ded_arr_0_0
+    ----------------------------------------
+    Total                      3.948ns (1.353ns logic, 2.595ns route)
+                                       (34.3% logic, 65.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'OPB_Clk'
+  Total number of paths / destination ports: 414 / 92
+-------------------------------------------------------------------------
+Offset:              2.065ns (Levels of Logic = 3)
+  Source:            sfp_mdio_controller_inst/emac_mdio/emac_mdio_wb_inst/op_addr_2 (FF)
+  Destination:       Sl_DBus<29> (PAD)
+  Source Clock:      OPB_Clk rising
+
+  Data Path: sfp_mdio_controller_inst/emac_mdio/emac_mdio_wb_inst/op_addr_2 to Sl_DBus<29>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              3   0.375   0.652  sfp_mdio_controller_inst/emac_mdio/emac_mdio_wb_inst/op_addr_2 (sfp_mdio_controller_inst/emac_mdio/emac_mdio_wb_inst/op_addr_2)
+     LUT6:I2->O            1   0.068   0.417  sfp_mdio_controller_inst/Mmux_Sl_DBus232 (sfp_mdio_controller_inst/Mmux_Sl_DBus231)
+     LUT6:I5->O            1   0.068   0.417  sfp_mdio_controller_inst/Mmux_Sl_DBus233 (sfp_mdio_controller_inst/Mmux_Sl_DBus232)
+     LUT6:I5->O            0   0.068   0.000  sfp_mdio_controller_inst/Mmux_Sl_DBus234 (Sl_DBus<29>)
+    ----------------------------------------
+    Total                      2.065ns (0.579ns logic, 1.486ns route)
+                                       (28.0% logic, 72.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'sfp_mdio_controller_inst/mdio_clk'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              1.335ns (Levels of Logic = 2)
+  Source:            sfp_mdio_controller_inst/start_detect (FF)
+  Destination:       mgt_gpio<10> (PAD)
+  Source Clock:      sfp_mdio_controller_inst/mdio_clk falling
+
+  Data Path: sfp_mdio_controller_inst/start_detect to mgt_gpio<10>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR_1:C->Q            2   0.368   0.497  sfp_mdio_controller_inst/start_detect (sfp_mdio_controller_inst/start_detect)
+     LUT5:I3->O            1   0.068   0.399  sfp_mdio_controller_inst/Mmux_mgt_gpio_out_buf<10>11 (sfp_mdio_controller_inst/mgt_gpio_out_buf<10>)
+     IOBUF:T->IO               0.003          sfp_mdio_controller_inst/IOBUF_mgt_gpio_mdio1 (mgt_gpio<10>)
+    ----------------------------------------
+    Total                      1.335ns (0.439ns logic, 0.896ns route)
+                                       (32.9% logic, 67.1% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 296 / 39
+-------------------------------------------------------------------------
+Delay:               2.220ns (Levels of Logic = 5)
+  Source:            OPB_ABus<27> (PAD)
+  Destination:       Sl_DBus<29> (PAD)
+
+  Data Path: OPB_ABus<27> to Sl_DBus<29>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LUT1:I0->O            0   0.068   0.000  sfp_mdio_controller_inst/Msub_wb_adr_o_xor<4>_rt (sfp_mdio_controller_inst/Msub_wb_adr_o_xor<4>_rt)
+     XORCY:LI->O          88   0.156   0.940  sfp_mdio_controller_inst/Msub_wb_adr_o_xor<4> (sfp_mdio_controller_inst/wb_adr_o<4>)
+     LUT6:I1->O            1   0.068   0.417  sfp_mdio_controller_inst/Mmux_Sl_DBus122 (sfp_mdio_controller_inst/Mmux_Sl_DBus122)
+     LUT6:I5->O            1   0.068   0.417  sfp_mdio_controller_inst/Mmux_Sl_DBus123 (sfp_mdio_controller_inst/Mmux_Sl_DBus123)
+     LUT6:I5->O            0   0.068   0.000  sfp_mdio_controller_inst/Mmux_Sl_DBus124 (Sl_DBus<30>)
+    ----------------------------------------
+    Total                      2.220ns (0.446ns logic, 1.774ns route)
+                                       (20.1% logic, 79.9% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock OPB_Clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+OPB_Clk        |    2.535|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock sfp_mdio_controller_inst/mdio_clk
+---------------------------------+---------+---------+---------+---------+
+                                 | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                     |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------------------+---------+---------+---------+---------+
+sfp_mdio_controller_inst/mdio_clk|    2.081|         |    0.785|         |
+---------------------------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 7.55 secs
+ 
+--> 
+
+
+Total memory usage is 412808 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  106 (   0 filtered)
+Number of infos    :    4 (   0 filtered)
+

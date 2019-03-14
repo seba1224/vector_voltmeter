@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="EDK" num="0" delta="new" ><arg fmt="%s" index="1">INFO:Security:71 - If a license for part &apos;xc6vsx475t&apos; is available, it will be possible to use &apos;XPS_TDP&apos; instead of &apos;XPS&apos;.
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+</arg>
+</msg>
+
+<msg type="warning" file="EDK" num="4088" delta="new" >IPNAME: <arg fmt="%s" index="1">opb_bram_if_cntlr</arg>, INSTANCE: <arg fmt="%s" index="2">roach2_tut_tge_gbe0_rxs_ss_bram</arg> - <arg fmt="%s" index="3">Superseded</arg> core for architecture &apos;<arg fmt="%s" index="4">virtex6sx</arg>&apos; - <arg fmt="%s" index="5">/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/system.mhs line 472</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4088" delta="new" >IPNAME: <arg fmt="%s" index="1">opb_bram_if_cntlr</arg>, INSTANCE: <arg fmt="%s" index="2">roach2_tut_tge_gbe0_txs_ss_bram</arg> - <arg fmt="%s" index="3">Superseded</arg> core for architecture &apos;<arg fmt="%s" index="4">virtex6sx</arg>&apos; - <arg fmt="%s" index="5">/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/system.mhs line 574</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4088" delta="new" >IPNAME: <arg fmt="%s" index="1">opb_bram_if_cntlr</arg>, INSTANCE: <arg fmt="%s" index="2">roach2_tut_tge_gbe1_rxs_ss_bram</arg> - <arg fmt="%s" index="3">Superseded</arg> core for architecture &apos;<arg fmt="%s" index="4">virtex6sx</arg>&apos; - <arg fmt="%s" index="5">/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/system.mhs line 775</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4088" delta="new" >IPNAME: <arg fmt="%s" index="1">opb_bram_if_cntlr</arg>, INSTANCE: <arg fmt="%s" index="2">roach2_tut_tge_gbe1_txs_ss_bram</arg> - <arg fmt="%s" index="3">Superseded</arg> core for architecture &apos;<arg fmt="%s" index="4">virtex6sx</arg>&apos; - <arg fmt="%s" index="5">/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/system.mhs line 877</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4088" delta="new" >IPNAME: <arg fmt="%s" index="1">opb_bram_if_cntlr</arg>, INSTANCE: <arg fmt="%s" index="2">roach2_tut_tge_tx_snapshot_ss_bram</arg> - <arg fmt="%s" index="3">Superseded</arg> core for architecture &apos;<arg fmt="%s" index="4">virtex6sx</arg>&apos; - <arg fmt="%s" index="5">/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/system.mhs line 1075</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4088" delta="new" >IPNAME: <arg fmt="%s" index="1">opb_opb_lite</arg>, INSTANCE: <arg fmt="%s" index="2">opb2opb_bridge_opb1</arg> - <arg fmt="%s" index="3">Superseded</arg> core for architecture &apos;<arg fmt="%s" index="4">virtex6sx</arg>&apos; - <arg fmt="%s" index="5">/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/system.mhs line 1119</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4088" delta="new" >IPNAME: <arg fmt="%s" index="1">opb_opb_lite</arg>, INSTANCE: <arg fmt="%s" index="2">opb2opb_bridge_opb2</arg> - <arg fmt="%s" index="3">Superseded</arg> core for architecture &apos;<arg fmt="%s" index="4">virtex6sx</arg>&apos; - <arg fmt="%s" index="5">/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/system.mhs line 1140</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4088" delta="new" >IPNAME: <arg fmt="%s" index="1">opb_bram_if_cntlr</arg>, INSTANCE: <arg fmt="%s" index="2">roach2_tut_tge_gbe0_rxs_ss_bram</arg> - <arg fmt="%s" index="3">Superseded</arg> core for architecture &apos;<arg fmt="%s" index="4">virtex6sx</arg>&apos; - <arg fmt="%s" index="5">/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/system.mhs line 472</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4088" delta="new" >IPNAME: <arg fmt="%s" index="1">opb_bram_if_cntlr</arg>, INSTANCE: <arg fmt="%s" index="2">roach2_tut_tge_gbe0_txs_ss_bram</arg> - <arg fmt="%s" index="3">Superseded</arg> core for architecture &apos;<arg fmt="%s" index="4">virtex6sx</arg>&apos; - <arg fmt="%s" index="5">/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/system.mhs line 574</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4088" delta="new" >IPNAME: <arg fmt="%s" index="1">opb_bram_if_cntlr</arg>, INSTANCE: <arg fmt="%s" index="2">roach2_tut_tge_gbe1_rxs_ss_bram</arg> - <arg fmt="%s" index="3">Superseded</arg> core for architecture &apos;<arg fmt="%s" index="4">virtex6sx</arg>&apos; - <arg fmt="%s" index="5">/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/system.mhs line 775</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4088" delta="new" >IPNAME: <arg fmt="%s" index="1">opb_bram_if_cntlr</arg>, INSTANCE: <arg fmt="%s" index="2">roach2_tut_tge_gbe1_txs_ss_bram</arg> - <arg fmt="%s" index="3">Superseded</arg> core for architecture &apos;<arg fmt="%s" index="4">virtex6sx</arg>&apos; - <arg fmt="%s" index="5">/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/system.mhs line 877</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4088" delta="new" >IPNAME: <arg fmt="%s" index="1">opb_bram_if_cntlr</arg>, INSTANCE: <arg fmt="%s" index="2">roach2_tut_tge_tx_snapshot_ss_bram</arg> - <arg fmt="%s" index="3">Superseded</arg> core for architecture &apos;<arg fmt="%s" index="4">virtex6sx</arg>&apos; - <arg fmt="%s" index="5">/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/system.mhs line 1075</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4088" delta="new" >IPNAME: <arg fmt="%s" index="1">opb_opb_lite</arg>, INSTANCE: <arg fmt="%s" index="2">opb2opb_bridge_opb1</arg> - <arg fmt="%s" index="3">Superseded</arg> core for architecture &apos;<arg fmt="%s" index="4">virtex6sx</arg>&apos; - <arg fmt="%s" index="5">/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/system.mhs line 1119</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4088" delta="new" >IPNAME: <arg fmt="%s" index="1">opb_opb_lite</arg>, INSTANCE: <arg fmt="%s" index="2">opb2opb_bridge_opb2</arg> - <arg fmt="%s" index="3">Superseded</arg> core for architecture &apos;<arg fmt="%s" index="4">virtex6sx</arg>&apos; - <arg fmt="%s" index="5">/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/system.mhs line 1140</arg> 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">sys_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">sys_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="1039" delta="new" >Did not update the value for parameter: <arg fmt="%s" index="1">roach2_tut_tge_gbe0_rxs_ss_bram</arg>:<arg fmt="%s" index="2">c_opb_clk_period_ps</arg>. Top-level frequency could not be propagated to this IP. Please make sure that you have specified the frequency of the top-level clock port, and that the clocks are properly connected.
+</msg>
+
+<msg type="info" file="EDK" num="1039" delta="new" >Did not update the value for parameter: <arg fmt="%s" index="1">roach2_tut_tge_gbe0_txs_ss_bram</arg>:<arg fmt="%s" index="2">c_opb_clk_period_ps</arg>. Top-level frequency could not be propagated to this IP. Please make sure that you have specified the frequency of the top-level clock port, and that the clocks are properly connected.
+</msg>
+
+<msg type="info" file="EDK" num="1039" delta="new" >Did not update the value for parameter: <arg fmt="%s" index="1">roach2_tut_tge_gbe1_rxs_ss_bram</arg>:<arg fmt="%s" index="2">c_opb_clk_period_ps</arg>. Top-level frequency could not be propagated to this IP. Please make sure that you have specified the frequency of the top-level clock port, and that the clocks are properly connected.
+</msg>
+
+<msg type="info" file="EDK" num="1039" delta="new" >Did not update the value for parameter: <arg fmt="%s" index="1">roach2_tut_tge_gbe1_txs_ss_bram</arg>:<arg fmt="%s" index="2">c_opb_clk_period_ps</arg>. Top-level frequency could not be propagated to this IP. Please make sure that you have specified the frequency of the top-level clock port, and that the clocks are properly connected.
+</msg>
+
+<msg type="info" file="EDK" num="1039" delta="new" >Did not update the value for parameter: <arg fmt="%s" index="1">roach2_tut_tge_tx_snapshot_ss_bram</arg>:<arg fmt="%s" index="2">c_opb_clk_period_ps</arg>. Top-level frequency could not be propagated to this IP. Please make sure that you have specified the frequency of the top-level clock port, and that the clocks are properly connected.
+</msg>
+
+<msg type="info" file="EDK" num="4130" delta="new" >IPNAME: <arg fmt="%s" index="1">opb_v20</arg>, INSTANCE:<arg fmt="%s" index="2">opb0</arg> - <arg fmt="%s" index="3">tool</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_NUM_MASTERS</arg> value to <arg fmt="%s" index="6">1</arg> - <arg fmt="%s" index="7">/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/opb_v20_v1_10_c/data/opb_v20_v2_1_0.mpd line 74</arg> 
+</msg>
+
+<msg type="info" file="EDK" num="4130" delta="new" >IPNAME: <arg fmt="%s" index="1">opb_v20</arg>, INSTANCE:<arg fmt="%s" index="2">opb0</arg> - <arg fmt="%s" index="3">tool</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_NUM_SLAVES</arg> value to <arg fmt="%s" index="6">19</arg> - <arg fmt="%s" index="7">/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/opb_v20_v1_10_c/data/opb_v20_v2_1_0.mpd line 75</arg> 
+</msg>
+
+<msg type="info" file="EDK" num="4130" delta="new" >IPNAME: <arg fmt="%s" index="1">opb_v20</arg>, INSTANCE:<arg fmt="%s" index="2">opb1</arg> - <arg fmt="%s" index="3">tool</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_NUM_MASTERS</arg> value to <arg fmt="%s" index="6">1</arg> - <arg fmt="%s" index="7">/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/opb_v20_v1_10_c/data/opb_v20_v2_1_0.mpd line 74</arg> 
+</msg>
+
+<msg type="info" file="EDK" num="4130" delta="new" >IPNAME: <arg fmt="%s" index="1">opb_v20</arg>, INSTANCE:<arg fmt="%s" index="2">opb1</arg> - <arg fmt="%s" index="3">tool</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_NUM_SLAVES</arg> value to <arg fmt="%s" index="6">18</arg> - <arg fmt="%s" index="7">/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/opb_v20_v1_10_c/data/opb_v20_v2_1_0.mpd line 75</arg> 
+</msg>
+
+<msg type="info" file="EDK" num="4130" delta="new" >IPNAME: <arg fmt="%s" index="1">opb_v20</arg>, INSTANCE:<arg fmt="%s" index="2">opb2</arg> - <arg fmt="%s" index="3">tool</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_NUM_MASTERS</arg> value to <arg fmt="%s" index="6">1</arg> - <arg fmt="%s" index="7">/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/opb_v20_v1_10_c/data/opb_v20_v2_1_0.mpd line 74</arg> 
+</msg>
+
+<msg type="info" file="EDK" num="4130" delta="new" >IPNAME: <arg fmt="%s" index="1">opb_v20</arg>, INSTANCE:<arg fmt="%s" index="2">opb2</arg> - <arg fmt="%s" index="3">tool</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_NUM_SLAVES</arg> value to <arg fmt="%s" index="6">12</arg> - <arg fmt="%s" index="7">/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/opb_v20_v1_10_c/data/opb_v20_v2_1_0.mpd line 75</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">sys_clk180</arg>, CONNECTOR: <arg fmt="%s" index="2">sys_clk180</arg> - floating connection - <arg fmt="%s" index="3">/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/system.mhs line 95</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">sys_clk270</arg>, CONNECTOR: <arg fmt="%s" index="2">sys_clk270</arg> - floating connection - <arg fmt="%s" index="3">/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/system.mhs line 96</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">sys_clk_lock</arg>, CONNECTOR: <arg fmt="%s" index="2">sys_clk_lock</arg> - floating connection - <arg fmt="%s" index="3">/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/system.mhs line 97</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">sys_clk2x</arg>, CONNECTOR: <arg fmt="%s" index="2">sys_clk2x</arg> - floating connection - <arg fmt="%s" index="3">/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/system.mhs line 98</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">sys_clk2x90</arg>, CONNECTOR: <arg fmt="%s" index="2">sys_clk2x90</arg> - floating connection - <arg fmt="%s" index="3">/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/system.mhs line 99</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">sys_clk2x180</arg>, CONNECTOR: <arg fmt="%s" index="2">sys_clk2x180</arg> - floating connection - <arg fmt="%s" index="3">/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/system.mhs line 100</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">sys_clk2x270</arg>, CONNECTOR: <arg fmt="%s" index="2">sys_clk2x270</arg> - floating connection - <arg fmt="%s" index="3">/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/system.mhs line 101</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">aux_clk</arg>, CONNECTOR: <arg fmt="%s" index="2">aux_clk</arg> - floating connection - <arg fmt="%s" index="3">/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/system.mhs line 102</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">aux_clk90</arg>, CONNECTOR: <arg fmt="%s" index="2">aux_clk90</arg> - floating connection - <arg fmt="%s" index="3">/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/system.mhs line 103</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">aux_clk180</arg>, CONNECTOR: <arg fmt="%s" index="2">aux_clk180</arg> - floating connection - <arg fmt="%s" index="3">/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/system.mhs line 104</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">aux_clk270</arg>, CONNECTOR: <arg fmt="%s" index="2">aux_clk270</arg> - floating connection - <arg fmt="%s" index="3">/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/system.mhs line 105</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">aux_clk2x</arg>, CONNECTOR: <arg fmt="%s" index="2">aux_clk2x</arg> - floating connection - <arg fmt="%s" index="3">/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/system.mhs line 106</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">aux_clk2x90</arg>, CONNECTOR: <arg fmt="%s" index="2">aux_clk2x90</arg> - floating connection - <arg fmt="%s" index="3">/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/system.mhs line 107</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">aux_clk2x180</arg>, CONNECTOR: <arg fmt="%s" index="2">aux_clk2x180</arg> - floating connection - <arg fmt="%s" index="3">/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/system.mhs line 108</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">aux_clk2x270</arg>, CONNECTOR: <arg fmt="%s" index="2">aux_clk2x270</arg> - floating connection - <arg fmt="%s" index="3">/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/system.mhs line 109</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">idelay_rdy</arg>, CONNECTOR: <arg fmt="%s" index="2">idelay_rdy</arg> - floating connection - <arg fmt="%s" index="3">/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/system.mhs line 112</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">clk_100</arg>, CONNECTOR: <arg fmt="%s" index="2">clk_100</arg> - floating connection - <arg fmt="%s" index="3">/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/system.mhs line 114</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">soft_reset</arg>, CONNECTOR: <arg fmt="%s" index="2">soft_reset</arg> - floating connection - <arg fmt="%s" index="3">/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/system.mhs line 174</arg> 
+</msg>
+
+<msg type="info" file="EDK" num="4060" delta="new" >INSTANCE: <arg fmt="%s" index="1">roach2_tut_tge_gbe0_rxs_ss_bram</arg>, PARAMETER: <arg fmt="%s" index="2">c_opb_clk_period_ps</arg> - Did not implement clock DRCs for the parameter. Top-level frequency could not be propagated to this IP. Please make sure that you have specified the frequency of the top-level clock port, and that the clocks are properly connected.
+</msg>
+
+<msg type="info" file="EDK" num="4060" delta="new" >INSTANCE: <arg fmt="%s" index="1">roach2_tut_tge_gbe0_txs_ss_bram</arg>, PARAMETER: <arg fmt="%s" index="2">c_opb_clk_period_ps</arg> - Did not implement clock DRCs for the parameter. Top-level frequency could not be propagated to this IP. Please make sure that you have specified the frequency of the top-level clock port, and that the clocks are properly connected.
+</msg>
+
+<msg type="info" file="EDK" num="4060" delta="new" >INSTANCE: <arg fmt="%s" index="1">roach2_tut_tge_gbe1_rxs_ss_bram</arg>, PARAMETER: <arg fmt="%s" index="2">c_opb_clk_period_ps</arg> - Did not implement clock DRCs for the parameter. Top-level frequency could not be propagated to this IP. Please make sure that you have specified the frequency of the top-level clock port, and that the clocks are properly connected.
+</msg>
+
+<msg type="info" file="EDK" num="4060" delta="new" >INSTANCE: <arg fmt="%s" index="1">roach2_tut_tge_gbe1_txs_ss_bram</arg>, PARAMETER: <arg fmt="%s" index="2">c_opb_clk_period_ps</arg> - Did not implement clock DRCs for the parameter. Top-level frequency could not be propagated to this IP. Please make sure that you have specified the frequency of the top-level clock port, and that the clocks are properly connected.
+</msg>
+
+<msg type="info" file="EDK" num="4060" delta="new" >INSTANCE: <arg fmt="%s" index="1">roach2_tut_tge_tx_snapshot_ss_bram</arg>, PARAMETER: <arg fmt="%s" index="2">c_opb_clk_period_ps</arg> - Did not implement clock DRCs for the parameter. Top-level frequency could not be propagated to this IP. Please make sure that you have specified the frequency of the top-level clock port, and that the clocks are properly connected.
+</msg>
+
+<msg type="info" file="EDK" num="4211" delta="new" >The following instances are synthesized with <arg fmt="%s" index="1">XST</arg>. The MPD option IMP_NETLIST=TRUE indicates that a NGC file is to be produced using <arg fmt="%s" index="2">XST</arg> synthesis. IMP_NETLIST=FALSE (default) instances are not synthesized. 
+</msg>
+
+<msg type="info" file="EDK" num="3509" delta="new" >NCF files should not be modified as they will be regenerated.
+If any constraint needs to be overridden, this should be done by modifying the data/<arg fmt="%s" index="1">system</arg>.ucf file.
+</msg>
+
+</messages>
+

@@ -1,0 +1,2 @@
+verilog opb_register_simulink2ppc_v1_00_a /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/opb_register_simulink2ppc_v1_00_a/hdl/verilog/opb_register_simulink2ppc.v
+verilog work ../hdl/system_roach2_tut_tge_gbe0_linkup_wrapper.v

@@ -1,0 +1,7 @@
+INFILE=/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/implementation/system.ncd
+OUTFILE=/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/implementation/system.bit
+FAMILY=Virtex6
+PART=xc6vsx475t-1ff1759
+WORKINGDIR=/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/implementation
+LICENSE=ISE
+USER_INFO=203015412_203016745_210582936_501

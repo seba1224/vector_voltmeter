@@ -1,0 +1,1 @@
+/opt/Xilinx/14.7/ISE_DS/ISE/sysgen/bin/lin64/saferun -a /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/sysgen/roach2_tut_tge_cw_import.log -- /opt/Xilinx/14.7/ISE_DS/ISE//bin/lin64/xtclsh ProjectGeneration.tcl

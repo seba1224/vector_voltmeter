@@ -1,0 +1,14 @@
+verilog kat_ten_gb_eth_v1_00_a /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/arp_cache.v
+verilog kat_ten_gb_eth_v1_00_a /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/cpu_buffer.v
+verilog kat_ten_gb_eth_v1_00_a /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/kat_ten_gb_eth.v
+verilog kat_ten_gb_eth_v1_00_a /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/opb_attach.v
+verilog kat_ten_gb_eth_v1_00_a /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/rx_packet_ctrl_fifo.v
+verilog kat_ten_gb_eth_v1_00_a /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/rx_packet_fifo_bram.v
+verilog kat_ten_gb_eth_v1_00_a /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/rx_packet_fifo_dist.v
+vhdl kat_ten_gb_eth_v1_00_a /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/vhdl/ten_gig_eth_mac_UCB.vhd
+verilog kat_ten_gb_eth_v1_00_a /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/tge_rx.v
+verilog kat_ten_gb_eth_v1_00_a /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/tge_tx.v
+verilog kat_ten_gb_eth_v1_00_a /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/tx_packet_ctrl_fifo.v
+verilog kat_ten_gb_eth_v1_00_a /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/tx_packet_fifo.v
+verilog kat_ten_gb_eth_v1_00_a /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/kat_ten_gb_eth_v1_00_a/hdl/verilog/tx_fifo_ext.v
+verilog work ../hdl/system_roach2_tut_tge_gbe1_wrapper.v

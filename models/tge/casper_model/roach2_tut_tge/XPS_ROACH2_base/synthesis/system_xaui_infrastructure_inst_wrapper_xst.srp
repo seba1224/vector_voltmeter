@@ -1,0 +1,544 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/synthesis/xst_temp_dir/
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input Format                       : MIXED
+Input File Name                    : "system_xaui_infrastructure_inst_wrapper_xst.prj"
+Verilog Include Directory          : {"/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/" "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxBFMinterface/pcores/" "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/" }
+
+---- Target Parameters
+Target Device                      : xc6vsx475tff1759-1
+Output File Name                   : "../implementation/system_xaui_infrastructure_inst_wrapper.ngc"
+
+---- Source Options
+Top Module Name                    : system_xaui_infrastructure_inst_wrapper
+
+---- Target Options
+Add IO Buffers                     : NO
+
+---- General Options
+Optimization Goal                  : speed
+Netlist Hierarchy                  : as_optimized
+Optimization Effort                : 1
+Hierarchy Separator                : /
+
+---- Other Options
+Cores Search Directories           : {../implementation}
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/xaui_infrastructure.v" into library xaui_infrastructure_v1_00_a
+Parsing module <xaui_infrastructure>.
+Analyzing Verilog file "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/xaui_infrastructure_low.v" into library xaui_infrastructure_v1_00_a
+Parsing module <xaui_infrastructure_low>.
+Analyzing Verilog file "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/xaui_rx_steer.v" into library xaui_infrastructure_v1_00_a
+Parsing module <xaui_rx_steer>.
+Analyzing Verilog file "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/gtx_quad.v" into library xaui_infrastructure_v1_00_a
+Parsing module <gtx_quad>.
+Analyzing Verilog file "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/hdl/system_xaui_infrastructure_inst_wrapper.v" into library work
+Parsing module <system_xaui_infrastructure_inst_wrapper>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+WARNING:HDLCompiler:1016 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/hdl/system_xaui_infrastructure_inst_wrapper.v" Line 297: Port mgt_status4 is not connected to this instance
+
+Elaborating module <system_xaui_infrastructure_inst_wrapper>.
+WARNING:HDLCompiler:1016 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/xaui_infrastructure.v" Line 293: Port mgt_loopback is not connected to this instance
+
+Elaborating module <xaui_infrastructure(ENABLE0=0,ENABLE1=0,ENABLE2=0,ENABLE3=0,ENABLE4=1,ENABLE5=1,ENABLE6=0,ENABLE7=0,RX_LANE_STEER0=1,RX_LANE_STEER1=1,RX_LANE_STEER2=1,RX_LANE_STEER3=1,RX_LANE_STEER4=1,RX_LANE_STEER5=1,RX_LANE_STEER6=1,RX_LANE_STEER7=1,TX_LANE_STEER0=0,TX_LANE_STEER1=0,TX_LANE_STEER2=0,TX_LANE_STEER3=0,TX_LANE_STEER4=1,TX_LANE_STEER5=1,TX_LANE_STEER6=0,TX_LANE_STEER7=0,RX_INVERT0=0,RX_INVERT1=0,RX_INVERT2=0,RX_INVERT3=0,RX_INVERT4=0,RX_INVERT5=0,RX_INVERT6=0,RX_INVERT7=0)>.
+
+Elaborating module <xaui_infrastructure_low(ENABLE=8'b0110000,RX_LANE_STEER=8'b11111111,TX_LANE_STEER=8'b0110000,RX_INVERT=8'b0)>.
+
+Elaborating module <IBUFDS_GTXE1>.
+
+Elaborating module <BUFG>.
+
+Elaborating module <BUFR>.
+
+Elaborating module <gtx_quad>.
+
+Elaborating module
+<GTXE1(SIM_RECEIVER_DETECT_PASS="TRUE",SIM_TX_ELEC_IDLE_LEVEL="X",SIM_VERSION="1.0",SIM_TXREFCLK_SOURCE=3'b0,SIM_RXREFCLK_SOURCE=3'b0,TX_CLK_SOURCE="RXPLL",TX_OVERSAMPLE_MODE="FALSE",TXPLL_COM_CFG=24'b01000010110100000001010,TXPLL_CP_CFG=8'b01101,TXPLL_DIVSEL_FB=2,TXPLL_DIVSEL_OUT=1,TXPLL_DIVSEL_REF=1,TXPLL_DIVSEL45_FB=5,TXPLL_LKDET_CFG=3'b111,TX_CLK25_DIVIDER=7,TXPLL_SATA=2'b0,TX_TDCC_CFG=2'b11,PMA_CAS_CLK_EN="FALSE",POWER_SAVE=10'b0110100,GEN_TXUSRCLK="TRUE",TX_DATA_WIDTH=20,TX_USRCLK_CFG=6'b0,TXOUTCLK_CTRL="TXPLLREFCLK_DIV1",TXOUTCLK_DLY=10'b0,TX_PMADATA_OPT=1'b0,PMA_TX_CFG=20'b10000000000010000010,TX_BUFFER_USE="TRUE",TX_BYTECLK_CFG=6'b0,TX_EN_RATE_RESET_BUF="TRUE",TX_XCLK_SEL="TXOUT",TX_DLYALIGN_CTRINC=4'b0100,TX_DLYALIGN_LPFINC=4'b0110,TX_DLYALIGN_MONSEL=3'b0,TX_DLYALIGN_OVRDSETTING=8'b10000000,GEARBOX_ENDEC=3'b0,TXGEARBOX_USE="FALSE",TX_DRIVE_MODE="DIRECT",TX_IDLE_ASSERT_DELAY=3'b101,TX_IDLE_DEASSERT_DELAY=3'b011,TXDRIVE_LOOPBACK_HIZ="FALSE",TXDRIVE_LOOPBACK_PD="FALSE",COM_BURST_VAL=4'b1111,TX_DEEMPH_0
+=5'b11010,TX_DEEMPH_1=5'b10000,TX_MARGIN_FULL_0=7'b1001110,TX_MARGIN_FULL_1=7'b1001001,TX_MARGIN_FULL_2=7'b1000101,TX_MARGIN_FULL_3=7'b1000010,TX_MARGIN_FULL_4=7'b1000000,TX_MARGIN_LOW_0=7'b1000110,TX_MARGIN_LOW_1=7'b1000100,TX_MARGIN_LOW_2=7'b1000010,TX_MARGIN_LOW_3=7'b1000000,TX_MARGIN_LOW_4=7'b1000000,RX_OVERSAMPLE_MODE="FALSE",RXPLL_COM_CFG=24'b01000010110100000001010,RXPLL_CP_CFG=8'b01101,RXPLL_DIVSEL_FB=2,RXPLL_DIVSEL_OUT=1,RXPLL_DIVSEL_REF=1,RXPLL_DIVSEL45_FB=5,RXPLL_LKDET_CFG=3'b111,RX_CLK25_DIVIDER=7,GEN_RXUSRCLK="TRUE",RX_DATA_WIDTH=20,RXRECCLK_CTRL="RXRECCLKPMA_DIV2",RXRECCLK_DLY=10'b0,RXUSRCLK_DLY=16'b0,AC_CAP_DIS="TRUE",CDR_PH_ADJ_TIME=5'b10100,OOBDETECT_THRESHOLD=3'b011,PMA_CDR_SCAN=27'b110010000000100000001001100,PMA_RX_CFG=25'b010111001110000001001000,RCV_TERM_GND="FALSE",RCV_TERM_VTTRX="FALSE",RX_EN_IDLE_HOLD_CDR="FALSE",RX_EN_IDLE_RESET_FR="TRUE",RX_EN_IDLE_RESET_PH="TRUE",TX_DETECT_RX_CFG=14'b01100000110010,TERMINATION_CTRL=5'b0,TERMINATION_OVRD="FALSE",CM_TRIM=2'b01,PMA_RXSYNC_CFG=7'b0,PMA
+_CFG=76'b01000000000000000000000001000000000000000000000000000000000000000011,BGTEST_CFG=2'b0,BIAS_CFG=17'b0,DFE_CAL_TIME=5'b01100,DFE_CFG=8'b011011,RX_EN_IDLE_HOLD_DFE="TRUE",RX_EYE_OFFSET=8'b01001100,RX_EYE_SCANMODE=2'b0,RXPRBSERR_LOOPBACK=1'b0,ALIGN_COMMA_WORD=1,COMMA_10B_ENABLE=10'b01111111,COMMA_DOUBLE="FALSE",DEC_MCOMMA_DETECT="TRUE",DEC_PCOMMA_DETECT="TRUE",DEC_VALID_COMMA_ONLY="FALSE",MCOMMA_10B_VALUE=10'b1010000011,MCOMMA_DETECT="TRUE",PCOMMA_10B_VALUE=10'b0101111100,PCOMMA_DETECT="TRUE",RX_DECODE_SEQ_MATCH="TRUE",RX_SLIDE_AUTO_WAIT=5,RX_SLIDE_MODE="OFF",SHOW_REALIGN_COMMA="FALSE",RX_LOS_INVALID_INCR=1,RX_LOS_THRESHOLD=4,RX_LOSS_OF_SYNC_FSM="TRUE",RXGEARBOX_USE="FALSE",RX_BUFFER_USE="TRUE",RX_EN_IDLE_RESET_BUF="TRUE",RX_EN_MODE_RESET_BUF="TRUE",RX_EN_RATE_RESET_BUF="TRUE",RX_EN_REALIGN_RESET_BUF="FALSE",RX_EN_REALIGN_RESET_BUF2="FALSE",RX_FIFO_ADDR_MODE="FULL",RX_IDLE_HI_CNT=4'b1000,RX_IDLE_LO_CNT=4'b0,RX_XCLK_SEL="RXREC",RX_DLYALIGN_CTRINC=4'b0100,RX_DLYALIGN_EDGESET=5'b010,RX_DLYALIGN_LPFINC=4'b011
+0,RX_DLYALIGN_MONSEL=3'b0,RX_DLYALIGN_OVRDSETTING=8'b10000000,CLK_COR_ADJ_LEN=1,CLK_COR_DET_LEN=1,CLK_COR_INSERT_IDLE_FLAG="FALSE",CLK_COR_KEEP_IDLE="FALSE",CLK_COR_MAX_LAT=20,CLK_COR_MIN_LAT=18,CLK_COR_PRECEDENCE="TRUE",CLK_COR_REPEAT_WAIT=0,CLK_COR_SEQ_1_1=10'b0100011100,CLK_COR_SEQ_1_2=10'b0,CLK_COR_SEQ_1_3=10'b0,CLK_COR_SEQ_1_4=10'b0,CLK_COR_SEQ_1_ENABLE=4'b1111,CLK_COR_SEQ_2_1=10'b0,CLK_COR_SEQ_2_2=10'b0,CLK_COR_SEQ_2_3=10'b0,CLK_COR_SEQ_2_4=10'b0,CLK_COR_SEQ_2_ENABLE=4'b1111,CLK_COR_SEQ_2_USE="FALSE",CLK_CORRECT_USE="TRUE",CHAN_BOND_1_MAX_SKEW=7,CHAN_BOND_2_MAX_SKEW=1,CHAN_BOND_KEEP_ALIGN="FALSE",CHAN_BOND_SEQ_1_1=10'b0101111100,CHAN_BOND_SEQ_1_2=10'b0,CHAN_BOND_SEQ_1_3=10'b0,CHAN_BOND_SEQ_1_4=10'b0,CHAN_BOND_SEQ_1_ENABLE=4'b1111,CHAN_BOND_SEQ_2_1=10'b0,CHAN_BOND_SEQ_2_2=10'b0,CHAN_BOND_SEQ_2_3=10'b0,CHAN_BOND_SEQ_2_4=10'b0,CHAN_BOND_SEQ_2_CFG=5'b0,CHAN_BOND_SEQ_2_ENABLE=4'b1111,CHAN_BOND_SEQ_2_USE="FALSE",CHAN_BOND_SEQ_LEN=1,PCI_EXPRESS_MODE="FALSE",SAS_MAX_COMSAS=52,SAS_MIN_COMSAS=40,SATA_BURST_VAL=3'
+b100,SATA_IDLE_VAL=3'b100,SATA_MAX_BURST=7,SATA_MAX_INIT=22,SATA_MAX_WAKE=7,SATA_MIN_BURST=4,SATA_MIN_INIT=12,SATA_MIN_WAKE=4,TRANS_TIME_FROM_P2=12'b0111100,TRANS_TIME_NON_P2=8'b011001,TRANS_TIME_RATE=8'b11111111,TRANS_TIME_TO_P2=10'b01100100>.
+
+Elaborating module <xaui_rx_steer(LANE_STEER=8'b11111111)>.
+
+Elaborating module <xaui_rx_steer(LANE_STEER=8'b0110000)>.
+WARNING:HDLCompiler:634 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/xaui_infrastructure_low.v" Line 45: Net <mgt_rxdata_swap[511]> does not have a driver.
+WARNING:HDLCompiler:634 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/xaui_infrastructure_low.v" Line 46: Net <mgt_rxcharisk_swap[63]> does not have a driver.
+WARNING:HDLCompiler:634 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/xaui_infrastructure_low.v" Line 47: Net <mgt_rxcodecomma_swap[63]> does not have a driver.
+WARNING:HDLCompiler:634 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/xaui_infrastructure_low.v" Line 49: Net <mgt_rxsyncok_swap[31]> does not have a driver.
+WARNING:HDLCompiler:634 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/xaui_infrastructure_low.v" Line 51: Net <mgt_rxbufferr_swap[31]> does not have a driver.
+WARNING:HDLCompiler:634 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/xaui_infrastructure_low.v" Line 52: Net <mgt_rxelecidle_swap[31]> does not have a driver.
+WARNING:HDLCompiler:634 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/xaui_infrastructure_low.v" Line 53: Net <mgt_rxlock_swap[31]> does not have a driver.
+WARNING:HDLCompiler:634 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/xaui_infrastructure_low.v" Line 127: Net <mgt_rxdisperror[63]> does not have a driver.
+WARNING:HDLCompiler:634 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/xaui_infrastructure_low.v" Line 128: Net <mgt_rxnotintable[63]> does not have a driver.
+WARNING:HDLCompiler:552 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/xaui_infrastructure_low.v" Line 272: Input port rxcodecomma_in[63] is not connected on this instance
+WARNING:HDLCompiler:552 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/xaui_infrastructure.v" Line 298: Input port mgt_loopback[23] is not connected on this instance
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <system_xaui_infrastructure_inst_wrapper>.
+    Related source file is "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/hdl/system_xaui_infrastructure_inst_wrapper.v".
+INFO:Xst:3210 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/hdl/system_xaui_infrastructure_inst_wrapper.v" line 332: Output port <mgt_status4> of the instance <xaui_infrastructure_inst> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <system_xaui_infrastructure_inst_wrapper> synthesized.
+
+Synthesizing Unit <xaui_infrastructure>.
+    Related source file is "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/xaui_infrastructure.v".
+        ENABLE0 = 0
+        ENABLE1 = 0
+        ENABLE2 = 0
+        ENABLE3 = 0
+        ENABLE4 = 1
+        ENABLE5 = 1
+        ENABLE6 = 0
+        ENABLE7 = 0
+        RX_LANE_STEER0 = 1
+        RX_LANE_STEER1 = 1
+        RX_LANE_STEER2 = 1
+        RX_LANE_STEER3 = 1
+        RX_LANE_STEER4 = 1
+        RX_LANE_STEER5 = 1
+        RX_LANE_STEER6 = 1
+        RX_LANE_STEER7 = 1
+        TX_LANE_STEER0 = 0
+        TX_LANE_STEER1 = 0
+        TX_LANE_STEER2 = 0
+        TX_LANE_STEER3 = 0
+        TX_LANE_STEER4 = 1
+        TX_LANE_STEER5 = 1
+        TX_LANE_STEER6 = 0
+        TX_LANE_STEER7 = 0
+        RX_INVERT0 = 0
+        RX_INVERT1 = 0
+        RX_INVERT2 = 0
+        RX_INVERT3 = 0
+        RX_INVERT4 = 0
+        RX_INVERT5 = 0
+        RX_INVERT6 = 0
+        RX_INVERT7 = 0
+WARNING:Xst:2898 - Port 'mgt_loopback', unconnected in block instance 'xaui_infrastructure_low_inst', is tied to GND.
+WARNING:Xst:2898 - Port 'mgt_powerdown', unconnected in block instance 'xaui_infrastructure_low_inst', is tied to GND.
+INFO:Xst:3210 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/xaui_infrastructure.v" line 298: Output port <mgt_rxelecidle> of the instance <xaui_infrastructure_low_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/xaui_infrastructure.v" line 298: Output port <mgt_status> of the instance <xaui_infrastructure_low_inst> is unconnected or connected to loadless signal.
+WARNING:Xst:653 - Signal <mgt_status4> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Summary:
+	no macro.
+Unit <xaui_infrastructure> synthesized.
+
+Synthesizing Unit <xaui_infrastructure_low>.
+    Related source file is "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/xaui_infrastructure_low.v".
+        ENABLE = 8'b00110000
+        RX_LANE_STEER = 8'b11111111
+        TX_LANE_STEER = 8'b00110000
+        RX_INVERT = 8'b00000000
+WARNING:Xst:2898 - Port 'rxcodecomma_in', unconnected in block instance 'xaui_tx_steer_inst', is tied to GND.
+WARNING:Xst:2898 - Port 'rxencommaalign_in', unconnected in block instance 'xaui_tx_steer_inst', is tied to GND.
+WARNING:Xst:2898 - Port 'rxsyncok_in', unconnected in block instance 'xaui_tx_steer_inst', is tied to GND.
+WARNING:Xst:2898 - Port 'rxcodevalid_in', unconnected in block instance 'xaui_tx_steer_inst', is tied to GND.
+WARNING:Xst:2898 - Port 'rxlock_in', unconnected in block instance 'xaui_tx_steer_inst', is tied to GND.
+WARNING:Xst:2898 - Port 'rxelecidle_in', unconnected in block instance 'xaui_tx_steer_inst', is tied to GND.
+WARNING:Xst:2898 - Port 'rxbufferr_in', unconnected in block instance 'xaui_tx_steer_inst', is tied to GND.
+WARNING:Xst:647 - Input <mgt_rx_n<15:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <mgt_rx_n<31:24>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <mgt_rx_p<15:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <mgt_rx_p<31:24>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <mgt_tx_rst<3:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <mgt_tx_rst<7:6>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <mgt_txpostemphasis<19:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <mgt_txpostemphasis<39:30>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <mgt_txpreemphasis<15:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <mgt_txpreemphasis<31:24>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <mgt_txdiffctrl<15:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <mgt_txdiffctrl<31:24>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <mgt_rx_rst<3:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <mgt_rx_rst<7:6>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <mgt_rxenchansync<3:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <mgt_rxenchansync<7:6>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <mgt_rxeqmix<11:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <mgt_rxeqmix<23:18>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <mgt_loopback<11:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <mgt_loopback<23:18>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <mgt_powerdown<3:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <mgt_powerdown<7:6>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+INFO:Xst:3210 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/xaui_infrastructure_low.v" line 169: Output port <RXRESETDONE_OUT> of the instance <gtx_wrap_gen[4].gtx_quad_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/xaui_infrastructure_low.v" line 169: Output port <TXRESETDONE_OUT> of the instance <gtx_wrap_gen[4].gtx_quad_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/xaui_infrastructure_low.v" line 169: Output port <RXRESETDONE_OUT> of the instance <gtx_wrap_gen[5].gtx_quad_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/xaui_infrastructure_low.v" line 169: Output port <TXOUTCLK_OUT> of the instance <gtx_wrap_gen[5].gtx_quad_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/xaui_infrastructure_low.v" line 169: Output port <TXRESETDONE_OUT> of the instance <gtx_wrap_gen[5].gtx_quad_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/xaui_infrastructure_low.v" line 272: Output port <rxcodecomma_out> of the instance <xaui_tx_steer_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/xaui_infrastructure_low.v" line 272: Output port <rxencommaalign_out> of the instance <xaui_tx_steer_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/xaui_infrastructure_low.v" line 272: Output port <rxsyncok_out> of the instance <xaui_tx_steer_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/xaui_infrastructure_low.v" line 272: Output port <rxcodevalid_out> of the instance <xaui_tx_steer_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/xaui_infrastructure_low.v" line 272: Output port <rxlock_out> of the instance <xaui_tx_steer_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/xaui_infrastructure_low.v" line 272: Output port <rxelecidle_out> of the instance <xaui_tx_steer_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/xaui_infrastructure_low.v" line 272: Output port <rxbufferr_out> of the instance <xaui_tx_steer_inst> is unconnected or connected to loadless signal.
+WARNING:Xst:653 - Signal <mgt_status<127:96>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mgt_status<63:0>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mgt_rxdata_swap<511:384>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mgt_rxdata_swap<255:0>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mgt_rxcharisk_swap<63:48>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mgt_rxcharisk_swap<31:0>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mgt_rxcodecomma_swap<63:48>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mgt_rxcodecomma_swap<31:0>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mgt_rxsyncok_swap<31:24>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mgt_rxsyncok_swap<15:0>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mgt_rxbufferr_swap<31:24>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mgt_rxbufferr_swap<15:0>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mgt_rxelecidle_swap<31:24>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mgt_rxelecidle_swap<15:0>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mgt_rxlock_swap<31:24>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mgt_rxlock_swap<15:0>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mgt_rxdisperror<63:48>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mgt_rxdisperror<31:0>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mgt_rxnotintable<63:48>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <mgt_rxnotintable<31:0>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 1-bit register for signal <reset_r<1><3>>.
+    Found 1-bit register for signal <reset_r<1><2>>.
+    Found 1-bit register for signal <reset_r<1><1>>.
+    Found 1-bit register for signal <reset_r<1><0>>.
+    Found 1-bit register for signal <reset_r<2><3>>.
+    Found 1-bit register for signal <reset_r<2><2>>.
+    Found 1-bit register for signal <reset_r<2><1>>.
+    Found 1-bit register for signal <reset_r<2><0>>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <xaui_infrastructure_low> synthesized.
+
+Synthesizing Unit <gtx_quad>.
+    Related source file is "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/gtx_quad.v".
+    Summary:
+	no macro.
+Unit <gtx_quad> synthesized.
+
+Synthesizing Unit <xaui_rx_steer_1>.
+    Related source file is "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/xaui_rx_steer.v".
+        LANE_STEER = 8'b11111111
+    Summary:
+	no macro.
+Unit <xaui_rx_steer_1> synthesized.
+
+Synthesizing Unit <xaui_rx_steer_2>.
+    Related source file is "/home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/xaui_infrastructure_v1_00_a/hdl/verilog/xaui_rx_steer.v".
+        LANE_STEER = 8'b00110000
+    Summary:
+	no macro.
+Unit <xaui_rx_steer_2> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 8
+ 1-bit register                                        : 8
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 8
+ Flip-Flops                                            : 8
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <system_xaui_infrastructure_inst_wrapper> ...
+
+Optimizing unit <xaui_infrastructure_low> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 0) on block system_xaui_infrastructure_inst_wrapper, actual ratio is 0.
+
+Final Macro Processing ...
+
+Processing Unit <system_xaui_infrastructure_inst_wrapper> :
+INFO:Xst:741 - HDL ADVISOR - A 4-bit shift register was found for signal <xaui_infrastructure_inst/xaui_infrastructure_low_inst/reset_r_2_3> and currently occupies 4 logic cells (2 slices). Removing the set/reset logic would take advantage of SRL32 (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+INFO:Xst:741 - HDL ADVISOR - A 4-bit shift register was found for signal <xaui_infrastructure_inst/xaui_infrastructure_low_inst/reset_r_1_3> and currently occupies 4 logic cells (2 slices). Removing the set/reset logic would take advantage of SRL32 (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+Unit <system_xaui_infrastructure_inst_wrapper> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 8
+ Flip-Flops                                            : 8
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : system_xaui_infrastructure_inst_wrapper.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 18
+#      GND                         : 1
+#      LUT2                        : 16
+#      VCC                         : 1
+# FlipFlops/Latches                : 8
+#      FDP                         : 8
+# Clock Buffers                    : 1
+#      BUFG                        : 1
+# IO Buffers                       : 3
+#      IBUFDS_GTXE1                : 3
+# GigabitIOs                       : 8
+#      GTXE1                       : 8
+# Others                           : 3
+#      BUFR                        : 3
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6vsx475tff1759-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:               8  out of  595200     0%  
+ Number of Slice LUTs:                   16  out of  297600     0%  
+    Number used as Logic:                16  out of  297600     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     20
+   Number with an unused Flip Flop:      12  out of     20    60%  
+   Number with an unused LUT:             4  out of     20    20%  
+   Number of fully used LUT-FF pairs:     4  out of     20    20%  
+   Number of unique control sets:         2
+
+IO Utilization: 
+ Number of IOs:                        1696
+ Number of bonded IOBs:                 366  out of    840    43%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+xaui_refclk_p<2>                   | IBUFDS_GTXE1+BUFR      | 5     |
+xaui_refclk_p<1>                   | IBUFDS_GTXE1+BUFR      | 5     |
+xaui_refclk_p<0>                   | IBUFDS_GTXE1           | 1     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+-------------------------------------------------------------------------------+-------+
+Control Signal                     | Buffer(FF name)                                                               | Load  |
+-----------------------------------+-------------------------------------------------------------------------------+-------+
+mgt_rxcodevalid7<0>(XST_VCC:P)     | NONE(xaui_infrastructure_inst/xaui_infrastructure_low_inst/bufr_gtx_refclk<2>)| 3     |
+mgt_rxlock7<0>(XST_GND:G)          | NONE(xaui_infrastructure_inst/xaui_infrastructure_low_inst/bufr_gtx_refclk<2>)| 3     |
+-----------------------------------+-------------------------------------------------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 0.785ns (Maximum Frequency: 1273.885MHz)
+   Minimum input arrival time before clock: 0.434ns
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'xaui_refclk_p<2>'
+  Clock period: 0.785ns (frequency: 1273.885MHz)
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Delay:               0.785ns (Levels of Logic = 0)
+  Source:            xaui_infrastructure_inst/xaui_infrastructure_low_inst/reset_r_2_2 (FF)
+  Destination:       xaui_infrastructure_inst/xaui_infrastructure_low_inst/reset_r_2_3 (FF)
+  Source Clock:      xaui_refclk_p<2> rising
+  Destination Clock: xaui_refclk_p<2> rising
+
+  Data Path: xaui_infrastructure_inst/xaui_infrastructure_low_inst/reset_r_2_2 to xaui_infrastructure_inst/xaui_infrastructure_low_inst/reset_r_2_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDP:C->Q              1   0.375   0.399  xaui_infrastructure_inst/xaui_infrastructure_low_inst/reset_r_2_2 (xaui_infrastructure_inst/xaui_infrastructure_low_inst/reset_r_2_2)
+     FDP:D                     0.011          xaui_infrastructure_inst/xaui_infrastructure_low_inst/reset_r_2_3
+    ----------------------------------------
+    Total                      0.785ns (0.386ns logic, 0.399ns route)
+                                       (49.2% logic, 50.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'xaui_refclk_p<1>'
+  Clock period: 0.785ns (frequency: 1273.885MHz)
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Delay:               0.785ns (Levels of Logic = 0)
+  Source:            xaui_infrastructure_inst/xaui_infrastructure_low_inst/reset_r_1_2 (FF)
+  Destination:       xaui_infrastructure_inst/xaui_infrastructure_low_inst/reset_r_1_3 (FF)
+  Source Clock:      xaui_refclk_p<1> rising
+  Destination Clock: xaui_refclk_p<1> rising
+
+  Data Path: xaui_infrastructure_inst/xaui_infrastructure_low_inst/reset_r_1_2 to xaui_infrastructure_inst/xaui_infrastructure_low_inst/reset_r_1_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDP:C->Q              1   0.375   0.399  xaui_infrastructure_inst/xaui_infrastructure_low_inst/reset_r_1_2 (xaui_infrastructure_inst/xaui_infrastructure_low_inst/reset_r_1_2)
+     FDP:D                     0.011          xaui_infrastructure_inst/xaui_infrastructure_low_inst/reset_r_1_3
+    ----------------------------------------
+    Total                      0.785ns (0.386ns logic, 0.399ns route)
+                                       (49.2% logic, 50.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'xaui_refclk_p<2>'
+  Total number of paths / destination ports: 5 / 5
+-------------------------------------------------------------------------
+Offset:              0.434ns (Levels of Logic = 0)
+  Source:            reset (PAD)
+  Destination:       xaui_infrastructure_inst/xaui_infrastructure_low_inst/reset_r_2_3 (FF)
+  Destination Clock: xaui_refclk_p<2> rising
+
+  Data Path: reset to xaui_infrastructure_inst/xaui_infrastructure_low_inst/reset_r_2_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDP:PRE                   0.434          xaui_infrastructure_inst/xaui_infrastructure_low_inst/reset_r_2_0
+    ----------------------------------------
+    Total                      0.434ns (0.434ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'xaui_refclk_p<1>'
+  Total number of paths / destination ports: 5 / 5
+-------------------------------------------------------------------------
+Offset:              0.434ns (Levels of Logic = 0)
+  Source:            reset (PAD)
+  Destination:       xaui_infrastructure_inst/xaui_infrastructure_low_inst/reset_r_1_3 (FF)
+  Destination Clock: xaui_refclk_p<1> rising
+
+  Data Path: reset to xaui_infrastructure_inst/xaui_infrastructure_low_inst/reset_r_1_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDP:PRE                   0.434          xaui_infrastructure_inst/xaui_infrastructure_low_inst/reset_r_1_0
+    ----------------------------------------
+    Total                      0.434ns (0.434ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock xaui_refclk_p<1>
+----------------+---------+---------+---------+---------+
+                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock    |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+----------------+---------+---------+---------+---------+
+xaui_refclk_p<1>|    0.785|         |         |         |
+----------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock xaui_refclk_p<2>
+----------------+---------+---------+---------+---------+
+                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock    |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+----------------+---------+---------+---------+---------+
+xaui_refclk_p<2>|    0.785|         |         |         |
+----------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 9.10 secs
+ 
+--> 
+
+
+Total memory usage is 418656 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   65 (   0 filtered)
+Number of infos    :   17 (   0 filtered)
+

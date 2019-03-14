@@ -1,0 +1,9 @@
+verilog sfp_mdio_controller_v1_00_a /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/gpio_controller.v
+verilog sfp_mdio_controller_v1_00_a /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/temac.v
+verilog sfp_mdio_controller_v1_00_a /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/sgmii_gtx.v
+verilog sfp_mdio_controller_v1_00_a /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/sgmii_phy.v
+verilog sfp_mdio_controller_v1_00_a /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio_wb.v
+verilog sfp_mdio_controller_v1_00_a /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_mdio.v
+verilog sfp_mdio_controller_v1_00_a /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/emac_wrapper.v
+verilog sfp_mdio_controller_v1_00_a /home/roach/seba/vector_voltmeter/models/tge/casper_model/roach2_tut_tge/XPS_ROACH2_base/pcores/sfp_mdio_controller_v1_00_a/hdl/verilog/sfp_mdio_controller.v
+verilog work ../hdl/system_sfp_mdio_controller_inst_wrapper.v
