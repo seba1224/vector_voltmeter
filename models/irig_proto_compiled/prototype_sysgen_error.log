@@ -1,0 +1,25 @@
+--------------------------------- Version Log ----------------------------------
+Version                                 Path
+System Generator                        /opt/Xilinx/14.7/ISE_DS/ISE/sysgen
+Matlab 8.2.0.701 (R2013b)               /usr/local/MATLAB/R2013b
+ISE                                     /opt/Xilinx/14.7/ISE_DS/ISE
+--------------------------------------------------------------------------------
+Summary of Errors:
+Error 0001: Type assertion failed
+     Block: 'prototype/terminate/assert_reg'
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'prototype/terminate/assert_reg'
+
+Details:
+The input type propagated to this block did not match the
+specified type.
+  Expected Type: UFix_32_0
+  Actual Type: Bool
+
+Error occurred during "Rate and Type Error Checking".
+
+--------------------------------------------------------------------------------

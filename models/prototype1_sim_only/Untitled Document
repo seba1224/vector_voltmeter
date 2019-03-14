@@ -1,0 +1,4 @@
+Este modelo tiene una manera de lidiar con la incerteza que se genera en el flanco de subida del pulso, aunque no tiene implementada una logica asociada al flanco de bajada, con lo que falta hacer estados que se cercioren que realmente se trata de un flanco de bajada y no un error del sistema que entregue irig (esto seria ponerse en el peor caso, pero no es malo hacerlo).
+
+
+Importante... este modelo es para testear, simular entradas y esas vainas...el que se compila esta en docs/IRIG/models/prototype1 

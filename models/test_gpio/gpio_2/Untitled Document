@@ -1,0 +1,6 @@
+
+
+Esta medicion fue realizada con una señal cuadrada de 10Khz con 50% de duty cycle, con ello se determina que la tasa de adquicion de los gpio se corresponde con la frec del clk de la fpga (q en ese caso era 125MHz). Esta señal fue generada con el osciloscipio del lab.
+
+El error asociado a la transicion del flanco asociado a estos datos es de 3.68e-07 segs, o 368ns aprox.
+
