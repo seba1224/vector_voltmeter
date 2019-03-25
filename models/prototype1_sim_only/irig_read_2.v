@@ -97,7 +97,7 @@ parameter y = 5'b01011;
 parameter z = 5'b11111;
 parameter aa = 5'b11000;
 parameter [7:0]val = 8'b00000011;
-reg[3:0]dir_dic[0:49]; 
+reg[3:0]dir_dic[0:99]; 
 
 /* =  ' {4'b1111, 4'b0000, 4'b0000, 4'b0000, 4'b0000, 4'b1111, 4'b0001, 4'b0001, 4'b0001, 4'b1100, 
                                 4'b0010, 4'b0010, 4'b0010, 4'b0010, 4'b1111, 4'b0011, 4'b0011, 4'b0011, 4'b1111, 4'b1100,
@@ -119,6 +119,12 @@ initial begin
     dir_dic[20] = 4'b0100; dir_dic[21] = 4'b0100; dir_dic[22] = 4'b0100; dir_dic[23] = 4'b0100; dir_dic[24] = 4'b1111; dir_dic[25] = 4'b0101; dir_dic[26] = 4'b0101; dir_dic[27] = 4'b1111; dir_dic[28] = 4'b1111; dir_dic[29] = 4'b1100;
     dir_dic[30] = 4'b0110; dir_dic[31] = 4'b0110; dir_dic[32] = 4'b0110; dir_dic[33]=4'b0110; dir_dic[34] = 4'b1111; dir_dic[35] = 4'b0111; dir_dic[36] = 4'b0111; dir_dic[37] = 4'b0111; dir_dic[38] = 4'b0111; dir_dic[39] = 4'b1100;
     dir_dic[40] = 4'b1000; dir_dic[41] = 4'b1000; dir_dic[42] = 4'b1111; dir_dic[43]=4'b1111; dir_dic[44] = 4'b1111; dir_dic[45] = 4'b1111; dir_dic[46] = 4'b1111; dir_dic[47] = 4'b1111; dir_dic[48] = 4'b1111; dir_dic[49] = 4'b1100;
+dir_dic[50] = 4'b1111; dir_dic[51] = 4'b1111; dir_dic[52] = 4'b1111; dir_dic[52] = 4'b1111; dir_dic[53] = 4'b1111; dir_dic[54] = 4'b1111; dir_dic[55] = 4'b1111; dir_dic[56] = 4'b1111; dir_dic[57] = 4'b1111; dir_dic[58] = 4'b1111; dir_dic[59] = 4'b1111;
+dir_dic[60] = 4'b1111; dir_dic[61] = 4'b1111; dir_dic[62] = 4'b1111; dir_dic[63] = 4'b1111; dir_dic[64] = 4'b1111; dir_dic[65] = 4'b1111; dir_dic[66] = 4'b1111; dir_dic[67] = 4'b1111; dir_dic[68] = 4'b1111; dir_dic[69] = 4'b1111;
+dir_dic[70] = 4'b1111; dir_dic[71] = 4'b1111; dir_dic[72] = 4'b1111; dir_dic[73] = 4'b1111; dir_dic[74] = 4'b1111; dir_dic[75] = 4'b1111; dir_dic[76] = 4'b1111; dir_dic[77] = 4'b1111; dir_dic[78] = 4'b1111; dir_dic[79] = 4'b1111;
+dir_dic[80] = 4'b1111; dir_dic[81] = 4'b1111; dir_dic[82] = 4'b1111; dir_dic[83] = 4'b1111; dir_dic[84] = 4'b1111; dir_dic[85] = 4'b1111; dir_dic[86] = 4'b1111; dir_dic[87] = 4'b1111; dir_dic[88] = 4'b1111; dir_dic[89] = 4'b1111;
+dir_dic[90] = 4'b1111; dir_dic[91] = 4'b1111; dir_dic[92] = 4'b1111; dir_dic[93] = 4'b1111; dir_dic[94] = 4'b1111; dir_dic[95] = 4'b1111; dir_dic[96] = 4'b1111; dir_dic[97] = 4'b1111; dir_dic[98] = 4'b1111; dir_dic[99] = 4'b1111;
+
 
 rst_reg_ = 0;
 cont_ = 0;
@@ -172,7 +178,7 @@ always@(*)begin
 			if(~en)			next_state = l;
 			else if(en)		next_state = m;
 		m:
-			if(ind==49)			next_state = n;
+			if(ind==99)			next_state = n;
 			else 				next_state = aa;
 		n:
 			if(count_fin==val)	next_state = o;
