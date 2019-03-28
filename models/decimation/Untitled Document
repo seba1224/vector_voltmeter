@@ -1,0 +1,2 @@
+EL modelo en el subsys tendria al recibir el 1er enable guarda el valor actual, al recibir el segundo enable saca ambos valores con un enable_out simultaneamente.
+
