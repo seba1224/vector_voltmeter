@@ -1,2 +1,11 @@
 EL modelo en el subsys tendria al recibir el 1er enable guarda el valor actual, al recibir el segundo enable saca ambos valores con un enable_out simultaneamente.
 
+
+
+EL bloque de fir5.0 al colocar coef [1 1 1 1] y una decimacion de 2 lo que hace es tomar 2 muestras multiplicarlas por esos factores y luego sumarlas. por ej toma 2,3 y entrega 2+3+2+3=12
+
+
+
+https://www.mail-archive.com/casper@lists.berkeley.edu/msg05635.html ---> One thing to watch out for is that the sync must occur on the last valid
+cycle of an input data window.
+

@@ -13,7 +13,7 @@ def hora(time):
 
 
 IP = '192.168.1.12'
-bof = 'proto_lock2.bof'
+bof = 'pulse_proto.bof' #'pulse_test.bof' #'proto_lock2.bof'
 
 fpga = corr.katcp_wrapper.FpgaClient(IP)
 time.sleep(3)
@@ -50,11 +50,14 @@ fpga.write_int('rst_lectures',0)
 fpga.write_int('rst_gpio',1)
 fpga.write_int('rst_gpio',0)
 fpga.write_int('save_data',0)
-fpga.write_int('frec_uplim', int(frec_fpga/100*1.005))  #en el modelo me equivoque al multiplicar por 100...
-fpga.write_int('frec_downlim',int(frec_fpga/100*0.991))
+fpga.write_int('frec_uplim', int(frec_fpga/100*1.005))
+fpga.write_int('frec_downlim', int(frec_fpga/100*0.991))
+#fpga.write_int('frec_uplim', int(frec_fpga*1.005))  #en el modelo me equivoque al multiplicar por 100...
+#fpga.write_int('frec_downlim',int(frec_fpga*0.991))
 fpga.write_int('hrd_rst', 1)
 time.sleep(1)
 fpga.write_int('hrd_rst', 0)
+fpga.write_int('pulse_period', int(1000))  #periodo del pulso que sale por el gpio2
 
 fpga.write_int('cal',1)
 time.sleep(3)
