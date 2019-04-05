@@ -9,3 +9,6 @@ EL bloque de fir5.0 al colocar coef [1 1 1 1] y una decimacion de 2 lo que hace 
 https://www.mail-archive.com/casper@lists.berkeley.edu/msg05635.html ---> One thing to watch out for is that the sync must occur on the last valid
 cycle of an input data window.
 
+
+
+EL filtro que coloque en el segundo decimador es de 80 coefficientes, tiene w_stop=0.75, wpass= 0.77 y w_pass= 0.92, wstop=0.95... Esto quiere decir que las frecuencias de paso van de [51.97-62.1]MHz (Eso debiese ser)
