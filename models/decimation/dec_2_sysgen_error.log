@@ -5,18 +5,18 @@ Matlab 8.2.0.701 (R2013b)               /usr/local/MATLAB/R2013b
 ISE                                     /opt/Xilinx/14.7/ISE_DS/ISE
 --------------------------------------------------------------------------------
 Summary of Errors:
-Error 0001: Error : xn_re( Fix_34_33 ) and xn_im( Fix_48_47 ) must ha...
-     Block: 'dec_2/Fast Fourier Transform 7.1 '
+Error 0001: Invalid reinterpret detected:binary point must be less th...
+     Block: 'dec_2/Reinterpret2'
 --------------------------------------------------------------------------------
 
 Error 0001:
 
 Reported by:
-  'dec_2/Fast Fourier Transform 7.1 '
+  'dec_2/Reinterpret2'
 
 Details:
-Error : xn_re( Fix_34_33 ) and xn_im( Fix_48_47 ) must have the
-same data type.
+Invalid reinterpret detected:binary point must be less than or
+equal to the number of bits
 Error occurred during "Rate and Type Error Checking".
 
 --------------------------------------------------------------------------------
