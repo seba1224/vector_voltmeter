@@ -5,15 +5,21 @@ Matlab 8.2.0.701 (R2013b)               /usr/local/MATLAB/R2013b
 ISE                                     /opt/Xilinx/14.7/ISE_DS/ISE
 --------------------------------------------------------------------------------
 Summary of Errors:
-Error 0001: Undriven input port
-     Block: 'dec_2/simple_bram_vacc/delay_bram/Counter'
+Error 0001: Type assertion failed
+     Block: 'untitled/Assert'
 --------------------------------------------------------------------------------
 
 Error 0001:
 
 Reported by:
-  'dec_2/simple_bram_vacc/delay_bram/Counter'
+  'untitled/Assert'
 
 Details:
-The input ports on this block must be driven by other Xilinx blocks
+The input type propagated to this block did not match the
+specified type.
+  Expected Type: Fix_16_0
+  Actual Type: UFix_16_14
+
+Error occurred during "Rate and Type Error Checking".
+
 --------------------------------------------------------------------------------
