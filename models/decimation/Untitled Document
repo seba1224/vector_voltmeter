@@ -12,3 +12,8 @@ cycle of an input data window.
 
 
 EL filtro que coloque en el segundo decimador es de 80 coefficientes, tiene w_stop=0.75, wpass= 0.77 y w_pass= 0.92, wstop=0.95... Esto quiere decir que las frecuencias de paso van de [51.97-62.1]MHz (Eso debiese ser)
+
+
+
+Para el acc que hice el new_acc debe llegar 1 ciclo antes del 1er dato, los datos y la direccion deben llegar simultaneamente, el we debe estar al comienzo de la duracion del dato.
+El acc basicamente siempre suma el valor del dato que esta llegando con el que tiene guardado en la memoria RAM, la cosa es que hay un mux conrtolado por el new_acc extendidio que cuando marca 1 suma la cantidad que entra por cero, cuando marca cero la entrada se suma con el valor guardado en la RAM. Se tiene que hacer un desfase en la llegada del we, para que se alcance a leer la memoria y sumar para luego escribir la memoria nuevamente.
