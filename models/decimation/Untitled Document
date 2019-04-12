@@ -17,3 +17,10 @@ EL filtro que coloque en el segundo decimador es de 80 coefficientes, tiene w_st
 
 Para el acc que hice el new_acc debe llegar 1 ciclo antes del 1er dato, los datos y la direccion deben llegar simultaneamente, el we debe estar al comienzo de la duracion del dato.
 El acc basicamente siempre suma el valor del dato que esta llegando con el que tiene guardado en la memoria RAM, la cosa es que hay un mux conrtolado por el new_acc extendidio que cuando marca 1 suma la cantidad que entra por cero, cuando marca cero la entrada se suma con el valor guardado en la RAM. Se tiene que hacer un desfase en la llegada del we, para que se alcance a leer la memoria y sumar para luego escribir la memoria nuevamente.
+
+
+Acotacion: no se xq al acumular siempre me da un valor mas del que realmente debiese dar al sumar todo por ej los vals del canal cero simulado son :10**-11({372,209,582,52}) cuya suma es 1215*10**-11, pero el valor que entrega el acc es de 1216e-11.
+------> Es un porblema de representacion de las partes fraccionarias
+
+
+Notar que en el acc len se alarga el pulso por 64*4 esto es xq tenemos un largo de fft de 64 y cada dato dura 4 ciclos, osea ese pulse expand es para que en un ciclo expandido se lean los 1eros datos a ser acumulados, lo importante es que aqui la duracion de los frames de datos tmb depende de la 2da decimacion que estamos haciendo.
