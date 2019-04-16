@@ -1,0 +1,21 @@
+--------------------------------- Version Log ----------------------------------
+Version                                 Path
+System Generator                        /opt/Xilinx/14.7/ISE_DS/ISE/sysgen
+Matlab 8.2.0.701 (R2013b)               /usr/local/MATLAB/R2013b
+ISE                                     /opt/Xilinx/14.7/ISE_DS/ISE
+--------------------------------------------------------------------------------
+Summary of Errors:
+Error 0001: ERROR: Could not set parameter property on IP model
+     Block: 'dec_test/2nd_dec/FIR Compiler 6.3 '
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'dec_test/2nd_dec/FIR Compiler 6.3 '
+
+Details:
+ERROR: Could not set parameter property on IP model
+Error occurred during "Block Configuration".
+
+--------------------------------------------------------------------------------
