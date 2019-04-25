@@ -24,3 +24,16 @@ Acotacion: no se xq al acumular siempre me da un valor mas del que realmente deb
 
 
 Notar que en el acc len se alarga el pulso por 64*4 esto es xq tenemos un largo de fft de 64 y cada dato dura 4 ciclos, osea ese pulse expand es para que en un ciclo expandido se lean los 1eros datos a ser acumulados, lo importante es que aqui la duracion de los frames de datos tmb depende de la 2da decimacion que estamos haciendo.
+
+
+
+
+IMPORTANTE!!!
+weas que cambiar con el largo de la fft:	sync_gen, pfb, acc_len, el pulse_extent y el tamaño de la RAM dentro del bloque acc, los addr de la bram
+
+Si cambiamos la decimación habria que volver a revisar todas las señales de control (igual creo que deberian funcionar para decimacion>4..pero habria q probar). 
+
+
+
+
+

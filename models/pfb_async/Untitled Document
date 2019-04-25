@@ -1,0 +1,47 @@
+
+
+Notas del pfb_real de casper pa ir modificandolo.
+
+La funcion pfb_coeff_gen_calc genera los valores de los coef de taps dentro del bloque. 
+pfb_coeff_gen_calc(6, 4,'hamming',0, 0,1,1,false) por ej genera 4 taps de tamaño 2**6 de una ventana hamming, el 1er cero es la cantidad de inputs paralelos,  el 2do cero es cual de los inputs simultaneos es, el 1 es el factor de escala, el sgte 1 es el numero del tap q estamos viendo (en este caso va de [1,4]) y el false es para decir que no es un debbuging.
+
+
+En Pol_coeff se generan los coeficientes dentro de unas ROM, hay un counter que va entregando las direcciones de cada coeff, luego los coef de todos los taps son concatenados y los tira a los otros bloques.
+
+
+REVISAR ESTO
+Al entrar al 1er tap hay un delay bram, que es una ROM que en cada ciclo escribe un valor, la idea es que guarda el valor hasta que el contador hace overflow y luego recuperas el valor que se tenia antes.. Hay que hacer algo parecido (si es que no es lo mismo..) que lo hecho con el accumulador. Esto es lo que sale por el dout.
+
+EL output real del 1er tap esta en la salida tap_out que es la multiplicacion de la entrada por el coeficiente dado.
+El resto de los coeficientes que estaban concatenados salen al sgte bloque.
+
+
+Los taps sgtes son iguales, en cada uno se guarda el valor que entra por din (q es el que se iba guardando en la ROM del bloque anterior) y hae lo mismo.
+EL unico diferente es el ultimo tap, donde ya no es necesario guardar el valor que ingresa or din.
+
+
+En el adder se suma todo y lo tira pa afuera.
+
+
+------------------------------------------------
+Delays brams por tap:
+
+1era ---> 2^(PFBSize-n_inputs) : en nuestro caso 2**6
+2da  ---> delay  (?) --->  delay vale 64
+3era ---> delay 
+
+
+
+Notar ademas que el delay del sync en cada tap es:
+1er ---> 64
+2da ---> 32  #era una pifia del programa parece...jaja
+3rea --> 64
+4ta ---> 2
+
+
+
+Otra cosa.. los contadores de las RAMs siempre cuentan hasta PFB_size-bram_len-1 = 64-2-1
+
+
+
+
