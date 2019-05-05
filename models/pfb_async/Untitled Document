@@ -45,3 +45,36 @@ Otra cosa.. los contadores de las RAMs siempre cuentan hasta PFB_size-bram_len-1
 
 
 
+Agrego un delay extra dentro de la RAM.. a priori el delay es de 2*dec_len - 2, con dec_len el factor de deimacion del 2do decimador
+
+
+Al fial lo que hice fue ponderar todos los delays por el factor de decimacion que esta usando el polyphase decimator.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

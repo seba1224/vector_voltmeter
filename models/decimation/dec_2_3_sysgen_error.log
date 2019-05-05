@@ -1,0 +1,21 @@
+--------------------------------- Version Log ----------------------------------
+Version                                 Path
+System Generator                        /opt/Xilinx/14.7/ISE_DS/ISE/sysgen
+Matlab 8.2.0.701 (R2013b)               /usr/local/MATLAB/R2013b
+ISE                                     /opt/Xilinx/14.7/ISE_DS/ISE
+--------------------------------------------------------------------------------
+Summary of Errors:
+Error 0001: Incorrect slice end point
+     Block: 'dec_2_3/pow_data1/munge_in/split/slice1'
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'dec_2_3/pow_data1/munge_in/split/slice1'
+
+Details:
+Slice endpoints must lie between the LSB and MSB
+Error occurred during "Rate and Type Error Checking".
+
+--------------------------------------------------------------------------------

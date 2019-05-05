@@ -1,4 +1,5 @@
-largo = 10^7;
+largo = 10^6;
+sync_period = 256; %antes era 256 y funcaba sym_2
 fs = 135*10^6;
 t = [0:largo-1]/fs;
 t_cycl = [0:largo-1];
@@ -7,14 +8,18 @@ data_in = zeros(largo,2);
 sync(:,1) = t_cycl;
 data_in(:,1) = t_cycl;
 
-top_cycle = floor(largo/256);
+top_cycle = floor(largo/sync_period);
 cycle = 0;
 
 while cycle<top_cycle
-   sync(cycle*256+1,2) = 1;  
+   sync(cycle*sync_period+1,2) = 1;  
    cycle= cycle+1;
 end
-freq1 = 56*10^6;
+freq1 = 58.7*10^6;
 freq2 = 10*10^6;
-data_in(3:length(t),2) = 0.5*sin(2*pi*freq1*t(3:length(t)))+0.5*sin(2*pi*freq2*t(3:length(t)));
+sin_clean = 0.5*sin(2*pi*freq1*t(3:length(t)))+0.5*sin(2*pi*freq2*t(3:length(t)));
+data_in(3:length(t),2) =awgn(sin_clean, 200);
 
+
+
+sync = [sync(1:largo,1), sync(1:largo,2)];

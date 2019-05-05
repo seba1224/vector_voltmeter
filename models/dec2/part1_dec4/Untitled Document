@@ -1,0 +1,32 @@
+
+
+Pines fir 5.0
+
+nd = al estar en high indica que hay un dato valido en din
+rdy = indica que hay una salida valida en dout
+
+rfd indica que bloque puede aceptar mas inputs, si nd es high cuando rfd es low no se van a pescar los inputs.
+data_valid = se coloca en 1 cuando ya ha pasado todo un vector por el bloque
+
+
+------------------------------------------------------------
+testing: todos los filtros estan decimando por 4
+
+filtros:
+
+-4zone_wide:	[51.9750, 62.1]
+	wstop = 47.25			wpass = 51.9750
+	wpass =	62.1			wstop = 
+
+-4zone_narrow: [54, 62.1]
+	wstop = 50.6250			wpass = 54
+	wpass = 62.1			wstop = 66.8250
+
+-3zone_narrow: [37.1250, 47.2500]
+	wstop = 33.7500			wpass = 37.1250
+	wpass = 47.2500			wstop = 50.6250
+
+-1zone_narrow: [0, 13.5000]
+	wpass = 13.5			wstop = 16.8750
+
+
