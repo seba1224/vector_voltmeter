@@ -1,0 +1,2 @@
+VHDL testing_adcsnap2_bram_ramblk_elaborate_v1_00_a /home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part1_dec4/testing/XPS_ROACH2_base/hdl/elaborate/testing_adcsnap2_bram_ramblk_elaborate_v1_00_a/hdl/vhdl/testing_adcsnap2_bram_ramblk_elaborate.vhd
+vhdl work ../hdl/system_testing_adcsnap2_bram_ramblk_wrapper.vhd

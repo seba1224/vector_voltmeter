@@ -33,6 +33,9 @@ figure
 plot(f,flip(p1),'-*')
 title('64 fft output dec')
 
+
+
+
 %{
 ind_sync = find(sync_pfb.data()==1);
 enable_pfb = en_pfb.data();

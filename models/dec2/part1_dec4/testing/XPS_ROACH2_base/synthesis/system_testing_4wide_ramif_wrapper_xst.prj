@@ -1,0 +1,2 @@
+VHDL bram_if_v1_00_a /home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part1_dec4/testing/XPS_ROACH2_base/pcores/bram_if_v1_00_a/hdl/vhdl/bram_if.vhd
+vhdl work ../hdl/system_testing_4wide_ramif_wrapper.vhd

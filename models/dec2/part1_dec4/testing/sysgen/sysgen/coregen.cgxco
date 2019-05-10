@@ -1,0 +1,828 @@
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Adder_Subtracter virtex6 Xilinx,_Inc. 11.0
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET AINIT_Value = 0
+CSET A_Type = Signed
+CSET A_Width = 36
+CSET Add_Mode = Add
+CSET B_Constant = false
+CSET B_Type = Signed
+CSET B_Value = 0
+CSET B_Width = 36
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = true
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = DSP48
+CSET Latency = 1
+CSET Out_Width = 36
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+CSET component_name = addsb_11_0_057e085f9fa7824e
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Adder_Subtracter virtex6 Xilinx,_Inc. 11.0
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET AINIT_Value = 0
+CSET A_Type = Signed
+CSET A_Width = 38
+CSET Add_Mode = Add
+CSET B_Constant = false
+CSET B_Type = Signed
+CSET B_Value = 0
+CSET B_Width = 38
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = true
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = DSP48
+CSET Latency = 1
+CSET Out_Width = 38
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+CSET component_name = addsb_11_0_124ad8bd21557d78
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Adder_Subtracter virtex6 Xilinx,_Inc. 11.0
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET AINIT_Value = 0
+CSET A_Type = Signed
+CSET A_Width = 39
+CSET Add_Mode = Add
+CSET B_Constant = false
+CSET B_Type = Signed
+CSET B_Value = 0
+CSET B_Width = 39
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = true
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = DSP48
+CSET Latency = 1
+CSET Out_Width = 39
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+CSET component_name = addsb_11_0_1ab2fc8c7fe57f94
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Adder_Subtracter virtex6 Xilinx,_Inc. 11.0
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET AINIT_Value = 0
+CSET A_Type = Signed
+CSET A_Width = 35
+CSET Add_Mode = Add
+CSET B_Constant = false
+CSET B_Type = Signed
+CSET B_Value = 0
+CSET B_Width = 35
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = true
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = DSP48
+CSET Latency = 1
+CSET Out_Width = 35
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+CSET component_name = addsb_11_0_26f49e58a7187211
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Adder_Subtracter virtex6 Xilinx,_Inc. 11.0
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET AINIT_Value = 0
+CSET A_Type = Unsigned
+CSET A_Width = 3
+CSET Add_Mode = Add
+CSET B_Constant = false
+CSET B_Type = Unsigned
+CSET B_Value = 0
+CSET B_Width = 3
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = false
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = Fabric
+CSET Latency = 0
+CSET Out_Width = 3
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+CSET component_name = addsb_11_0_6a49eeb869ee9525
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Adder_Subtracter virtex6 Xilinx,_Inc. 11.0
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET AINIT_Value = 0
+CSET A_Type = Signed
+CSET A_Width = 40
+CSET Add_Mode = Add
+CSET B_Constant = false
+CSET B_Type = Signed
+CSET B_Value = 0
+CSET B_Width = 40
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = true
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = DSP48
+CSET Latency = 1
+CSET Out_Width = 40
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+CSET component_name = addsb_11_0_a92f1809cda25252
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Adder_Subtracter virtex6 Xilinx,_Inc. 11.0
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET AINIT_Value = 0
+CSET A_Type = Signed
+CSET A_Width = 37
+CSET Add_Mode = Add
+CSET B_Constant = false
+CSET B_Type = Signed
+CSET B_Value = 0
+CSET B_Width = 37
+CSET Borrow_Sense = Active_Low
+CSET Bypass = false
+CSET Bypass_CE_Priority = Bypass_Overrides_CE
+CSET Bypass_Sense = Active_Low
+CSET CE = true
+CSET C_In = false
+CSET C_Out = false
+CSET Implementation = DSP48
+CSET Latency = 1
+CSET Out_Width = 37
+CSET SCLR = false
+CSET SINIT = false
+CSET SINIT_Value = 0
+CSET SSET = false
+CSET Sync_CE_Priority = Sync_Overrides_CE
+CSET Sync_Ctrl_Priority = Reset_Overrides_Set
+CSET component_name = addsb_11_0_f52883bb4806fc24
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Block_Memory_Generator virtex6 Xilinx,_Inc. 7.2
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET algorithm = Minimum_Area
+CSET assume_synchronous_clk = true
+CSET byte_size = 9
+CSET coe_file = bmg_72_80ec4706477d97c1.coe
+CSET collision_warnings = ALL
+CSET disable_collision_warnings = false
+CSET ecc = false
+CSET enable_a = Use_ENA_Pin
+CSET enable_b = Use_ENB_Pin
+CSET error_injection_type = Single_Bit_Error_Injection
+CSET fill_remaining_memory_locations = false
+CSET load_init_file = TRUE
+CSET memory_type = True_Dual_Port_RAM
+CSET operating_mode_a = WRITE_FIRST
+CSET operating_mode_b = READ_FIRST
+CSET output_reset_value_a = 0
+CSET output_reset_value_b = 0
+CSET pipeline_stages = 0
+CSET primitive = 8kx2
+CSET read_width_a = 8
+CSET read_width_b = 8
+CSET register_porta_output_of_memory_core = false
+CSET register_porta_output_of_memory_primitives = true
+CSET register_portb_output_of_memory_core = false
+CSET register_portb_output_of_memory_primitives = true
+CSET remaining_memory_locations = 0
+CSET reset_type = SYNC
+CSET use_byte_write_enable = false
+CSET use_error_injection_pins = false
+CSET use_regcea_pin = false
+CSET use_regceb_pin = false
+CSET use_rsta_pin = false
+CSET use_rstb_pin = false
+CSET write_depth_a = 4
+CSET write_width_a = 8
+CSET write_width_b = 8
+CSET component_name = bmg_72_80ec4706477d97c1
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Binary_Counter virtex6 Xilinx,_Inc. 11.0
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET ainit_value = 0
+CSET ce = true
+CSET count_mode = UP
+CSET fb_latency = 0
+CSET final_count_value = 1
+CSET implementation = Fabric
+CSET increment_value = 1
+CSET latency = 1
+CSET load = false
+CSET output_width = 2
+CSET restrict_count = false
+CSET sclr = false
+CSET sinit = true
+CSET sinit_value = 0
+CSET sset = false
+CSET sync_ce_priority = Sync_Overrides_CE
+CSET sync_threshold_output = false
+CSET syncctrlpriority = Reset_Overrides_Set
+CSET component_name = cntr_11_0_541f86689cddfa59
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Binary_Counter virtex6 Xilinx,_Inc. 11.0
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET ainit_value = 0
+CSET ce = true
+CSET count_mode = UP
+CSET fb_latency = 0
+CSET final_count_value = 1
+CSET implementation = Fabric
+CSET increment_value = 4
+CSET latency = 1
+CSET load = false
+CSET output_width = 13
+CSET restrict_count = false
+CSET sclr = false
+CSET sinit = true
+CSET sinit_value = 0
+CSET sset = false
+CSET sync_ce_priority = Sync_Overrides_CE
+CSET sync_threshold_output = false
+CSET syncctrlpriority = Reset_Overrides_Set
+CSET component_name = cntr_11_0_866619918c8abcee
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Binary_Counter virtex6 Xilinx,_Inc. 11.0
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET ainit_value = 0
+CSET ce = true
+CSET count_mode = UP
+CSET fb_latency = 0
+CSET final_count_value = 1
+CSET implementation = Fabric
+CSET increment_value = 10
+CSET latency = 1
+CSET load = false
+CSET output_width = 32
+CSET restrict_count = false
+CSET sclr = false
+CSET sinit = true
+CSET sinit_value = 0
+CSET sset = false
+CSET sync_ce_priority = Sync_Overrides_CE
+CSET sync_threshold_output = false
+CSET syncctrlpriority = Reset_Overrides_Set
+CSET component_name = cntr_11_0_878d64cddecff8f4
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Binary_Counter virtex6 Xilinx,_Inc. 11.0
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET ainit_value = 0
+CSET ce = true
+CSET count_mode = UP
+CSET fb_latency = 0
+CSET final_count_value = 1
+CSET implementation = Fabric
+CSET increment_value = 4
+CSET latency = 1
+CSET load = false
+CSET output_width = 32
+CSET restrict_count = false
+CSET sclr = false
+CSET sinit = true
+CSET sinit_value = 0
+CSET sset = false
+CSET sync_ce_priority = Sync_Overrides_CE
+CSET sync_threshold_output = false
+CSET syncctrlpriority = Reset_Overrides_Set
+CSET component_name = cntr_11_0_be90175e3110ea82
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Binary_Counter virtex6 Xilinx,_Inc. 11.0
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET ainit_value = 0
+CSET ce = true
+CSET count_mode = UP
+CSET fb_latency = 0
+CSET final_count_value = 1
+CSET implementation = Fabric
+CSET increment_value = 10
+CSET latency = 1
+CSET load = false
+CSET output_width = 15
+CSET restrict_count = false
+CSET sclr = false
+CSET sinit = true
+CSET sinit_value = 0
+CSET sset = false
+CSET sync_ce_priority = Sync_Overrides_CE
+CSET sync_threshold_output = false
+CSET syncctrlpriority = Reset_Overrides_Set
+CSET component_name = cntr_11_0_e45fdd6bbd8931af
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT FIR_Compiler virtex6 Xilinx,_Inc. 5.0
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET allow_rounding_approximation = false
+CSET bestprecision = true
+CSET chan_in_adv = 0
+CSET clock_frequency = 300
+CSET coefficient_buffer_type = Automatic
+CSET coefficient_file = no_coe_file_loaded
+CSET coefficient_fractional_bits = 21
+CSET coefficient_reload = false
+CSET coefficient_sets = 1
+CSET coefficient_sign = Signed
+CSET coefficient_structure = Non_Symmetric
+CSET coefficient_width = 20
+CSET coefficientsource = Vector
+CSET coefficientvector = -0.000974931600103,4.92330240991e-05,0.000460895335254,0.00343256277719,-0.00549548473945,-0.00186004901451,0.0106545471635,-0.00637481139447,-0.00664373736426,0.00964452791519,-0.00107243945321,-0.0014996860135,-0.00378592268031,-0.00227549907912,0.0185608677322,-0.0140924149126,-0.0174008546781,0.0331109734783,-0.00623070267374,-0.0243237761452,0.0167314145848,0.0014484239993,0.0108346653376,-0.0181523061145,-0.0321180989184,0.0823498380016,-0.0213124480557,-0.113569731917,0.132135928537,0.0348934884187,-0.187052183539,0.10964553799,0.10964553799,-0.187052183539,0.0348934884187,0.132135928537,-0.113569731917,-0.0213124480557,0.0823498380016,-0.0321180989184,-0.0181523061145,0.0108346653376,0.0014484239993,0.0167314145848,-0.0243237761452,-0.00623070267374,0.0331109734783,-0.0174008546781,-0.0140924149126,0.0185608677322,-0.00227549907912,-0.00378592268031,-0.0014996860135,-0.00107243945321,0.00964452791519,-0.00664373736426,-0.00637481139447,0.0106545471635,-0.00186004901451,-0.00549548473945,0.00343256277719,0.000460895335254,4.92330240991e-05,-0.000974931600103
+CSET columnconfig = 16
+CSET data_buffer_type = Automatic
+CSET data_fractional_bits = 19
+CSET data_sign = Signed
+CSET data_width = 20
+CSET decimation_rate = 4
+CSET displayreloadorder = false
+CSET filter_architecture = Transpose_Multiply_Accumulate
+CSET filter_selection = 1
+CSET filter_type = Decimation
+CSET gui_behaviour = Coregen
+CSET hardwareoversamplingrate = 1
+CSET has_ce = true
+CSET has_data_valid = true
+CSET has_nd = true
+CSET has_sclr = true
+CSET input_buffer_type = Automatic
+CSET inter_column_pipe_length = 4
+CSET interpolation_rate = 1
+CSET multi_column_support = Disabled
+CSET number_channels = 1
+CSET number_paths = 1
+CSET optimization_goal = Area
+CSET output_buffer_type = Automatic
+CSET output_rounding_mode = Full_Precision
+CSET output_width = 42
+CSET passband_max = 0.50000000000
+CSET passband_min = 0
+CSET preference_for_other_storage = Automatic
+CSET quantization = Quantize_Only
+CSET rate_change_type = Integer
+CSET ratespecification = Sample_Period
+CSET registered_output = true
+CSET sample_frequency = 0.00100000000
+CSET sampleperiod = 1
+CSET sclr_deterministic = true
+CSET stopband_max = 1
+CSET stopband_min = 0.50000000000
+CSET usechan_in_adv = false
+CSET zero_pack_factor = 1
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+CSET component_name = fr_cmplr_v5_0_11b79c4c0363d2c9
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT FIR_Compiler virtex6 Xilinx,_Inc. 5.0
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET allow_rounding_approximation = false
+CSET bestprecision = true
+CSET chan_in_adv = 0
+CSET clock_frequency = 300
+CSET coefficient_buffer_type = Automatic
+CSET coefficient_file = no_coe_file_loaded
+CSET coefficient_fractional_bits = 21
+CSET coefficient_reload = false
+CSET coefficient_sets = 1
+CSET coefficient_sign = Signed
+CSET coefficient_structure = Non_Symmetric
+CSET coefficient_width = 20
+CSET coefficientsource = Vector
+CSET coefficientvector = -0.000548350959772,0.00131169604171,0.00305228580333,0.00359880678114,0.00226474014375,-0.000727534033028,-0.00413275011836,-0.00614115956027,-0.0052754531705,-0.00130882782561,0.00431418628465,0.00889899245979,0.0097079946698,0.00545061040073,-0.00270051066022,-0.0112129028418,-0.0155848581525,-0.0125384379587,-0.00201927724734,0.0120736476243,0.023048491726,0.0242484390899,0.0124612605598,-0.0096350074657,-0.0333163906659,-0.0463971142739,-0.0378095527865,-0.00244755938836,0.0557688913802,0.124082832956,0.184563189847,0.220028992035,0.220028992035,0.184563189847,0.124082832956,0.0557688913802,-0.00244755938836,-0.0378095527865,-0.0463971142739,-0.0333163906659,-0.0096350074657,0.0124612605598,0.0242484390899,0.023048491726,0.0120736476243,-0.00201927724734,-0.0125384379587,-0.0155848581525,-0.0112129028418,-0.00270051066022,0.00545061040073,0.0097079946698,0.00889899245979,0.00431418628465,-0.00130882782561,-0.0052754531705,-0.00614115956027,-0.00413275011836,-0.000727534033028,0.00226474014375,0.00359880678114,0.00305228580333,0.00131169604171,-0.000548350959772
+CSET columnconfig = 16
+CSET data_buffer_type = Automatic
+CSET data_fractional_bits = 19
+CSET data_sign = Signed
+CSET data_width = 20
+CSET decimation_rate = 4
+CSET displayreloadorder = false
+CSET filter_architecture = Transpose_Multiply_Accumulate
+CSET filter_selection = 1
+CSET filter_type = Decimation
+CSET gui_behaviour = Coregen
+CSET hardwareoversamplingrate = 1
+CSET has_ce = true
+CSET has_data_valid = true
+CSET has_nd = true
+CSET has_sclr = true
+CSET input_buffer_type = Automatic
+CSET inter_column_pipe_length = 4
+CSET interpolation_rate = 1
+CSET multi_column_support = Disabled
+CSET number_channels = 1
+CSET number_paths = 1
+CSET optimization_goal = Area
+CSET output_buffer_type = Automatic
+CSET output_rounding_mode = Full_Precision
+CSET output_width = 42
+CSET passband_max = 0.50000000000
+CSET passband_min = 0
+CSET preference_for_other_storage = Automatic
+CSET quantization = Quantize_Only
+CSET rate_change_type = Integer
+CSET ratespecification = Sample_Period
+CSET registered_output = true
+CSET sample_frequency = 0.00100000000
+CSET sampleperiod = 1
+CSET sclr_deterministic = true
+CSET stopband_max = 1
+CSET stopband_min = 0.50000000000
+CSET usechan_in_adv = false
+CSET zero_pack_factor = 1
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+CSET component_name = fr_cmplr_v5_0_4b60decb792efd1e
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT FIR_Compiler virtex6 Xilinx,_Inc. 5.0
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET allow_rounding_approximation = false
+CSET bestprecision = true
+CSET chan_in_adv = 0
+CSET clock_frequency = 300
+CSET coefficient_buffer_type = Automatic
+CSET coefficient_file = no_coe_file_loaded
+CSET coefficient_fractional_bits = 21
+CSET coefficient_reload = false
+CSET coefficient_sets = 1
+CSET coefficient_sign = Signed
+CSET coefficient_structure = Non_Symmetric
+CSET coefficient_width = 20
+CSET coefficientsource = Vector
+CSET coefficientvector = 0.00182591085745,-0.00343001449539,0.00416994634994,-0.00346049446429,0.00179568442239,-0.000711227840397,0.00184202596958,-0.0055891757245,0.0103886395714,-0.013356767838,0.0121775907023,-0.00706107502124,0.00124230015268,0.000745608551984,0.00375321014489,-0.0129752661072,0.020916969604,-0.0207487620366,0.00967305957216,0.00803647889615,-0.0224672848813,0.0239705670975,-0.0103469440183,-0.00944079428741,0.0183632259831,-0.00062997808387,-0.0475882705098,0.112541431545,-0.166716534196,0.181247607247,-0.140850507077,0.0531500169865,0.0531500169865,-0.140850507077,0.181247607247,-0.166716534196,0.112541431545,-0.0475882705098,-0.00062997808387,0.0183632259831,-0.00944079428741,-0.0103469440183,0.0239705670975,-0.0224672848813,0.00803647889615,0.00967305957216,-0.0207487620366,0.020916969604,-0.0129752661072,0.00375321014489,0.000745608551984,0.00124230015268,-0.00706107502124,0.0121775907023,-0.013356767838,0.0103886395714,-0.0055891757245,0.00184202596958,-0.000711227840397,0.00179568442239,-0.00346049446429,0.00416994634994,-0.00343001449539,0.00182591085745
+CSET columnconfig = 16
+CSET data_buffer_type = Automatic
+CSET data_fractional_bits = 19
+CSET data_sign = Signed
+CSET data_width = 20
+CSET decimation_rate = 4
+CSET displayreloadorder = false
+CSET filter_architecture = Transpose_Multiply_Accumulate
+CSET filter_selection = 1
+CSET filter_type = Decimation
+CSET gui_behaviour = Coregen
+CSET hardwareoversamplingrate = 1
+CSET has_ce = true
+CSET has_data_valid = true
+CSET has_nd = true
+CSET has_sclr = true
+CSET input_buffer_type = Automatic
+CSET inter_column_pipe_length = 4
+CSET interpolation_rate = 1
+CSET multi_column_support = Disabled
+CSET number_channels = 1
+CSET number_paths = 1
+CSET optimization_goal = Area
+CSET output_buffer_type = Automatic
+CSET output_rounding_mode = Full_Precision
+CSET output_width = 42
+CSET passband_max = 0.50000000000
+CSET passband_min = 0
+CSET preference_for_other_storage = Automatic
+CSET quantization = Quantize_Only
+CSET rate_change_type = Integer
+CSET ratespecification = Sample_Period
+CSET registered_output = true
+CSET sample_frequency = 0.00100000000
+CSET sampleperiod = 1
+CSET sclr_deterministic = true
+CSET stopband_max = 1
+CSET stopband_min = 0.50000000000
+CSET usechan_in_adv = false
+CSET zero_pack_factor = 1
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+CSET component_name = fr_cmplr_v5_0_91f8d93ab4c57cc9
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT FIR_Compiler virtex6 Xilinx,_Inc. 5.0
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET allow_rounding_approximation = false
+CSET bestprecision = true
+CSET chan_in_adv = 0
+CSET clock_frequency = 300
+CSET coefficient_buffer_type = Automatic
+CSET coefficient_file = no_coe_file_loaded
+CSET coefficient_fractional_bits = 21
+CSET coefficient_reload = false
+CSET coefficient_sets = 1
+CSET coefficient_sign = Signed
+CSET coefficient_structure = Non_Symmetric
+CSET coefficient_width = 20
+CSET coefficientsource = Vector
+CSET coefficientvector = -0.00222843363024,0.00208654073555,-0.000270930456234,-0.00291281272029,0.00632195653248,-0.00842904973271,0.00810789183775,-0.00537000634704,0.00161571586107,0.000848694479607,8.91633317339e-05,-0.00511742487167,0.0127937303957,-0.0198557228494,0.0225804408718,-0.0186646429593,0.00872212557522,0.0034682425869,-0.0123325977696,0.0130883812397,-0.00445457042971,-0.00985559236159,0.0218223024991,-0.0220461206771,0.00391509720407,0.0327105235844,-0.0800291309321,0.123996262804,-0.148854781784,0.14290594665,-0.103272421842,0.0376703840745,0.0376703840745,-0.103272421842,0.14290594665,-0.148854781784,0.123996262804,-0.0800291309321,0.0327105235844,0.00391509720407,-0.0220461206771,0.0218223024991,-0.00985559236159,-0.00445457042971,0.0130883812397,-0.0123325977696,0.0034682425869,0.00872212557522,-0.0186646429593,0.0225804408718,-0.0198557228494,0.0127937303957,-0.00511742487167,8.91633317339e-05,0.000848694479607,0.00161571586107,-0.00537000634704,0.00810789183775,-0.00842904973271,0.00632195653248,-0.00291281272029,-0.000270930456234,0.00208654073555,-0.00222843363024
+CSET columnconfig = 16
+CSET data_buffer_type = Automatic
+CSET data_fractional_bits = 19
+CSET data_sign = Signed
+CSET data_width = 20
+CSET decimation_rate = 4
+CSET displayreloadorder = false
+CSET filter_architecture = Transpose_Multiply_Accumulate
+CSET filter_selection = 1
+CSET filter_type = Decimation
+CSET gui_behaviour = Coregen
+CSET hardwareoversamplingrate = 1
+CSET has_ce = true
+CSET has_data_valid = true
+CSET has_nd = true
+CSET has_sclr = true
+CSET input_buffer_type = Automatic
+CSET inter_column_pipe_length = 4
+CSET interpolation_rate = 1
+CSET multi_column_support = Disabled
+CSET number_channels = 1
+CSET number_paths = 1
+CSET optimization_goal = Area
+CSET output_buffer_type = Automatic
+CSET output_rounding_mode = Full_Precision
+CSET output_width = 42
+CSET passband_max = 0.50000000000
+CSET passband_min = 0
+CSET preference_for_other_storage = Automatic
+CSET quantization = Quantize_Only
+CSET rate_change_type = Integer
+CSET ratespecification = Sample_Period
+CSET registered_output = true
+CSET sample_frequency = 0.00100000000
+CSET sampleperiod = 1
+CSET sclr_deterministic = true
+CSET stopband_max = 1
+CSET stopband_min = 0.50000000000
+CSET usechan_in_adv = false
+CSET zero_pack_factor = 1
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+CSET component_name = fr_cmplr_v5_0_ca7ec58752e7cbe6
+GENERATE

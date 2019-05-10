@@ -1,0 +1,1 @@
+/opt/Xilinx/14.7/ISE_DS/ISE/sysgen/bin/lin64/saferun -a /home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part1_dec4/testing/sysgen/testing_cw_import.log -- /opt/Xilinx/14.7/ISE_DS/ISE//bin/lin64/xtclsh ProjectGeneration.tcl

@@ -1,0 +1,125 @@
+Release 14.7 Drc P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Sun May  5 21:32:22 2019
+
+drc -z system.ncd system.pcf
+
+WARNING:PhysDesignRules:367 - The signal
+   <testing_asiaa_adc5g0/testing_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram
+   _RAM7_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing_asiaa_adc5g0/testing_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram
+   _RAM21_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing_asiaa_adc5g0/testing_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram
+   _RAM16_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing_asiaa_adc5g0/testing_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram
+   _RAM18_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing_asiaa_adc5g0/testing_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram
+   _RAM19_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing_asiaa_adc5g0/testing_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram
+   _RAM8_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing_asiaa_adc5g0/testing_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram
+   _RAM5_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing_asiaa_adc5g0/testing_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram
+   _RAM9_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing_asiaa_adc5g0/testing_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram
+   _RAM6_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing_asiaa_adc5g0/testing_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram
+   _RAM10_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing_asiaa_adc5g0/testing_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram
+   _RAM1_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing_asiaa_adc5g0/testing_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram
+   _RAM11_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing_asiaa_adc5g0/testing_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram
+   _RAM22_RAMB_D1_DPO> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing_asiaa_adc5g0/testing_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram
+   _RAM22_RAMC_D1_DPO> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing_asiaa_adc5g0/testing_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram
+   _RAM22_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing_asiaa_adc5g0/testing_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram
+   _RAM3_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing_asiaa_adc5g0/testing_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram
+   _RAM4_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing_asiaa_adc5g0/testing_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram
+   _RAM15_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing_asiaa_adc5g0/testing_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram
+   _RAM17_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing_asiaa_adc5g0/testing_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram
+   _RAM20_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing_asiaa_adc5g0/testing_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram
+   _RAM2_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing_asiaa_adc5g0/testing_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram
+   _RAM14_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing_asiaa_adc5g0/testing_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram
+   _RAM12_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing_asiaa_adc5g0/testing_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram
+   _RAM13_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+INFO:PhysDesignRules:1949 - Issue with pin connections and/or configuration on
+   block:<testing_XSG_core_config/testing_XSG_core_config/testing_x0/x4zone_wide
+   _8f6b71c203/fir_compiler_5_0/fr_cmplr_v5_0_91f8d93ab4c57cc9_instance/blk00000
+   003/blk00000006>:<DSP48E1_DSP48E1>.  To save power with this DSP48E1 OPMODE
+   input pin programming the USE_MULT attribute should be set to NONE.
+INFO:PhysDesignRules:1949 - Issue with pin connections and/or configuration on
+   block:<testing_XSG_core_config/testing_XSG_core_config/testing_x0/x4zone_narr
+   ow_546d740714/fir_compiler_5_0/fr_cmplr_v5_0_ca7ec58752e7cbe6_instance/blk000
+   00003/blk00000006>:<DSP48E1_DSP48E1>.  To save power with this DSP48E1 OPMODE
+   input pin programming the USE_MULT attribute should be set to NONE.
+INFO:PhysDesignRules:1949 - Issue with pin connections and/or configuration on
+   block:<testing_XSG_core_config/testing_XSG_core_config/testing_x0/x3zone_narr
+   ow_0e4bab562c/fir_compiler_5_0/fr_cmplr_v5_0_11b79c4c0363d2c9_instance/blk000
+   00003/blk00000006>:<DSP48E1_DSP48E1>.  To save power with this DSP48E1 OPMODE
+   input pin programming the USE_MULT attribute should be set to NONE.
+INFO:PhysDesignRules:1949 - Issue with pin connections and/or configuration on
+   block:<testing_XSG_core_config/testing_XSG_core_config/testing_x0/x1zone_narr
+   ow_1657a5f38b/fir_compiler_5_0/fr_cmplr_v5_0_4b60decb792efd1e_instance/blk000
+   00003/blk00000006>:<DSP48E1_DSP48E1>.  To save power with this DSP48E1 OPMODE
+   input pin programming the USE_MULT attribute should be set to NONE.
+DRC detected 0 errors and 24 warnings.  Please see the previously displayed
+individual error or warning messages for more details.
