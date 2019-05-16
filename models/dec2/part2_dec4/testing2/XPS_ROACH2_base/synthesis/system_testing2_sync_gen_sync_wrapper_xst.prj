@@ -1,0 +1,2 @@
+verilog opb_register_ppc2simulink_v1_00_a /home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_dec4/testing2/XPS_ROACH2_base/pcores/opb_register_ppc2simulink_v1_00_a/hdl/verilog/opb_register_ppc2simulink.v
+verilog work ../hdl/system_testing2_sync_gen_sync_wrapper.v

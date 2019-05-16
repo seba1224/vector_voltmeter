@@ -1,0 +1,1 @@
+run -ifn xst_testing2.prj -ifmt mixed -ofn testing2_cw.ngc -ofmt NGC -p xc6vsx475t-1ff1759 -ent testing2_cw -keep_hierarchy NO -iobuf YES -bus_delimiter () -top testing2_cw -hierarchy_separator / -report_timing_constraint_problems warning -register_balancing no -iob Auto -uc testing2_cw.xcf -write_timing_constraints yes

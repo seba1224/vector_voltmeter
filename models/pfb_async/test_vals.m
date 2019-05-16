@@ -23,14 +23,14 @@ while cycle<top_cycle
    sync(2+cycle*256+128,2) = 1;
    sync(2+cycle*256+192,2) = 1;
    while index<64
-       data(3+256*cycle+index, 2) = index*0.01;
-       data(3+256*cycle+index+64,2) = index*0.01;
-       data(3+256*cycle+index+128,2) = index*0.01;
-       data(3+256*cycle+index+192,2) = index*0.01;
-       data_dec(3+256*cycle+4*index, 2) = index*0.01;
-       data_dec(3+256*cycle+4*index+1, 2)= index*0.01;
-       data_dec(3+256*cycle+4*index+2, 2)= index*0.01;
-       data_dec(3+256*cycle+4*index+3, 2)= index*0.01;
+       data(3+256*cycle+index, 2) = (index+1)*0.01;
+       data(3+256*cycle+index+64,2) = (index+1)*0.01;
+       data(3+256*cycle+index+128,2) = (index+1)*0.01;
+       data(3+256*cycle+index+192,2) = (index+1)*0.01;
+       data_dec(3+256*cycle+4*index, 2) = (index+1)*0.01;
+       data_dec(3+256*cycle+4*index+1, 2)= (index+1)*0.01;
+       data_dec(3+256*cycle+4*index+2, 2)= (index+1)*0.01;
+       data_dec(3+256*cycle+4*index+3, 2)= (index+1)*0.01;
        en(3+256*cycle+4*index, 2) = 1;
        index = index +1;
    end
@@ -47,15 +47,23 @@ data = [data(1:largo,1), data(1:largo,2)];
 
 %% Analisis
 %{
-dec_data = data_dec.data();
-en_data = en_dec.data();
-index = find(en_data==1);
-vals_dec = dec_data(index);
+dec_dat = data_dec_out.data;
+sync_dec = sync_dec_out.data;
+en_dec = en_dec_out.data;
 
-data_norm = data.data();
+dat = data_out.data;
+sync = sync_out.data;
+frames_norm = find(sync==1);
+
+ind_dec = find(en_dec==1);
+dat_red = dec_dat(ind);
+frame = find(sync_dec==1);
+ind = find(en(frame(1):length(en))==1);
+data_out = dec_dat(ind+frame(1)-1);
+
+
 
 %}
-
 
 
 

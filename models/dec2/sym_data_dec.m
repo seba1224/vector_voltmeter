@@ -15,11 +15,11 @@ while cycle<top_cycle
    sync(cycle*sync_period+1,2) = 1;  
    cycle= cycle+1;
 end
-freq1 = 55.8984*10^6;
+freq1 = 57*10^6;
 freq2 = 20*10^6;
 sin_clean = 0.5*sin(2*pi*freq1*t(3:length(t)))+0.5*sin(2*pi*freq2*t(3:length(t)));
 data_in(3:length(t), 2) = sin_clean;
-%data_in(3:length(t),2) =awgn(sin_clean, 20);
+data_in(3:length(t),2) =awgn(sin_clean, 5);
 
 
 

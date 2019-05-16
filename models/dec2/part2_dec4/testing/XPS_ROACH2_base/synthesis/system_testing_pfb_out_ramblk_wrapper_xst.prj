@@ -1,0 +1,3 @@
+verilog bram_block_custom_v1_00_a /home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_dec4/testing/XPS_ROACH2_base/pcores/bram_block_custom_v1_00_a/hdl/verilog/bram_block_custom.v
+verilog bram_block_custom_v1_00_a /home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_dec4/testing/XPS_ROACH2_base/pcores/bram_block_custom_v1_00_a/hdl/verilog/bram.v
+verilog work ../hdl/system_testing_pfb_out_ramblk_wrapper.v

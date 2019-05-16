@@ -1,0 +1,481 @@
+Release 14.7 - platgen Xilinx EDK 14.7 Build EDK_P.20131013
+ (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: platgen -p xc6vsx475tff1759-1 -lang vhdl -intstyle default -msg
+__xps/ise/xmsgprops.lst system.mhs 
+
+WARNING:EDK - INFO:Security:71 - If a license for part 'xc6vsx475t' is
+   available, it will be possible to use 'XPS_TDP' instead of 'XPS'.
+   WARNING:Security:42 - Your software subscription period has lapsed. Your
+   current version of Xilinx tools will continue to function, but you no longer
+   qualify for Xilinx software updates or new releases.
+
+
+Parse
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/system.mhs ...
+
+Read MPD definitions ...
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE: testing_4narrow -
+   Superseded core for architecture 'virtex6sx' -
+   /home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/par
+   t2_dec4/testing/XPS_ROACH2_base/system.mhs line 286 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE: testing_adcsnap0_bram -
+   Superseded core for architecture 'virtex6sx' -
+   /home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/par
+   t2_dec4/testing/XPS_ROACH2_base/system.mhs line 328 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE: testing_pfb_out -
+   Superseded core for architecture 'virtex6sx' -
+   /home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/par
+   t2_dec4/testing/XPS_ROACH2_base/system.mhs line 491 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE: testing_pfb_out1 -
+   Superseded core for architecture 'virtex6sx' -
+   /home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/par
+   t2_dec4/testing/XPS_ROACH2_base/system.mhs line 521 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE: testing_4narrow -
+   Superseded core for architecture 'virtex6sx' -
+   /home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/par
+   t2_dec4/testing/XPS_ROACH2_base/system.mhs line 286 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE: testing_adcsnap0_bram -
+   Superseded core for architecture 'virtex6sx' -
+   /home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/par
+   t2_dec4/testing/XPS_ROACH2_base/system.mhs line 328 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE: testing_pfb_out -
+   Superseded core for architecture 'virtex6sx' -
+   /home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/par
+   t2_dec4/testing/XPS_ROACH2_base/system.mhs line 491 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE: testing_pfb_out1 -
+   Superseded core for architecture 'virtex6sx' -
+   /home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/par
+   t2_dec4/testing/XPS_ROACH2_base/system.mhs line 521 
+
+Overriding IP level properties ...
+
+Computing clock values...
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:sys_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   testing_4narrow_ramif:bram_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:1039 - Did not update the value for parameter:
+   testing_4narrow:c_opb_clk_period_ps. Top-level frequency could not be
+   propagated to this IP. Please make sure that you have specified the frequency
+   of the top-level clock port, and that the clocks are properly connected.
+INFO:EDK:1039 - Did not update the value for parameter:
+   testing_adcsnap0_bram:c_opb_clk_period_ps. Top-level frequency could not be
+   propagated to this IP. Please make sure that you have specified the frequency
+   of the top-level clock port, and that the clocks are properly connected.
+INFO:EDK:1039 - Did not update the value for parameter:
+   testing_pfb_out:c_opb_clk_period_ps. Top-level frequency could not be
+   propagated to this IP. Please make sure that you have specified the frequency
+   of the top-level clock port, and that the clocks are properly connected.
+INFO:EDK:1039 - Did not update the value for parameter:
+   testing_pfb_out1:c_opb_clk_period_ps. Top-level frequency could not be
+   propagated to this IP. Please make sure that you have specified the frequency
+   of the top-level clock port, and that the clocks are properly connected.
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+INFO:EDK:4130 - IPNAME: opb_v20, INSTANCE:opb0 - tool is overriding PARAMETER
+   C_NUM_MASTERS value to 1 -
+   /opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/opb_v20_v1_10_c/da
+   ta/opb_v20_v2_1_0.mpd line 74 
+INFO:EDK:4130 - IPNAME: opb_v20, INSTANCE:opb0 - tool is overriding PARAMETER
+   C_NUM_SLAVES value to 17 -
+   /opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/opb_v20_v1_10_c/da
+   ta/opb_v20_v2_1_0.mpd line 75 
+INFO:EDK:4130 - IPNAME: bram_block, INSTANCE:testing_4narrow_ramblk - tool is
+   overriding PARAMETER C_MEMSIZE value to 0x1000 -
+   /opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/bram_block_v1_00_a
+   /data/bram_block_v2_1_0.mpd line 78 
+
+Checking platform address map ...
+
+Checking platform configuration ...
+IPNAME: opb_v20, INSTANCE: opb0 - 1 master(s) : 17 slave(s) 
+
+Checking port drivers...
+WARNING:EDK:4181 - PORT: sys_clk90, CONNECTOR: sys_clk90 - floating connection -
+   /home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/par
+   t2_dec4/testing/XPS_ROACH2_base/system.mhs line 116 
+WARNING:EDK:4181 - PORT: sys_clk180, CONNECTOR: sys_clk180 - floating connection
+   -
+   /home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/par
+   t2_dec4/testing/XPS_ROACH2_base/system.mhs line 117 
+WARNING:EDK:4181 - PORT: sys_clk270, CONNECTOR: sys_clk270 - floating connection
+   -
+   /home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/par
+   t2_dec4/testing/XPS_ROACH2_base/system.mhs line 118 
+WARNING:EDK:4181 - PORT: sys_clk_lock, CONNECTOR: sys_clk_lock - floating
+   connection -
+   /home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/par
+   t2_dec4/testing/XPS_ROACH2_base/system.mhs line 119 
+WARNING:EDK:4181 - PORT: sys_clk2x, CONNECTOR: sys_clk2x - floating connection -
+   /home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/par
+   t2_dec4/testing/XPS_ROACH2_base/system.mhs line 120 
+WARNING:EDK:4181 - PORT: sys_clk2x90, CONNECTOR: sys_clk2x90 - floating
+   connection -
+   /home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/par
+   t2_dec4/testing/XPS_ROACH2_base/system.mhs line 121 
+WARNING:EDK:4181 - PORT: sys_clk2x180, CONNECTOR: sys_clk2x180 - floating
+   connection -
+   /home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/par
+   t2_dec4/testing/XPS_ROACH2_base/system.mhs line 122 
+WARNING:EDK:4181 - PORT: sys_clk2x270, CONNECTOR: sys_clk2x270 - floating
+   connection -
+   /home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/par
+   t2_dec4/testing/XPS_ROACH2_base/system.mhs line 123 
+WARNING:EDK:4181 - PORT: aux_clk, CONNECTOR: aux_clk - floating connection -
+   /home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/par
+   t2_dec4/testing/XPS_ROACH2_base/system.mhs line 124 
+WARNING:EDK:4181 - PORT: aux_clk90, CONNECTOR: aux_clk90 - floating connection -
+   /home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/par
+   t2_dec4/testing/XPS_ROACH2_base/system.mhs line 125 
+WARNING:EDK:4181 - PORT: aux_clk180, CONNECTOR: aux_clk180 - floating connection
+   -
+   /home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/par
+   t2_dec4/testing/XPS_ROACH2_base/system.mhs line 126 
+WARNING:EDK:4181 - PORT: aux_clk270, CONNECTOR: aux_clk270 - floating connection
+   -
+   /home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/par
+   t2_dec4/testing/XPS_ROACH2_base/system.mhs line 127 
+WARNING:EDK:4181 - PORT: aux_clk2x, CONNECTOR: aux_clk2x - floating connection -
+   /home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/par
+   t2_dec4/testing/XPS_ROACH2_base/system.mhs line 128 
+WARNING:EDK:4181 - PORT: aux_clk2x90, CONNECTOR: aux_clk2x90 - floating
+   connection -
+   /home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/par
+   t2_dec4/testing/XPS_ROACH2_base/system.mhs line 129 
+WARNING:EDK:4181 - PORT: aux_clk2x180, CONNECTOR: aux_clk2x180 - floating
+   connection -
+   /home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/par
+   t2_dec4/testing/XPS_ROACH2_base/system.mhs line 130 
+WARNING:EDK:4181 - PORT: aux_clk2x270, CONNECTOR: aux_clk2x270 - floating
+   connection -
+   /home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/par
+   t2_dec4/testing/XPS_ROACH2_base/system.mhs line 131 
+WARNING:EDK:4181 - PORT: idelay_rdy, CONNECTOR: idelay_rdy - floating connection
+   -
+   /home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/par
+   t2_dec4/testing/XPS_ROACH2_base/system.mhs line 134 
+WARNING:EDK:4181 - PORT: clk_100, CONNECTOR: clk_100 - floating connection -
+   /home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/par
+   t2_dec4/testing/XPS_ROACH2_base/system.mhs line 136 
+WARNING:EDK:4181 - PORT: op_reset_o, CONNECTOR: sys_reset - floating connection
+   -
+   /home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/par
+   t2_dec4/testing/XPS_ROACH2_base/system.mhs line 146 
+WARNING:EDK:4181 - PORT: soft_reset, CONNECTOR: soft_reset - floating connection
+   -
+   /home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/par
+   t2_dec4/testing/XPS_ROACH2_base/system.mhs line 196 
+WARNING:EDK:4181 - PORT: ctrl_clk90_out, CONNECTOR: adc0_clk90 - floating
+   connection -
+   /home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/par
+   t2_dec4/testing/XPS_ROACH2_base/system.mhs line 420 
+WARNING:EDK:4181 - PORT: ctrl_clk180_out, CONNECTOR: adc0_clk180 - floating
+   connection -
+   /home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/par
+   t2_dec4/testing/XPS_ROACH2_base/system.mhs line 421 
+WARNING:EDK:4181 - PORT: ctrl_clk270_out, CONNECTOR: adc0_clk270 - floating
+   connection -
+   /home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/par
+   t2_dec4/testing/XPS_ROACH2_base/system.mhs line 422 
+
+Performing Clock DRCs...
+INFO:EDK:4060 - INSTANCE: testing_4narrow, PARAMETER: c_opb_clk_period_ps - Did
+   not implement clock DRCs for the parameter. Top-level frequency could not be
+   propagated to this IP. Please make sure that you have specified the frequency
+   of the top-level clock port, and that the clocks are properly connected.
+INFO:EDK:4060 - INSTANCE: testing_adcsnap0_bram, PARAMETER: c_opb_clk_period_ps
+   - Did not implement clock DRCs for the parameter. Top-level frequency could
+   not be propagated to this IP. Please make sure that you have specified the
+   frequency of the top-level clock port, and that the clocks are properly
+   connected.
+INFO:EDK:4060 - INSTANCE: testing_pfb_out, PARAMETER: c_opb_clk_period_ps - Did
+   not implement clock DRCs for the parameter. Top-level frequency could not be
+   propagated to this IP. Please make sure that you have specified the frequency
+   of the top-level clock port, and that the clocks are properly connected.
+INFO:EDK:4060 - INSTANCE: testing_pfb_out1, PARAMETER: c_opb_clk_period_ps - Did
+   not implement clock DRCs for the parameter. Top-level frequency could not be
+   propagated to this IP. Please make sure that you have specified the frequency
+   of the top-level clock port, and that the clocks are properly connected.
+
+Performing Reset DRCs...
+
+Overriding system level properties...
+
+Running system level update procedures...
+
+Running UPDATE Tcl procedures for OPTION SYSLEVEL_UPDATE_PROC...
+
+Running system level DRCs...
+
+Performing System level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
+
+Running UPDATE Tcl procedures for OPTION PLATGEN_SYSLEVEL_UPDATE_PROC...
+NETLIST CACHE HIT - Copying
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/../cache_dir/0e2898ac74cc2bf5a187d970b8b7464abccfe6
+77.ngc to
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/implementation/testing_adcsnap0_bram_ramblk_wrapper
+/bram.ngc
+NETLIST CACHE HIT - Copying
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/../cache_dir/c42a4ccad2181d7b15da2cc4cbab951828a270
+4b.ngc to
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/implementation/testing_pfb_out_ramblk_wrapper/bram.
+ngc
+NETLIST CACHE HIT - Copying
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/../cache_dir/c42a4ccad2181d7b15da2cc4cbab951828a270
+4b.ngc to
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/implementation/testing_pfb_out1_ramblk_wrapper/bram
+.ngc
+
+Modify defaults ...
+
+Creating stub ...
+
+Processing licensed instances ...
+Completion time: 0.00 seconds
+
+Creating hardware output directories ...
+
+Managing hardware (BBD-specified) netlist files ...
+IPNAME:testing INSTANCE:testing_xsg_core_config -
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/system.mhs line 209 - Copying (BBD-specified)
+netlist files.
+IPNAME:bram_block_custom INSTANCE:testing_adcsnap0_bram_ramblk -
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/system.mhs line 310 - Copying (BBD-specified)
+netlist files.
+IPNAME:adc5g_dmux1_interface INSTANCE:testing_asiaa_adc5g0 -
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/system.mhs line 376 - Copying (BBD-specified)
+netlist files.
+IPNAME:bram_block_custom INSTANCE:testing_pfb_out_ramblk -
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/system.mhs line 473 - Copying (BBD-specified)
+netlist files.
+IPNAME:bram_block_custom INSTANCE:testing_pfb_out1_ramblk -
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/system.mhs line 503 - Copying (BBD-specified)
+netlist files.
+
+Managing cache ...
+
+Elaborating instances ...
+IPNAME:bram_block INSTANCE:testing_4narrow_ramblk -
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/system.mhs line 279 - elaborating IP
+
+Writing HDL for elaborated instances ...
+
+Inserting wrapper level ...
+Completion time: 0.00 seconds
+
+Constructing platform-level connectivity ...
+Completion time: 0.00 seconds
+
+Writing (top-level) BMM ...
+
+Writing (top-level and wrappers) HDL ...
+
+Generating synthesis project file ...
+
+Running XST synthesis ...
+
+INFO:EDK:4211 - The following instances are synthesized with XST. The MPD option
+   IMP_NETLIST=TRUE indicates that a NGC file is to be produced using XST
+   synthesis. IMP_NETLIST=FALSE (default) instances are not synthesized. 
+INSTANCE:opb_adc5g_controller_0 -
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/system.mhs line 54 - Running XST synthesis
+INSTANCE:infrastructure_inst -
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/system.mhs line 97 - Running XST synthesis
+INSTANCE:reset_block_inst -
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/system.mhs line 139 - Running XST synthesis
+INSTANCE:opb0 -
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/system.mhs line 149 - Running XST synthesis
+INSTANCE:epb_opb_bridge_inst -
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/system.mhs line 158 - Running XST synthesis
+INSTANCE:epb_infrastructure_inst -
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/system.mhs line 175 - Running XST synthesis
+INSTANCE:sys_block_inst -
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/system.mhs line 184 - Running XST synthesis
+INSTANCE:testing_xsg_core_config -
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/system.mhs line 209 - Running XST synthesis
+INSTANCE:testing_4narrow_ramif -
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/system.mhs line 267 - Running XST synthesis
+INSTANCE:testing_4narrow_ramblk -
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/system.mhs line 279 - Running XST synthesis
+INSTANCE:testing_4narrow -
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/system.mhs line 286 - Running XST synthesis
+INSTANCE:testing_adc0_delay -
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/system.mhs line 298 - Running XST synthesis
+INSTANCE:testing_adcsnap0_bram_ramblk -
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/system.mhs line 310 - Running XST synthesis
+INSTANCE:testing_adcsnap0_bram -
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/system.mhs line 328 - Running XST synthesis
+INSTANCE:testing_adcsnap0_ctrl -
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/system.mhs line 340 - Running XST synthesis
+INSTANCE:testing_adcsnap0_status -
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/system.mhs line 352 - Running XST synthesis
+INSTANCE:testing_adcsnap0_trig_offset -
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/system.mhs line 364 - Running XST synthesis
+INSTANCE:testing_asiaa_adc5g0 -
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/system.mhs line 376 - Running XST synthesis
+INSTANCE:testing_cnt_rst -
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/system.mhs line 449 - Running XST synthesis
+INSTANCE:testing_get_data -
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/system.mhs line 461 - Running XST synthesis
+INSTANCE:testing_pfb_out_ramblk -
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/system.mhs line 473 - Running XST synthesis
+INSTANCE:testing_pfb_out -
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/system.mhs line 491 - Running XST synthesis
+INSTANCE:testing_pfb_out1_ramblk -
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/system.mhs line 503 - Running XST synthesis
+INSTANCE:testing_pfb_out1 -
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/system.mhs line 521 - Running XST synthesis
+INSTANCE:testing_snap_trig -
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/system.mhs line 533 - Running XST synthesis
+INSTANCE:testing_software_register -
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/system.mhs line 545 - Running XST synthesis
+INSTANCE:testing_sync_gen_sync -
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/system.mhs line 557 - Running XST synthesis
+INSTANCE:testing_sync_gen_sync_period_sel -
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/system.mhs line 569 - Running XST synthesis
+INSTANCE:testing_sync_gen_sync_period_var -
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/system.mhs line 581 - Running XST synthesis
+
+Running NGCBUILD ...
+IPNAME:system_testing_xsg_core_config_wrapper INSTANCE:testing_xsg_core_config -
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/system.mhs line 209 - Running NGCBUILD
+IPNAME:system_testing_adcsnap0_bram_ramblk_wrapper
+INSTANCE:testing_adcsnap0_bram_ramblk -
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/system.mhs line 310 - Running NGCBUILD
+IPNAME:system_testing_asiaa_adc5g0_wrapper INSTANCE:testing_asiaa_adc5g0 -
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/system.mhs line 376 - Running NGCBUILD
+IPNAME:system_testing_pfb_out_ramblk_wrapper INSTANCE:testing_pfb_out_ramblk -
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/system.mhs line 473 - Running NGCBUILD
+IPNAME:system_testing_pfb_out1_ramblk_wrapper INSTANCE:testing_pfb_out1_ramblk -
+/home/seba/Documents/Untitled_Folder/scripts/vector_voltmeter/models/dec2/part2_
+dec4/testing/XPS_ROACH2_base/system.mhs line 503 - Running NGCBUILD
+INFO:EDK:3509 - NCF files should not be modified as they will be regenerated.
+   If any constraint needs to be overridden, this should be done by modifying
+   the data/system.ucf file.
+
+Rebuilding cache ...
+
+Total run time: 290.00 seconds

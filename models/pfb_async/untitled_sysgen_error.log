@@ -1,0 +1,1308 @@
+--------------------------------- Version Log ----------------------------------
+Version                                 Path
+System Generator                        /opt/Xilinx/14.7/ISE_DS/ISE/sysgen
+Matlab 8.2.0.701 (R2013b)               /usr/local/MATLAB/R2013b
+ISE                                     /opt/Xilinx/14.7/ISE_DS/ISE
+--------------------------------------------------------------------------------
+Summary of Errors:
+Error 0001: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/convert_1_1'
+Error 0002: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_first_tap/sync_delay/Constant'
+Error 0003: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/delay1'
+Error 0004: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_first_tap/sync_delay/Constant1'
+Error 0005: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_first_tap/sync_delay/Constant2'
+Error 0006: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_first_tap/sync_delay/Constant3'
+Error 0007: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/scale_1_1'
+Error 0008: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_first_tap/sync_delay/Counter'
+Error 0009: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_first_tap/sync_delay/Logical'
+Error 0010: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/adder_1_1/addr1'
+Error 0011: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/adder_1_1/sync_delay'
+Error 0012: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_first_tap/sync_delay/Mux'
+Error 0013: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_first_tap/sync_delay/Relational'
+Error 0014: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_first_tap/sync_delay/Relational1'
+Error 0015: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_coeffs/Concat'
+Error 0016: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_coeffs/Counter'
+Error 0017: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_coeffs/Delay'
+Error 0018: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_coeffs/Delay1'
+Error 0019: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_coeffs/ROM1'
+Error 0020: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_coeffs/ROM2'
+Error 0021: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_coeffs/Register'
+Error 0022: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_coeffs/Reinterpret1'
+Error 0023: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_coeffs/Reinterpret2'
+Error 0024: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_coeffs/fan_delay1'
+Error 0025: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_coeffs/fan_delay2'
+Error 0026: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_coeffs/fan_delay3'
+Error 0027: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_coeffs/ROM3'
+Error 0028: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_coeffs/Reinterpret3'
+Error 0029: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_coeffs/fan_delay4'
+Error 0030: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_coeffs/ROM4'
+Error 0031: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_coeffs/Reinterpret4'
+Error 0032: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_first_tap/Mult'
+Error 0033: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_first_tap/Reinterpret'
+Error 0034: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_first_tap/Reinterpret2'
+Error 0035: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_first_tap/Slice'
+Error 0036: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_first_tap/Slice1'
+Error 0037: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_coeffs/fan_delay7'
+Error 0038: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_last_tap/Delay'
+Error 0039: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_last_tap/Mult'
+Error 0040: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_last_tap/Reinterpret'
+Error 0041: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_last_tap/Reinterpret1'
+Error 0042: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_first_tap/delay_bram/counter'
+Error 0043: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_first_tap/delay_bram/ram'
+Error 0044: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_first_tap/Delay'
+Error 0045: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_tap2/sync_delay/Constant'
+Error 0046: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_tap2/sync_delay/Constant1'
+Error 0047: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_tap2/sync_delay/Constant2'
+Error 0048: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_tap2/sync_delay/Constant3'
+Error 0049: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_tap2/sync_delay/Counter'
+Error 0050: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_tap2/sync_delay/Logical'
+Error 0051: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_tap2/sync_delay/Mux'
+Error 0052: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_tap2/sync_delay/Relational'
+Error 0053: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_tap2/sync_delay/Relational1'
+Error 0054: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_tap2/delay_bram/counter'
+Error 0055: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_tap2/delay_bram/ram'
+Error 0056: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_coeffs/fan_delay5'
+Error 0057: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_tap2/Mult'
+Error 0058: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_tap2/Reinterpret'
+Error 0059: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_tap2/Reinterpret1'
+Error 0060: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_tap2/Slice'
+Error 0061: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_tap2/Slice1'
+Error 0062: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_tap3/Mult'
+Error 0063: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_tap3/Reinterpret'
+Error 0064: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_tap3/Reinterpret1'
+Error 0065: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_tap3/Slice'
+Error 0066: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_tap3/Slice1'
+Error 0067: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/adder_1_1/addr2'
+Error 0068: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/adder_1_1/addr3'
+Error 0069: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_coeffs/fan_delay6'
+Error 0070: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_first_tap/delay_bram/Delay'
+Error 0071: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_first_tap/Delay1'
+Error 0072: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_first_tap/Delay2'
+Error 0073: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_tap2/Delay'
+Error 0074: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_tap2/Delay1'
+Error 0075: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_tap2/delay_bram/Delay'
+Error 0076: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_tap2/Delay2'
+Error 0077: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_tap3/sync_delay/Constant'
+Error 0078: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_tap3/sync_delay/Constant1'
+Error 0079: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_tap3/sync_delay/Constant2'
+Error 0080: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_tap3/sync_delay/Constant3'
+Error 0081: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_tap3/sync_delay/Counter'
+Error 0082: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_tap3/sync_delay/Logical'
+Error 0083: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_tap3/sync_delay/Mux'
+Error 0084: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_tap3/sync_delay/Relational'
+Error 0085: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_tap3/sync_delay/Relational1'
+Error 0086: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_tap3/delay_bram/counter'
+Error 0087: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_tap3/delay_bram/ram'
+Error 0088: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_tap3/Delay'
+Error 0089: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_tap3/delay_bram/Delay'
+Error 0090: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_tap3/Delay1'
+Error 0091: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_tap3/Delay2'
+Error 0092: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_last_tap/Delay1'
+Error 0093: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_last_tap/Delay2'
+Error 0094: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/pol1_in1_last_tap/Delay3'
+Error 0095: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/adder_1_1/sync_delay1'
+Error 0096: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/adder_1_1/sync_delay2'
+Error 0097: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/adder_1_1/Register'
+Error 0098: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/adder_1_1/sync_delay4'
+Error 0099: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/adder_1_1/sync_delay3'
+Error 0100: All Xilinx Blocks must be contained in a level of hierarc...
+     Block: 'untitled/pfb_fir_real/delay2'
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/convert_1_1'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_first_tap/sync_delay/Constant'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/delay1'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_first_tap/sync_delay/Constant1'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_first_tap/sync_delay/Constant2'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_first_tap/sync_delay/Constant3'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/scale_1_1'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_first_tap/sync_delay/Counter'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_first_tap/sync_delay/Logical'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/adder_1_1/addr1'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/adder_1_1/sync_delay'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_first_tap/sync_delay/Mux'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_first_tap/sync_delay/Relational'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_first_tap/sync_delay/Relational1'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_coeffs/Concat'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_coeffs/Counter'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_coeffs/Delay'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_coeffs/Delay1'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_coeffs/ROM1'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_coeffs/ROM2'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_coeffs/Register'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_coeffs/Reinterpret1'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_coeffs/Reinterpret2'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_coeffs/fan_delay1'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_coeffs/fan_delay2'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_coeffs/fan_delay3'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_coeffs/ROM3'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_coeffs/Reinterpret3'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_coeffs/fan_delay4'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_coeffs/ROM4'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_coeffs/Reinterpret4'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_first_tap/Mult'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_first_tap/Reinterpret'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_first_tap/Reinterpret2'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_first_tap/Slice'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_first_tap/Slice1'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_coeffs/fan_delay7'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_last_tap/Delay'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_last_tap/Mult'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_last_tap/Reinterpret'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_last_tap/Reinterpret1'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_first_tap/delay_bram/counter'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_first_tap/delay_bram/ram'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_first_tap/Delay'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_tap2/sync_delay/Constant'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_tap2/sync_delay/Constant1'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_tap2/sync_delay/Constant2'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_tap2/sync_delay/Constant3'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_tap2/sync_delay/Counter'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_tap2/sync_delay/Logical'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_tap2/sync_delay/Mux'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_tap2/sync_delay/Relational'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_tap2/sync_delay/Relational1'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_tap2/delay_bram/counter'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_tap2/delay_bram/ram'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_coeffs/fan_delay5'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_tap2/Mult'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_tap2/Reinterpret'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_tap2/Reinterpret1'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_tap2/Slice'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_tap2/Slice1'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_tap3/Mult'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_tap3/Reinterpret'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_tap3/Reinterpret1'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_tap3/Slice'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_tap3/Slice1'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/adder_1_1/addr2'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/adder_1_1/addr3'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_coeffs/fan_delay6'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_first_tap/delay_bram/Delay'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_first_tap/Delay1'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_first_tap/Delay2'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_tap2/Delay'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_tap2/Delay1'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_tap2/delay_bram/Delay'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_tap2/Delay2'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_tap3/sync_delay/Constant'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_tap3/sync_delay/Constant1'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_tap3/sync_delay/Constant2'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_tap3/sync_delay/Constant3'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_tap3/sync_delay/Counter'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_tap3/sync_delay/Logical'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_tap3/sync_delay/Mux'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_tap3/sync_delay/Relational'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_tap3/sync_delay/Relational1'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_tap3/delay_bram/counter'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_tap3/delay_bram/ram'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_tap3/Delay'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_tap3/delay_bram/Delay'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_tap3/Delay1'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_tap3/Delay2'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_last_tap/Delay1'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_last_tap/Delay2'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/pol1_in1_last_tap/Delay3'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/adder_1_1/sync_delay1'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/adder_1_1/sync_delay2'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/adder_1_1/Register'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/adder_1_1/sync_delay4'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/adder_1_1/sync_delay3'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'untitled/pfb_fir_real/delay2'
+
+Details:
+All Xilinx Blocks must be contained in a level of hierarchy with a
+System Generator Token.
+
+--------------------------------------------------------------------------------

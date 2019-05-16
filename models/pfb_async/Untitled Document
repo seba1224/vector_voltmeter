@@ -52,6 +52,9 @@ Al fial lo que hice fue ponderar todos los delays por el factor de decimacion qu
 
 
 
+Parece que el pfb que hice funca pero tira el sync un dato antes de lo que lo hace el sincrono...voy a probar colocando un delay no mas que ajuste todo..
+
+
 
 
 

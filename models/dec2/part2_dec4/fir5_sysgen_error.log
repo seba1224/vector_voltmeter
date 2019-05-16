@@ -5,17 +5,28 @@ Matlab 8.2.0.701 (R2013b)               /usr/local/MATLAB/R2013b
 ISE                                     /opt/Xilinx/14.7/ISE_DS/ISE
 --------------------------------------------------------------------------------
 Summary of Errors:
-Error 0001: Incorrect slice end point
-     Block: 'fir5/pfb_fir_async/pol1_in1_tap1/split_data/slice1'
+Error 0001: Error using xlAssociateSettings>xlAssociateSettingsSizesO...
+     Block: 
 --------------------------------------------------------------------------------
 
 Error 0001:
 
 Reported by:
-  'fir5/pfb_fir_async/pol1_in1_tap1/split_data/slice1'
 
 Details:
-Slice endpoints must lie between the LSB and MSB
-Error occurred during "Rate and Type Error Checking".
+Error using xlAssociateSettings>xlAssociateSettingsSizesOnly (line 109)
+Invalid Simulink object handle
+
+Error in xlAssociateSettings (line 17)
+
+
+Error in <a
+href="matlab:helpUtils.errorDocCallback('SLStudio.SimulationMenu>UpdateDiagramCB',
+'/usr/local/MATLAB/R2013b/toolbox/simulink/simulink/+SLStudio/SimulationMenu.m',
+98)"
+style="font-weight:bold">SLStudio.SimulationMenu>UpdateDiagramCB</a>
+(<a href="matlab:
+opentoline('/usr/local/MATLAB/R2013b/toolbox/simulink/simulink/+SLStudio/SimulationMenu.m',98,0)">line 98</a>)
+         cbinfo.studio.App.updateDiagram(cbinfo.model.Handle);
 
 --------------------------------------------------------------------------------

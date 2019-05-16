@@ -1,0 +1,426 @@
+Release 14.7 Map P.20131013 (lin64)
+Xilinx Map Application Log File for Design 'system'
+
+Design Information
+------------------
+Command Line   : map -timing -detail -ol high -xe n -mt 2 -register_duplication
+-o system_map.ncd -w -pr b system.ngd system.pcf 
+Target Device  : xc6vsx475t
+Target Package : ff1759
+Target Speed   : -1
+Mapper Version : virtex6 -- $Revision: 1.55 $
+Mapped Date    : Fri May 10 12:08:59 2019
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+INFO:Security:56 - Part 'xc6vsx475t' is not a WebPack part.
+WARNING:Security:42 - Your software subscription period has lapsed. Your current
+version of Xilinx tools will continue to function, but you no longer qualify for
+Xilinx software updates or new releases.
+----------------------------------------------------------------------
+Mapping design into LUTs...
+WARNING:MapLib:701 - Signal aux_clk_n connected to top level port aux_clk_n has
+   been removed.
+WARNING:MapLib:701 - Signal aux_clk_p connected to top level port aux_clk_p has
+   been removed.
+WARNING:MapLib:41 - All members of TNM group
+   "infrastructure_inst_infrastructure_inst_sys_clk_mmcm" have been optimized
+   out of the design.
+WARNING:MapLib:41 - All members of TNM group "TNM_sys_clk" have been optimized
+   out of the design.
+WARNING:MapLib:50 - The period specification "TS_sys_clk" has been discarded
+   because the group "TNM_sys_clk" has been optimized away.
+WARNING:MapLib:50 - The period specification
+   "TS_infrastructure_inst_infrastructure_inst_sys_clk_mmcm" has been discarded
+   because the group "infrastructure_inst_infrastructure_inst_sys_clk_mmcm" has
+   been optimized away.
+Writing file system_map.ngm...
+Running directed packing...
+WARNING:Pack:2238 - Function generator symbol
+   "testing2_XSG_core_config/testing2_XSG_core_config/testing2_x0/fast_fourier_t
+   ransform_7_1/xfft_v7_1_fb94fd4f4198eea3_instance/blk00000001/blk00000ee5"
+   (Output Signal =
+   testing2_XSG_core_config/testing2_XSG_core_config/testing2_x0/fast_fourier_tr
+   ansform_7_1/xfft_v7_1_fb94fd4f4198eea3_instance/blk00000001/sig000010e1) has
+   an invalid use of the LUTNM constraint. There are no other function generator
+   symbols with a matching LUTNM constraint value
+   (LUTNM=testing2_XSG_core_config/testing2_XSG_core_config/testing2_x0/fast_fou
+   rier_transform_7_1/xfft_v7_1_fb94fd4f4198eea3_instance/blk00000001/hlutnm0000
+   0136). The constraint will be ignored.
+WARNING:Pack:2238 - Function generator symbol
+   "testing2_XSG_core_config/testing2_XSG_core_config/testing2_x0/fast_fourier_t
+   ransform_7_1/xfft_v7_1_fb94fd4f4198eea3_instance/blk00000001/blk00000f31"
+   (Output Signal =
+   testing2_XSG_core_config/testing2_XSG_core_config/testing2_x0/fast_fourier_tr
+   ansform_7_1/xfft_v7_1_fb94fd4f4198eea3_instance/blk00000001/sig00001107) has
+   an invalid use of the LUTNM constraint. There are no other function generator
+   symbols with a matching LUTNM constraint value
+   (LUTNM=testing2_XSG_core_config/testing2_XSG_core_config/testing2_x0/fast_fou
+   rier_transform_7_1/xfft_v7_1_fb94fd4f4198eea3_instance/blk00000001/hlutnm0000
+   0149). The constraint will be ignored.
+WARNING:Pack:2238 - Function generator symbol
+   "testing2_XSG_core_config/testing2_XSG_core_config/testing2_x0/fast_fourier_t
+   ransform_7_1/xfft_v7_1_fb94fd4f4198eea3_instance/blk00000001/blk00001ca4"
+   (Output Signal =
+   testing2_XSG_core_config/testing2_XSG_core_config/testing2_x0/fast_fourier_tr
+   ansform_7_1/xfft_v7_1_fb94fd4f4198eea3_instance/blk00000001/sig00001f40) has
+   an invalid use of the LUTNM constraint. There are no other function generator
+   symbols with a matching LUTNM constraint value
+   (LUTNM=testing2_XSG_core_config/testing2_XSG_core_config/testing2_x0/fast_fou
+   rier_transform_7_1/xfft_v7_1_fb94fd4f4198eea3_instance/blk00000001/hlutnm0000
+   028f). The constraint will be ignored.
+WARNING:Pack:2238 - Function generator symbol
+   "testing2_XSG_core_config/testing2_XSG_core_config/testing2_x0/fast_fourier_t
+   ransform_7_1/xfft_v7_1_fb94fd4f4198eea3_instance/blk00000001/blk00001cf4"
+   (Output Signal =
+   testing2_XSG_core_config/testing2_XSG_core_config/testing2_x0/fast_fourier_tr
+   ansform_7_1/xfft_v7_1_fb94fd4f4198eea3_instance/blk00000001/sig00001f68) has
+   an invalid use of the LUTNM constraint. There are no other function generator
+   symbols with a matching LUTNM constraint value
+   (LUTNM=testing2_XSG_core_config/testing2_XSG_core_config/testing2_x0/fast_fou
+   rier_transform_7_1/xfft_v7_1_fb94fd4f4198eea3_instance/blk00000001/hlutnm0000
+   02a3). The constraint will be ignored.
+Running delay-based LUT packing...
+Updating timing models...
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+Running timing-driven placement...
+Total REAL time at the beginning of Placer: 2 mins 28 secs 
+Total CPU  time at the beginning of Placer: 1 mins 53 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:5850e81d) REAL time: 2 mins 57 secs 
+
+Phase 2.7  Design Feasibility Check
+Phase 2.7  Design Feasibility Check (Checksum:5850e81d) REAL time: 2 mins 58 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:b9f92e25) REAL time: 2 mins 58 secs 
+
+Phase 4.37  Local Placement Optimization
+Phase 4.37  Local Placement Optimization (Checksum:b9f92e25) REAL time: 2 mins 59 secs 
+
+Phase 5.2  Initial Placement for Architecture Specific Features
+
+......
+
+
+There are 18 clock regions on the target FPGA device:
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y8:                        | CLOCKREGION_X1Y8:                        |
+|   4 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   6 Regional Clock Spines, 0 in use      |   6 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 0 in use      |   0 edge BUFIOs available, 0 in use      |
+|   4 center BUFIOs available, 0 in use    |   4 center BUFIOs available, 0 in use    |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y7:                        | CLOCKREGION_X1Y7:                        |
+|   4 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   6 Regional Clock Spines, 0 in use      |   6 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 0 in use      |   0 edge BUFIOs available, 0 in use      |
+|   4 center BUFIOs available, 0 in use    |   4 center BUFIOs available, 0 in use    |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y6:                        | CLOCKREGION_X1Y6:                        |
+|   4 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   6 Regional Clock Spines, 1 in use      |   6 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 0 in use      |   0 edge BUFIOs available, 0 in use      |
+|   4 center BUFIOs available, 0 in use    |   4 center BUFIOs available, 0 in use    |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y5:                        | CLOCKREGION_X1Y5:                        |
+|   4 BUFRs available, 1 in use            |   2 BUFRs available, 0 in use            |
+|   6 Regional Clock Spines, 1 in use      |   6 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 0 in use      |   0 edge BUFIOs available, 0 in use      |
+|   4 center BUFIOs available, 0 in use    |   4 center BUFIOs available, 0 in use    |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y4:                        | CLOCKREGION_X1Y4:                        |
+|   4 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   6 Regional Clock Spines, 1 in use      |   6 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 0 in use      |   0 edge BUFIOs available, 0 in use      |
+|   4 center BUFIOs available, 0 in use    |   4 center BUFIOs available, 0 in use    |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y3:                        | CLOCKREGION_X1Y3:                        |
+|   4 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   6 Regional Clock Spines, 0 in use      |   6 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 0 in use      |   0 edge BUFIOs available, 0 in use      |
+|   4 center BUFIOs available, 0 in use    |   4 center BUFIOs available, 0 in use    |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y2:                        | CLOCKREGION_X1Y2:                        |
+|   4 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   6 Regional Clock Spines, 0 in use      |   6 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 0 in use      |   0 edge BUFIOs available, 0 in use      |
+|   4 center BUFIOs available, 0 in use    |   4 center BUFIOs available, 0 in use    |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y1:                        | CLOCKREGION_X1Y1:                        |
+|   4 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   6 Regional Clock Spines, 0 in use      |   6 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 0 in use      |   0 edge BUFIOs available, 0 in use      |
+|   4 center BUFIOs available, 0 in use    |   4 center BUFIOs available, 0 in use    |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| CLOCKREGION_X0Y0:                        | CLOCKREGION_X1Y0:                        |
+|   4 BUFRs available, 0 in use            |   2 BUFRs available, 0 in use            |
+|   6 Regional Clock Spines, 0 in use      |   6 Regional Clock Spines, 0 in use      |
+|   4 edge BUFIOs available, 0 in use      |   0 edge BUFIOs available, 0 in use      |
+|   4 center BUFIOs available, 0 in use    |   4 center BUFIOs available, 0 in use    |
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+
+
+Clock-Region: <CLOCKREGION_X0Y5>
+  key resource utilizations (used/available): edge-bufios - 0/4; center-bufios - 0/4; bufrs - 1/4; regional-clock-spines - 1/6
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|       |    clock    | BRAM |     |    |        |        |       |       |       |      |      |     |      |
+|       |    region   | FIFO | DCM | GT | ILOGIC | OLOGIC |   FF  |  LUTM |  LUTL | MULT | EMAC | PPC | PCIe | <- (Types of Resources in Clock Region)
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       | Upper Region| 168  |  0  |  0 |   80   |   80   | 34560 | 13440 | 21120 | 112  |   0  |  0  |   0  | <- Available resources in the upper region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       |CurrentRegion| 168  |  0  |  0 |   80   |   80   | 30720 | 13440 | 17280 | 112  |   0  |  0  |   0  | <- Available resources in the current region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|       | Lower Region| 168  |  0  |  0 |   80   |   80   | 30720 | 13440 | 17280 | 112  |   0  |  0  |   0  | <- Available resources in the lower region
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+| clock |    region   |                                                                                      -----------------------------------------------
+|  type |  expansion  |                                                                                      | <IO/Regional clock Net Name>
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+|  BUFR | Upper/Lower |   0  |  0  |  0 |    0   |    0   |     0 |     0 |     0 |   0  |   0  |  0  |   0  | "testing2_asiaa_adc5g0/testing2_asiaa_adc5g0/adc_clk_div"
+|-------|-------------|------|-----|----|--------|--------|-------|-------|-------|------|------|-----|------|----------------------------------------------
+
+
+
+
+######################################################################################
+# REGIONAL CLOCKING RESOURCE DISTRIBUTION UCF REPORT:
+#
+# Number of Regional Clocking Regions in the device: 18  (6 clock spines in each)
+# Number of Regional Clock Networks used in this design: 1 (each network can be
+# composed of up to 3 clock spines and cover up to 3 regional clock regions)
+# 
+######################################################################################
+
+# Regional-Clock "testing2_asiaa_adc5g0/testing2_asiaa_adc5g0/adc_clk_div" driven by "BUFR_X1Y11"
+INST "testing2_asiaa_adc5g0/testing2_asiaa_adc5g0/DIVBUF" LOC = "BUFR_X1Y11" ;
+NET "testing2_asiaa_adc5g0/testing2_asiaa_adc5g0/adc_clk_div" TNM_NET =
+"TN_testing2_asiaa_adc5g0/testing2_asiaa_adc5g0/adc_clk_div" ;
+TIMEGRP "TN_testing2_asiaa_adc5g0/testing2_asiaa_adc5g0/adc_clk_div" AREA_GROUP =
+"CLKAG_testing2_asiaa_adc5g0/testing2_asiaa_adc5g0/adc_clk_div" ;
+AREA_GROUP "CLKAG_testing2_asiaa_adc5g0/testing2_asiaa_adc5g0/adc_clk_div" RANGE = CLOCKREGION_X0Y5, CLOCKREGION_X0Y6,
+CLOCKREGION_X0Y4;
+
+
+Phase 5.2  Initial Placement for Architecture Specific Features (Checksum:ca079e2e) REAL time: 4 mins 1 secs 
+
+Phase 6.36  Local Placement Optimization
+Phase 6.36  Local Placement Optimization (Checksum:ca079e2e) REAL time: 4 mins 1 secs 
+
+Phase 7.30  Global Clock Region Assignment
+Phase 7.30  Global Clock Region Assignment (Checksum:ca079e2e) REAL time: 4 mins 1 secs 
+
+Phase 8.3  Local Placement Optimization
+Phase 8.3  Local Placement Optimization (Checksum:ca079e2e) REAL time: 4 mins 3 secs 
+
+Phase 9.5  Local Placement Optimization
+Phase 9.5  Local Placement Optimization (Checksum:ca079e2e) REAL time: 4 mins 3 secs 
+
+Phase 10.8  Global Placement
+..............................................................................................................
+..............................................................................................................................................................................................................
+........................................................................
+..........................
+Phase 10.8  Global Placement (Checksum:7d4c6aaa) REAL time: 4 mins 48 secs 
+
+Phase 11.5  Local Placement Optimization
+Phase 11.5  Local Placement Optimization (Checksum:7d4c6aaa) REAL time: 4 mins 49 secs 
+
+Phase 12.18  Placement Optimization
+Phase 12.18  Placement Optimization (Checksum:94fd8e65) REAL time: 5 mins 31 secs 
+
+Phase 13.5  Local Placement Optimization
+Phase 13.5  Local Placement Optimization (Checksum:94fd8e65) REAL time: 5 mins 31 secs 
+
+Phase 14.34  Placement Validation
+Phase 14.34  Placement Validation (Checksum:3a1884e9) REAL time: 5 mins 32 secs 
+
+Total REAL time to Placer completion: 5 mins 33 secs 
+Total CPU  time to Placer completion: 4 mins 35 secs 
+Running physical synthesis...
+
+Physical synthesis completed.
+Running post-placement packing...
+Writing output files...
+WARNING:PhysDesignRules:367 - The signal
+   <testing2_asiaa_adc5g0/testing2_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM8_RAMD_D1_O> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing2_asiaa_adc5g0/testing2_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM1_RAMD_D1_O> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing2_asiaa_adc5g0/testing2_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM12_RAMD_D1_O> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing2_asiaa_adc5g0/testing2_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM7_RAMD_D1_O> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing2_asiaa_adc5g0/testing2_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM11_RAMD_D1_O> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing2_asiaa_adc5g0/testing2_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM13_RAMD_D1_O> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing2_asiaa_adc5g0/testing2_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM20_RAMD_D1_O> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing2_asiaa_adc5g0/testing2_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM4_RAMD_D1_O> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing2_asiaa_adc5g0/testing2_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM10_RAMD_D1_O> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing2_asiaa_adc5g0/testing2_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM17_RAMD_D1_O> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing2_asiaa_adc5g0/testing2_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM15_RAMD_D1_O> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing2_asiaa_adc5g0/testing2_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM18_RAMD_D1_O> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing2_asiaa_adc5g0/testing2_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM14_RAMD_D1_O> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing2_asiaa_adc5g0/testing2_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM19_RAMD_D1_O> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing2_asiaa_adc5g0/testing2_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM3_RAMD_D1_O> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing2_asiaa_adc5g0/testing2_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM2_RAMD_D1_O> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing2_asiaa_adc5g0/testing2_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM21_RAMD_D1_O> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing2_asiaa_adc5g0/testing2_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM16_RAMD_D1_O> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing2_asiaa_adc5g0/testing2_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM6_RAMD_D1_O> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing2_asiaa_adc5g0/testing2_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM5_RAMD_D1_O> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing2_asiaa_adc5g0/testing2_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM9_RAMD_D1_O> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing2_asiaa_adc5g0/testing2_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM22_RAMB_D1_DPO> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing2_asiaa_adc5g0/testing2_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM22_RAMC_D1_DPO> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <testing2_asiaa_adc5g0/testing2_asiaa_adc5g0/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM22_RAMD_D1_O> is incomplete. The
+   signal does not drive any load pins in the design.
+
+Design Summary
+--------------
+
+Design Summary:
+Number of errors:      0
+Number of warnings:   34
+Slice Logic Utilization:
+  Number of Slice Registers:                10,630 out of 595,200    1%
+    Number used as Flip Flops:              10,628
+    Number used as Latches:                      2
+    Number used as Latch-thrus:                  0
+    Number used as AND/OR logics:                0
+  Number of Slice LUTs:                      6,933 out of 297,600    2%
+    Number used as logic:                    4,227 out of 297,600    1%
+      Number using O6 output only:           2,172
+      Number using O5 output only:             248
+      Number using O5 and O6:                1,807
+      Number used as ROM:                        0
+    Number used as Memory:                   1,617 out of 122,240    1%
+      Number used as Dual Port RAM:             88
+        Number using O6 output only:             0
+        Number using O5 output only:             2
+        Number using O5 and O6:                 86
+      Number used as Single Port RAM:            0
+      Number used as Shift Register:         1,529
+        Number using O6 output only:           507
+        Number using O5 output only:             6
+        Number using O5 and O6:              1,016
+    Number used exclusively as route-thrus:  1,089
+      Number with same-slice register load:    929
+      Number with same-slice carry load:       160
+      Number with other load:                    0
+
+Slice Logic Distribution:
+  Number of occupied Slices:                 2,361 out of  74,400    3%
+  Number of LUT Flip Flop pairs used:        8,265
+    Number with an unused Flip Flop:           838 out of   8,265   10%
+    Number with an unused LUT:               1,332 out of   8,265   16%
+    Number of fully used LUT-FF pairs:       6,095 out of   8,265   73%
+    Number of unique control sets:             150
+    Number of slice register sites lost
+      to control set restrictions:             579 out of 595,200    1%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+  OVERMAPPING of BRAM resources should be ignored if the design is
+  over-mapped for a non-BRAM resource or if placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                       144 out of     840   17%
+    Number of LOCed IOBs:                      144 out of     144  100%
+    IOB Flip Flops:                             96
+
+Specific Feature Utilization:
+  Number of RAMB36E1/FIFO36E1s:                  9 out of   1,064    1%
+    Number using RAMB36E1 only:                  9
+    Number using FIFO36E1 only:                  0
+  Number of RAMB18E1/FIFO18E1s:                 28 out of   2,128    1%
+    Number using RAMB18E1 only:                 28
+    Number using FIFO18E1 only:                  0
+  Number of BUFG/BUFGCTRLs:                      5 out of      32   15%
+    Number used as BUFGs:                        5
+    Number used as BUFGCTRLs:                    0
+  Number of ILOGICE1/ISERDESE1s:                96 out of   1,080    8%
+    Number used as ILOGICE1s:                   64
+    Number used as ISERDESE1s:                  32
+  Number of OLOGICE1/OSERDESE1s:                32 out of   1,080    2%
+    Number used as OLOGICE1s:                   32
+    Number used as OSERDESE1s:                   0
+  Number of BSCANs:                              0 out of       4    0%
+  Number of BUFHCEs:                             0 out of     216    0%
+  Number of BUFIODQSs:                           0 out of     108    0%
+  Number of BUFRs:                               1 out of      54    1%
+    Number of LOCed BUFRs:                       1 out of       1  100%
+  Number of CAPTUREs:                            0 out of       1    0%
+  Number of DSP48E1s:                          224 out of   2,016   11%
+  Number of EFUSE_USRs:                          0 out of       1    0%
+  Number of FRAME_ECCs:                          0 out of       1    0%
+  Number of GTXE1s:                              0 out of      36    0%
+  Number of IBUFDS_GTXE1s:                       0 out of      18    0%
+  Number of ICAPs:                               0 out of       2    0%
+  Number of IDELAYCTRLs:                         2 out of      27    7%
+  Number of IODELAYE1s:                         32 out of   1,080    2%
+  Number of MMCM_ADVs:                           2 out of      18   11%
+  Number of PCIE_2_0s:                           0 out of       2    0%
+  Number of STARTUPs:                            1 out of       1  100%
+  Number of SYSMONs:                             0 out of       1    0%
+  Number of TEMAC_SINGLEs:                       0 out of       4    0%
+
+Average Fanout of Non-Clock Nets:                2.09
+
+Peak Memory Usage:  1799 MB
+Total REAL time to MAP completion:  5 mins 55 secs 
+Total CPU time to MAP completion (all processors):   4 mins 53 secs 
+
+Mapping completed.
+See MAP report file "system_map.mrp" for details.
